@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator><link href="https://mitchellmclaughlin.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mitchellmclaughlin.com/" rel="alternate" type="text/html" /><updated>2016-10-31T10:27:45-05:00</updated><id>https://mitchellmclaughlin.com/</id><title>Mitchell McLaughlin</title><subtitle>mitch.mclaughlin1@gmail.com ©allrightsreserved
+</subtitle><entry><title>Full-Stack Computer Projects</title><link href="https://mitchellmclaughlin.com/server.html" rel="alternate" type="text/html" title="Full-Stack Computer Projects" /><published>2016-06-28T04:10:52-05:00</published><updated>2016-06-28T04:10:52-05:00</updated><id>https://mitchellmclaughlin.com/full-stack-computer-projects:-learning-how-to-code</id><content type="html" xml:base="https://mitchellmclaughlin.com/server.html">&lt;p&gt;&lt;em&gt;If you are reading this on mitchellmclaughlin.com, you are experiencing a technology stack (hardware, software, and design) I built using the projects listed below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table Of Contents:&lt;/strong&gt; (more projects coming soon…)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#project1&quot;&gt;“Building A Personal Web Server With The Raspberry Pi 3”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project2&quot;&gt;“Building A Personal Website Using A Domain Name, GitHub Pages, Jekyll, Dynamic DNS, and Apache”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project3&quot;&gt;“Securing A Website With HTTPS (Let’s Encrypt)”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project4&quot;&gt;“Protecting A Website With CloudFlare”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project5&quot;&gt;“Setting Up Web Analytics &amp;amp; Website Monitoring”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/&quot; target=&quot;_blank&quot;&gt;“Creating A Custom 404 Page For Your Github Page Site”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project7&quot;&gt;“Redirecting www Traffic To non-www With Apache”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“Building A VPN Service”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project9&quot;&gt;“Building A Cloud-based Storage Service”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“Building A VoIP Service”&lt;/li&gt;
+  &lt;li&gt;“Building A SMSoIP Service”&lt;/li&gt;
+  &lt;li&gt;“Alexa + Pi”&lt;/li&gt;
+  &lt;li&gt;“Building A Computer Cluster”&lt;/li&gt;
+  &lt;li&gt;“Building An Open-source Router”&lt;/li&gt;
+  &lt;li&gt;“Nintendo NES + Pi”&lt;/li&gt;
+  &lt;li&gt;“Temperature Sensor + Pi”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project17&quot;&gt;“Basic Linux Commands”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#project18&quot;&gt;“Screenshots on Linux”&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p id=&quot;project1&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Building A Personal Web Server With The Raspberry Pi 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J8Hzm6G.png&quot; alt=&quot;pi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What is the value of building a web server?&lt;/p&gt;
+
+&lt;p&gt;A web server is “the cloud” except, in this case, you will own and control it. As opposed to a large corporation. And owning a little cloud has a lot of benefits. Customization. Free storage. Free internet services. A path into open-source software. High-quality security. Full control over your content. The ability to make quick changes. A place to experiment with code. And many more. Most of these benefits are immeasurable. But, financially these benefits can save you $100+/month.&lt;/p&gt;
+
+&lt;p&gt;AWS (Amazon Web Services) can give you these benefits for a small price. I could of used AWS. But, I prefer complete freedom and learning how things are built.&lt;/p&gt;
+
+&lt;p&gt;Free Services:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Self Web-Hosting – No BlueHost or DreamHost&lt;/li&gt;
+  &lt;li&gt;HTTPS – Let’s Encrypt&lt;/li&gt;
+  &lt;li&gt;Analytics – Google&lt;/li&gt;
+  &lt;li&gt;OpenVPN – Do Not Need Private Internet Access $7/month&lt;/li&gt;
+  &lt;li&gt;VoIP (Wifi Calling) – No Whatsapp, Messenger, etc.&lt;/li&gt;
+  &lt;li&gt;SMS Over IP (Wifi Texting) – No iMessage, Whatsapp, Messenger, etc.&lt;/li&gt;
+  &lt;li&gt;Cloud Storage – No Dropbox, Box, Google Drive, Microsoft Azure, iCloud, or AWS&lt;/li&gt;
+  &lt;li&gt;Alexa + Pi – Natural Language Processing In The Cloud&lt;/li&gt;
+  &lt;li&gt;Computing Cluster – On-Demand Computing Resources&lt;/li&gt;
+  &lt;li&gt;On-Premise Security&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Things I Used:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Raspberry Pi 3 Model B&lt;/li&gt;
+  &lt;li&gt;MicroSD Card (32GB recommended, Raspberry Pi &lt;a href=&quot;http://elinux.org/RPi_SD_cards&quot; target=&quot;_blank&quot;&gt;Compatible SD Cards&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;USB MicroSD Card Reader&lt;/li&gt;
+  &lt;li&gt;Ethernet Cable&lt;/li&gt;
+  &lt;li&gt;Router Connected To WiFi&lt;/li&gt;
+  &lt;li&gt;Raspberry Pi Case&lt;/li&gt;
+  &lt;li&gt;Amazon Basics MicroUSB Cable&lt;/li&gt;
+  &lt;li&gt;Apple Wall Charger&lt;/li&gt;
+  &lt;li&gt;USB Mouse&lt;/li&gt;
+  &lt;li&gt;USB Keyboard&lt;/li&gt;
+  &lt;li&gt;Amazon Basics HDMI Cable&lt;/li&gt;
+  &lt;li&gt;Monitor (With HDMI input)&lt;/li&gt;
+  &lt;li&gt;MacBook Pro Running OS X El Capitan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;STEP 1: SETTING UP THE RASPBERRY PI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Download the most recent release of Raspbian (the Raspberry Pi operating system). &lt;a href=&quot;https://www.raspberrypi.org/downloads/raspbian/&quot; target=&quot;_blank&quot;&gt;Raspbian Jessie&lt;/a&gt; ZIP version is ideal&lt;a href=&quot;#footnote1&quot;&gt;[1]&lt;/a&gt;. Unzip/extract the downloaded file. Now, you need to copy it onto the SD card. &lt;a href=&quot;http://ivanx.com/raspberrypi/&quot; target=&quot;_blank&quot;&gt;Pi Filler&lt;/a&gt; makes this process easy. Download &lt;a href=&quot;http://ivanx.com/raspberrypi/files/PiFiller.zip&quot; target=&quot;_blank&quot;&gt;Pi Filer 1.3&lt;/a&gt; or the most recent version. Unzip/extract the downloaded file again and open it. You should be greeted with this prompt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1Yhqcd2J.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure the USB card reader has NOT been inserted yet. If it has, eject it. Proceed by clicking continue. A file explorer should appear. Locate the uncompressed Raspberry Pi OS file from your Mac or PC and select it. You should see another prompt like the one pictured below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1YhjhxSm.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Insert the MicroSD card (32GB recommended, 16GB minimum) into the USB MicroSD Card Reader. Then, insert the USB reader into the Mac or PC. You can rename the SD card to “Raspberry” to distinguish it from others. Click continue. Make sure the SD card is empty. Pi Filler will ERASE all previous storage at runtime. If you need to backup the card do it now. When you are ready to continue, the Raspbian OS will be written to the SD card. It should take between 1-3 minutes. Once the write is completed, eject the USB reader, remove the SD card and insert it into the Raspberry Pi SD card slot. Give the Raspberry Pi power by plugging the power cord into the wall. It should start booting up. The Raspberry Pi default login is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;username: pi
+password: raspberry&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;When the Raspberry Pi has completed booting for the first time, a configuration screen titled “Setup Options” should appear like the image below&lt;a href=&quot;#footnote2&quot;&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J5IvUC5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select the “Expand Filesystem” option and hit the enter key&lt;a href=&quot;#footnote3&quot;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I recommend selecting the 2nd option “change user password”. It is important for security. It also personalizes your Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;Select the 3rd option in the setup options list, “Enable Boot To Desktop/Scratch” and hit the enter key. It will take you to another window titled “choose boot option” like the image below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J5UXkDa.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the “choose boot option” window, select the 2nd option, “Desktop Log in as user ‘pi’ at the graphical desktop” and hit the enter button&lt;a href=&quot;#footnote4&quot;&gt;[4]&lt;/a&gt;. Once this is done you will be taken back to the “Setup Options” page. If not, select the “OK” button at the bottom of this window and you will be taken back to the previous window.&lt;/p&gt;
+
+&lt;p&gt;Once both these steps are done, select the “finish” button at the bottom of the page and it should reboot automatically. If it does not, then use the following command in the terminal to reboot.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After the reboot from the previous step, if everything went right, you will end up on the desktop similar to the image below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J8U3D2X.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you are on the desktop, open a terminal and enter the following commands to update the firmware of the Raspberry Pi.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get update
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get upgrade-y
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get dist-upgrade -y
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo rpi-update&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This may take a few minutes. Great, now the Raspberry Pi is up-to-date and running.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STEP 2: CONFIGURING THE RASPBERRY PI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSH&lt;/strong&gt;, which stands for Secure Shell, is a cryptographic network protocol that lets you securely transfer data between your computer and your Raspberry Pi. You can control your Raspberry Pi from your Mac’s command line without a monitor or keyboard.&lt;/p&gt;
+
+&lt;p&gt;To use SSH, first you need your Pi’s IP address. Open the terminal and type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo ifconfig&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you are using ethernet, look at the “eth0” section. If you are using wifi, look at the “wlan0” section.&lt;/p&gt;
+
+&lt;p&gt;Find “inet addr” followed by an IP address - something like 192.168.1.115, a common default IP I will use for the duration of this article.&lt;/p&gt;
+
+&lt;p&gt;With this address, open terminal and type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ssh pi@192.168.1.115&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;SSH on PC, see footnote&lt;a href=&quot;#footnote5&quot;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enter the default password “raspberry” when prompted, unless you changed it.&lt;/p&gt;
+
+&lt;p&gt;You are now logged in via SSH.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REMOTE DESKTOP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Using a GUI (graphical-user interface) is easier than a command line. On the Raspberry Pi’s command line (using ssh) type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install xrdp&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Xrdp supports the Microsoft Remote Desktop Client for Mac and PC.&lt;/p&gt;
+
+&lt;p&gt;On Mac, navigate to the app store and search for “Microsoft Remote Desktop”. Download it. On PC, see footnote&lt;a href=&quot;#footnote6&quot;&gt;[6]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After installation, search your Mac for a program called “Microsoft Remote Desktop”. Open it. You should see this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J83FZJd.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click “New” to setup a remote connection. Fill in the blanks as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J80QO0L.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save it by exiting out of the “New” window.&lt;/p&gt;
+
+&lt;p&gt;You should now see the remote connection listed under “My Desktops”. Double-click it.&lt;/p&gt;
+
+&lt;p&gt;After briefly loading, you should see your Raspberry Pi desktop in a window on your screen. Like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J8U3D2X.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Perfect. Now, you don’t need a separate mouse, keyboard, or monitor to control the Pi. This is a much more elegant setup.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STATIC LOCAL IP ADDRESS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes the local IP address 192.168.1.115 will change. We need to make it static. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo ifconfig&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Write down from the “eth0” section or the “wlan0” section, the “inet addr” (Pi’s current IP), the “bcast” (the broadcast IP range), and the “mask” (subnet mask address). Then, type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;netstat -nr&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Write down the “destination” and the “gateway/network”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J7Wu2T3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The culumlative records should look something like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;net address 192.168.1.115
+bcast 192.168.1.255
+mask 255.255.255.0
+gateway 192.168.1.1
+network 192.168.1.1
+destination 192.168.1.0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;With this information, it is easy to set a static internal IP. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo nano /etc/dhcpcd.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Do not use /etc/network/interfaces.&lt;/p&gt;
+
+&lt;p&gt;Then all you need to do is append this to the bottom of the file, substituting the correct IP address you want.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;interface eth0
+static &lt;span class=&quot;nv&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;192.168.1.115
+static &lt;span class=&quot;nv&quot;&gt;routers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;192.168.1.1
+static &lt;span class=&quot;nv&quot;&gt;domain_name_servers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;192.168.1.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once you have set the static internal IP address, reboot the Raspberry Pi with:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After rebooting, from terminal type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo ifconfig&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Your new static settings should appear for your Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STATIC GLOBAL IP ADDRESS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If your ISP (internet service provider) already gives you a static external IP address you can skip ahead to the port forwarding section. If not, continue.&lt;/p&gt;
+
+&lt;p&gt;You set up SSH, remote desktop, and a static internal IP address. So, computers inside the local network will know where to find the Pi. But, you still can not access your Raspberry Pi from outside the local wifi network. You need your Raspberry Pi to be publicly accessible from anywhere on the internet. This requires a static external IP address&lt;a href=&quot;#footnote7&quot;&gt;[7]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It can be a fragile process initially. Call your ISP and request a static external (sometimes referred to as static global) IP address. The ISP holds the decision-making power, so I would be extremely careful dealing with them. They may refuse your static external IP address request. You can not fault the ISP. There is legal and operational risk with this type of request. They particularly do not want customers running medium-to-large scale internet services. They might explicitly ask why you need a static external IP address. It is probably best to be honest and tell them you plan on hosting a low-traffic personal website or a similar small not-for-profit service. If all goes well, they should open a ticket and call you in a week or 2 with an address.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PORT FORWARDING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Great, now you obtained a static global IP address. However, this IP address your ISP assigned is for accessing the router. The Raspberry Pi is still unreachable. You need to set up port forwarding to access the Raspberry Pi specifically.&lt;/p&gt;
+
+&lt;p&gt;Ports are virtual pathways where information travels on the internet. You sometimes need to forward a port in order to make a computer, like the Raspberry Pi, accessible to the internet since it is behind a network router. A YouTube video helped me visually understand &lt;a href=&quot;https://www.youtube.com/watch?v=iskxw6T1Wb8&quot; target=&quot;_blank&quot;&gt;ports&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Port forwarding can be used for projects like a Raspberry Pi web server, or applications like VoIP, or peer-to-peer downloading. There are &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers&quot; target=&quot;_blank&quot;&gt;65,000+ ports&lt;/a&gt; to choose from, so you can assign a different port for every internet applcation you build.&lt;/p&gt;
+
+&lt;p&gt;The way to set up port forwarding can depend on your router. If you have a Linksys like I do, this &lt;a href=&quot;https://www.youtube.com/watch?v=i1vB7JnPvuE#t=07m08s&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; explains how to set it up. If you don’t have a Linksys, read the documentation that comes with your router in order to customize and define ports to forward.&lt;/p&gt;
+
+&lt;p&gt;You will need to port forward for SSH as well as the remote desktop.&lt;/p&gt;
+
+&lt;p&gt;Once you believe you have port forwarding configured, check to see if it is working via ssh by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ssh pi@your_global_ip_address&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It should prompt you for the password.&lt;/p&gt;
+
+&lt;p&gt;Check to see if port forwarding is working for remote desktop as well. Open Microsoft Remote Desktop. Your previous remote connection settings should be saved. But, you need to update the “PC name” field with the static external IP address (for example, 195.198.227.116) instead of the static internal address (for example, 192.168.1.115).&lt;/p&gt;
+
+&lt;p&gt;Now, try connecting via remote desktop. It should briefly load and arrive at the Pi’s desktop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J8U3D2X.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Good job. The Raspberry Pi is now accessible from the internet and ready for advanced projects.&lt;/p&gt;
+
+&lt;p&gt;As a bonus option, you can maintain 2 remote connections to your Pi. One via the internet and the other via the LAN (local area network). It’s easy to setup. In Microsoft Remote Desktop, keep one remote connection called “Pi Internet” and another called “Pi Local”. Configure Pi Internet’s “PC name” to the static external IP address. For example, 195.198.227.116. Configure Pi Local’s, “PC name” to the static internal IP address. For exmaple, 192.168.1.115. Now, you have the option to connect golbally or locally.&lt;/p&gt;
+
+&lt;p&gt;Watch this awesome &lt;a href=&quot;https://www.youtube.com/watch?v=i1vB7JnPvuE&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; as a transition into project 2. It will show you the techincal architecture behind your project. In this case, you are using a Raspberry Pi instead of a Ubuntu server. The dynamic DNS sits between the domain company and your router, which he leaves out. Beside this subtlety, the video is spot on explaining visually how the system works. You might notice project 1 covered the Raspberry Pi setup and port forwarding. This is the server-side or back end. Project 2 covers the the domain name, dynamic DNS, Jekyll (static HTML generator) and Apache (web hosting). This is the client-side or front end.&lt;/p&gt;
+
+&lt;p id=&quot;project2&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Building A Personal Website Using A Domain Name, GitHub Pages, Jekyll, Dynamic DNS, and Apache&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you already own a domain name skip to the next paragraph. If you need to acquire a domain name I recommend &lt;a href=&quot;http://domains.google.com&quot; target=&quot;_blank&quot;&gt;Google Domains&lt;/a&gt; or &lt;a href=&quot;http://godaddy.com&quot; target=&quot;_blank&quot;&gt;GoDaddy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;GitHub Pages are websites built on Jekyll and versioned using a git hosted repository on &lt;a href=&quot;http://github.com&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;. Jekyll is a simple, blog aware, static site generator. It takes &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot;&gt;Markdown&lt;/a&gt;, a lightweight markup language, and spits out a complete, static HTML website suitable for serving with Apache or similar web server.&lt;/p&gt;
+
+&lt;p&gt;Let’s get started by installing Ruby. Ruby is a programming language that uses a package manager called gems. Gems can install Jekyll. From your Raspberry Pi, in terminal type (using ssh or remote desktop):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install ruby-dev
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If ‘gem install jekyll’ fails try:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can find Jekyll documentation &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. Once you have Jekyll installed, you will want to create a directory for your blog.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jekyll new myblog&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If ‘jekyll new myblog’ fails, again try:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo jekyll new myblog&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Navigate to the myblog directory by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;myblog&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you plan on writing to your blog, I recommend installing &lt;a href=&quot;http://git-scm.com&quot; target=&quot;_blank&quot;&gt;git&lt;/a&gt;. The blog will evolve over time as content is added. Git creates a snapshot of your blog at some point in time. So, you have the option to rollback a mistake or revert to some point in the past. Git is an amazing tool. It has become widely-accepted as a standard for version control of software. Version control is a far-reaching idea itself. It’s a solution to capture the evolution of an information system over time. For exmaple, writing a book, producing a movie, or writing software. It has endless applications in the arts. I witnessed organizations using it as a communication tool. I could forsee it being applied in genetic engineering. If Microsoft Word or PowerPoint crashes, you might recall the ability to recover a document from an earlier time. This is the same underlying version control technology. I could go on. Anyways, to begin install git, type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Add the current folder to git by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add .
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git commit -m &lt;span class=&quot;s1&quot;&gt;&#39;initial commit&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once you have git installed and made the initial commit, create a blog home page by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;nano index.html&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In index.html, type “hello world”. Save the file by hitting control+o (for Mac), then enter. Followed by control+x to exit.
+Changes have been made so don’t forget to reflect those changes to git. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add .
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git commit -m &lt;span class=&quot;s1&quot;&gt;&#39;created index.html file&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To test if hello world is working, type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command tells Jekyll to serve myblog to the local network. You can test your web server by opening a web browser on your server and heading to the URL http://127.0.0.1/.&lt;/p&gt;
+
+&lt;p&gt;Check that you can see the website from http://127.0.0.1/. If you see the site, continue. If your server does not run, you may need to reconfigure.&lt;/p&gt;
+
+&lt;p&gt;Great, everything is installed and you have generated your site locally. This is a good checkpoint. Moving on, you will install Apache to generate your site to a domain name. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install apache2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Apache HTTP Server is the most popular web server technology in the world. As of November 2015, it serves 50% of all websites. It also happens to be the easiest to implement. When I was setting up my web server at first, I mistakenly thought I needed a LAMP architecture (pictured below). The solution is actually much simpler with Apache.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21vNuEAy.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dynamic DNS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a new user account with this free, open-source dynamic DNS service &lt;a href=&quot;http://freedns.afraid.org/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. Write down your user name and password. Once logged in, click the “domains” tab in the navigation panel on the left. You should be taken to this screen (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21wfxQrV.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Add your domain name. Once your domain is saved, click “edit secondaries”. You should see a list of name servers (pictured below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/21wuQWlJ.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Write down the first 2 name servers. For example, ns1.afraid.org and ns2.afraid.org.&lt;/p&gt;
+
+&lt;p&gt;Click “Dynamic DNS” in the navigation panel on the left. You should see a table appear at the bottom of the page (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21y0iZSh.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Again, if your domain name is not listed, add it. Then, click “edit record”. Fill in the fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/239h5Q4W.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Repeat this process for the “edit record” of www.yourdomain.com.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21yn3WKR.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;DNS settings are now configured. These changes also need to be updated with your domain name provider (Google Domains, GoDaddy, or other).&lt;/p&gt;
+
+&lt;p&gt;I used GoDaddy. Upon logging in, I reached this screen (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21wUWa1z.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the domain row, click “Manage”. This is the screen I arrived at.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21x2Y2Nj.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the gear icon and select “Manage DNS”. Then, update the name servers (pictured below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/21x9aKoh.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Allow up to 24 hours for the changes to be processed. After the waiting period, you can test the new configuration by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ping your_domain_name&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If all goes well, the pings should return data packets from your global IP address (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21xtKqH1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To stop pinging, hit control+c.&lt;/p&gt;
+
+&lt;p&gt;Your domain name is now configured with a dynamic DNS.&lt;/p&gt;
+
+&lt;p&gt;The last hurdle is connecting all these pieces together, the domain name on top of the dynamic DNS (server-side), the GitHub Page on top of Jekyll and Apache (client-side).&lt;/p&gt;
+
+&lt;p&gt;Apache uses a VirtualHost to serve HTML files to the web. Some minor configurations are needed to tell it where to find the HTML files. From the Raspberry Pi, open terminal and type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;nano /etc/apache2/sites-available/000-default.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Copy the configurations (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21zDiUk8.png&quot; /&gt;
+&lt;img src=&quot;https://cdn.pbrd.co/images/21zB4hxe.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Repeat this process for the encrypted VirtualHost.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;nano /etc/apache2/sites-available/000-default-le-ssl.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Copy the configurations (pictured below) except for the Let’s Encrypt section.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21zRNWsK.png&quot; /&gt;
+&lt;img src=&quot;https://cdn.pbrd.co/images/21A1qw75.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For security reasons, the Apache web server does not listen to port 80 (http) or port 443 (https) by default. You need to open these for incoming web traffic requests. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /etc/network
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo iptables -A INPUT -p tcp - -sport 80 -j ACCEPT
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo iptables -A INPUT -p tcp - -sport 443 -j ACCEPT
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo iptables -L
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo iptables-save&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Your shell should return something similar to this (pictured below).
+&lt;img src=&quot;https://cdn.pbrd.co/images/21BxyDbm.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to understand iptables, read the &lt;a href=&quot;https://fedoraproject.org/wiki/How_to_edit_iptables_rules&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To test ports at anytime, go to a browser and type your_domain_name:80 or your_domain_name:443.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21BJNyaC.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Port 443 probably will not work yet since HTTPS is not set up. Port 80 should work. We will get to HTTPS in a &lt;a href=&quot;#project3&quot;&gt;later tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You need build your website with Jekyll in the root directory of Apache. Navigate to the myblog directory. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;myblog
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo jekyll build -d /var/www/html&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is Jekyll’s way of spiting out the HTML documents to Apache’s root directory to be served to the web. The command line should return something like this (pictured below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/21Cxrcvh.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter your domain name into a browser as a comprehensive final test. If you did it right, it should reveal your website. This was mine after completion (pictured below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/21BYlHuL.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you got this far, you are doing a hell of a job. Keep it up.&lt;/p&gt;
+
+&lt;p&gt;If you ever want to change the design of your website, check out this &lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/sites&quot; target=&quot;_blank&quot;&gt;list&lt;/a&gt; of examples.&lt;/p&gt;
+
+&lt;p&gt;Watching this &lt;a href=&quot;https://www.youtube.com/watch?v=i1vB7JnPvuE&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; again might crystallize your understanding of how the system works.&lt;/p&gt;
+
+&lt;p id=&quot;project3&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Securing A Website With HTTPS (Let’s Encrypt)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org&quot; target=&quot;_blank&quot;&gt;Let’s Encrypt&lt;/a&gt; is a certificate authority that provides free certificates for transport layer security (TLS) encryption via an automated process.&lt;/p&gt;
+
+&lt;p&gt;Have you ever landed on a red-padlocked webpage? It’s because HTTPS is not enabled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/231WqgM9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to install Let’s Encrypt on your server, you need to have the git package installed. If you installed git during the &amp;lt;a href=”#project2”Jekyll tutorial&amp;lt;/a&amp;gt;, skip this step. Otherwise, open terminal and type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You need to navigate to the location you want to install Let’s Encrypt. I recommend /myblog. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ./myblog
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo git clone https://github.com/letsencrypt/letsencrypt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Start the process of obtaining a SSL Certificate for Apache by typing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /myblog/letsencrypt
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo ./letsencrypt-auto&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This should launch you into the blue setup screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/2335OJVV.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agree to the Terms of Service. Enter your email address.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/233d9QMw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“No names were found in your configuration files.” Continue by selecting “Yes”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/233y1pnM.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter your domain names separated by commas. For example, I entered “mitchellmclaughlin.com, www.mitchellmclaughlin.com”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/233HXt50.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select and modify option #3 “000-default-le-ssl.conf” file as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/233V0Dng.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/233ZNaWI.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose whether HTTPS access is required or optional. I recommend using “Secure”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/234kAqH8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the process worked properly, you will receive a follow-up message.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/234AA6RD.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You should also receive a congratulatory message and a URL to test your HTTPS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/234MN2bD.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Test your domain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/234QwOYt.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At this point, you have one final job. The certificates issued by Let’s Encrypt expire every 90 days for security reasons. When they expire, you can execute a simple command to renew certificates. Type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./letsencrypt-auto renew&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/234U6JTe.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your certificates should be up to date. Success.&lt;/p&gt;
+
+&lt;p id=&quot;project4&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protecting A Website With CloudFlare&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CloudFlare is an internet security service. It partly functions like a content delivery network (CDN). A content delivery network is a fancy term to describe a software networking technology which stores assets of a website like text, images, and other metadata locally for a geographic area. It speeds up user-side access to your website. CloudFlare also protects your website from unwanted threats like a distributed denial-of-service (DDoS) attack. For DDoS attacks, CloudFlare functions like a reverse proxy load-balancer against incoming web requests.&lt;/p&gt;
+
+&lt;p&gt;Let’s get CloudFlare setup now. Go to &lt;a href=&quot;http://cloudflare.com&quot; target=&quot;_blank&quot;&gt;cloudflare.com&lt;/a&gt;. Create a new user account. It should then prompt you for your domain name. Continue by verifying your DNS records. Select a CloudFlare plan. I chose the free/basic plan. If all goes well, it should return CloudFlare name servers. Similar to my name servers pictured below.
+&lt;img src=&quot;https://cdn.pbrd.co/images/21dTNXS7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Change your old DNS name servers to the new CloudFlare name servers. Once you make the change, allow up to 24 hours for processing.&lt;/p&gt;
+
+&lt;p id=&quot;project5&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting Up Web Analytics &amp;amp; Website Monitoring&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I like data. Web analytics is an easy way to learn more about your audience. If you try something new on your website, it’s nice to receive feedback. Over time, analytics will help you feed the audience’s desires.&lt;/p&gt;
+
+&lt;p&gt;I considered Google Analytics, Piwik, and Hotjar. Piwik was clunky and hard to implement. Hotjar was missing basic website metrics. So, I chose Google Analytics. It’s easy to implement and lightweight.&lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;http://analytics.google.com&quot; target=&quot;_blank&quot;&gt;Google Analytics&lt;/a&gt;. Create an account. If you already have a gmail account you might be able to sign in with it. After signing up, you will be given a “tracking code”. This is code to be embedded into the HTML code of your website. Embed it. It should take a few hours to process. Once the waiting period is over, you can start creating dashboards with a variety of metrics.&lt;/p&gt;
+
+&lt;p&gt;Website monitoring can be used as a notification tool to alert you when your website crashes. I use &lt;a href=&quot;http://uptimerobot.com&quot; target=&quot;_blank&quot;&gt;UptimeRobot&lt;/a&gt;. Create an account and link your domain and you will be alerted if something crashes.&lt;/p&gt;
+
+&lt;p id=&quot;project7&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redirecting www Traffic To non-www With Apache&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Shortly after I got my website working, I tested a variety of URL entry points. For example, mitchellmclaughlin.com, http://mitchellmclaughlin.com, https://mitchellmclaughlin.com, and mitchellmclaughlin.com:80 all correctly redirected to https://mitchellmclaughlin. But, www.mitchellmclaughlin.com and http://www.mitchellmclaughlin.com both landed at www.mitchellmclaughlin.com. Although viewable, there is a subtle problem. In the latter instances, HTTPS is not enabled. Ideally, all www traffic should be redirected to mitchellmclaughlin.com which further redirects to https://mitchellmclaughlin.com (a HTTPS enabled URL). The www and non-www discrepancy orignated from the invention of the world wide &lt;a href=&quot;http://en.wikipedia.org/wiki/World_Wide_Web#WWW_prefix&quot; target=&quot;_blank&quot;&gt;web&lt;/a&gt;. And &lt;a href=&quot;http://computer.howstuffworks.com/internet/basics/question180.htm&quot; target=&quot;_blank&quot;&gt;“Why Do Some Websites Include www In The URL While Others Don’t?”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, the solution is quick and easy. I will warn you, I strongly advise against using the RewriteEngine solution. In the Pi terminal, type:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /etc/apache2/sites-available
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo nano 000-default.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Find “&amp;lt;/VirtualHost&amp;gt;”, above that line type and insert:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;ServerName www.yourdomain.com
+Redirect permanent / http://yourdomain.com&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The results should look like my configuration settings below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/b9fUtIoln.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save the changes to the file. There is nothing magical about doing it in the other direction. Simply swap www.youdomain and yourdomain.&lt;/p&gt;
+
+&lt;p&gt;Please remember, if you have configured Apache differently than I have in the preceeding projects this probably will not work.&lt;/p&gt;
+
+&lt;p&gt;After the changes have been saved, restart Apache.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Test your new configuration settings by typing the www URLs into a browser. It if worked, you are successful.&lt;/p&gt;
+
+&lt;p&gt;I purposefully did not mention https://www.mitchellmclaughlin.com because as far as I know, it is not a valid http request. Same goes for mitchellmclaughlin.com:443.&lt;/p&gt;
+
+&lt;p id=&quot;project9&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Building A Cloud-based Storage Service&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Things I Used:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Seagate 1TB External Hard Drive&lt;/li&gt;
+  &lt;li&gt;USB 2.0 Powered Hub&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First, decide what you will be using for external storage. I picked a 1TB USB hard drive from Seagate. The Raspberry Pi does not have enough power to run most external hard drives or SSDs, so unless you have a drive with its own power supply, you will probably need a powered USB hub. Once you have the supplies, plug in the USB powered hub into a USB port on the Raspberry Pi. Then, plug in the external hard drive into a USB port on the USB powered hub. A folder should appear on the desktop of the Raspberry Pi. That’s it. You can now download and upload files to this folder on-demand. To increase the amount of storage, simply add more external hard drives.&lt;/p&gt;
+
+&lt;p id=&quot;project17&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Basic Linux Commands&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;network settings: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo ifconfig
+memory management tool: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;df -h
+expand filesystem or change password: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo raspi-config
+linux display appearance: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;lxappearance
+file transfer: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;scp /Users/mitchell/myblog.zip pi@your_ip_address:/home/pi
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ssh pi@your_ip_address
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ping your_ip_address
+file permissions: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;chmod +x file-name.run, &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; ./file-name.run
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo ./file-name-run
+empty trash: &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rm -rf ~/.local/shared/Trash/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+reboot: sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p id=&quot;project18&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How To Take Screenshots On Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To take screenshots, open terminal and execute:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;scrot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here is how you would run scrot with a 10 second delay:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;scrot -d 10&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;If you want to contribute to this project, liked it, got stuck, or found errors, drop me a message at mitch(dot)mclaughlin1(at)gmail(dot)com.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p id=&quot;footnote1&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[1] I do not recommend starting with the NOOBS operating system. I prefer starting with the fully-functional Raspbian Jessie operating system.&lt;/p&gt;
+&lt;p id=&quot;footnote2&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[2] If “Setup Options” did not pop-up, you can always find it by opening terminal and executing this command:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo-rasps-config&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p id=&quot;footnote3&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[3] We do this to make use of all the space present on the SD card as a full-partition. All this does is, expand the operating system to fit the whole space on the SD card which can then be used as storage memory for the Raspberry Pi.&lt;/p&gt;
+&lt;p id=&quot;footnote4&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[4] We do this because we want to boot into the desktop environment which we are familiar with. If we do not do this step, the Raspberry Pi boots into a terminal each time with no graphical-user interface.&lt;/p&gt;
+&lt;p id=&quot;footnote5&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[5]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.pbrd.co/images/1J7ONkCx.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Download and run &lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot; target=&quot;_blank&quot;&gt;PuTTY&lt;/a&gt; or another SSH client for Windows. Enter your IP address in the field, as shown in the above screenshot. Keep the default port at 22. Hit enter, and PuTTY will open a terminal window which will prompt you for your username and password. Fill those in, and begin working remotely on your Pi.&lt;/p&gt;
+&lt;p id=&quot;footnote6&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[6] If it is not already installed, download &lt;a href=&quot;https://www.microsoft.com/en-us/store/apps/microsoft-remote-desktop/9wzdncrfj3ps&quot; target=&quot;_blank&quot;&gt;Microsoft Remote Desktop&lt;/a&gt;. Search your computer for Microsoft Remote Desktop. Run it. Input the IP address when prompted. Next, an xrdp window will pop up, prompting you for your username and password.&lt;/p&gt;
+&lt;p id=&quot;footnote7&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[7] The router has a dynamically assigned external IP address. So in theory, it can be reached from the internet momentarily. But, we need the help of your ISP to make it permanently accessible. If this was not the case, the remote connection would need to be reconfigured on each use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bibliography&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Orsini, Lauren. &lt;a href=&quot;http://readwrite.com/2014/04/09/raspberry-pi-projects-ssh-remote-desktop-static-ip-tutorial/?awesm=readwr.it_b1UN&quot; target=&quot;_blank&quot;&gt;Raspberry Pi Projects SSH Remote Desktop Static IP Tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pai, Akshay. &lt;a href=&quot;https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;How To Install Raspbian On Raspberry Pi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pi-hole.net/faq/how-do-i-set-a-static-ip-address-in-raspbian-jessie-using-etcdhcpcd-conf/&quot; target=&quot;_blank&quot;&gt;How Do I Set A Static IP Address In Raspbian Jessie&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=i1vB7JnPvuE&quot; target=&quot;_blank&quot;&gt;How To Go Online With Your Apache Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Further Reading&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://raspberrywebserver.com/serveradmin/get-your-raspberry-pi-web-site-on-line.html&quot; target=&quot;_blank&quot;&gt;Get Your Raspberry Pi Website Online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/How_to_edit_iptables_rules&quot; target=&quot;_blank&quot;&gt;How To Edit Iptables Rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary>If you are reading this on mitchellmclaughlin.com, you are experiencing a technology stack (hardware, software, and design) I built using the projects listed below.</summary></entry><entry><title>How I Traveled The World In 6 Months</title><link href="https://mitchellmclaughlin.com/world.html" rel="alternate" type="text/html" title="How I Traveled The World In 6 Months" /><published>2016-06-07T10:10:52-05:00</published><updated>2016-06-07T10:10:52-05:00</updated><id>https://mitchellmclaughlin.com/how-i-traveled-the-world-in-6-months</id><content type="html" xml:base="https://mitchellmclaughlin.com/world.html">&lt;p&gt;&lt;em&gt;Disclaimer: All opinions are my own. I was not paid to do this article. A few people asked me to write about my trip. I am happy to do it and share personal experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;tl;dr version - Try to complete part one if limited on time or attention. Part two is long and deeply personal.&lt;/p&gt;
+
+&lt;p&gt;23 countries, 51 cities, 31,600 miles, 6 months, 7000 photos, and $14,000 later. I traveled the world and I can now look back and say I did it &lt;em&gt;my&lt;/em&gt; way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PART ONE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My route.&lt;a href=&quot;#footnote1&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Thumbtacks.
+&lt;img src=&quot;https://cdn.pbrd.co/images/1s0VtduV.jpg&quot; alt=&quot;Thumbtacks.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What I packed.&lt;/strong&gt;&lt;a href=&quot;#footnote2&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cdn.pbrd.co/images/1cWVuepP.png&quot; target=&quot;_blank&quot;&gt;My backpack.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cdn.pbrd.co/images/1peJdJRT.jpg&quot; target=&quot;_blank&quot;&gt;My luggage.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Crazy moments.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At one residence, I got kicked out because I refused to inhabit while nude. In Prague, a scammer duped me into giving him change for an identical, but different country’s currency which carried no value. I was shortchanged $100. The Paris terrorist attacks happened a week after I left. A fellow backpacker I met along the way had all of his electronics and identifications stolen during his hostel stay, which ended his trip early.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How much did it cost?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I could only account for $12,600 of expenses from my bank account. The real total cost was probably between $13,000 and $14,000. See my detailed bank statement below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Finances.&lt;/strong&gt;&lt;a href=&quot;#footnote3&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/spreadsheets/d/1qwJFX_SYyw3ouGrRStcoidVRsZnvDu9evNHPgj1XVEE/pubhtml?widget=true&amp;amp;headers=false&quot; width=&quot;800&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Major Cities Compared.&lt;/strong&gt;&lt;a href=&quot;#footnote4&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/spreadsheets/d/1nahV7P6wLifMAcHJINttCt-2k0wjPMoGRhMQNEU_KQg/pubhtml?widget=true&amp;amp;headers=false&quot; width=&quot;800&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Optimizing for Good Weather.&lt;/strong&gt;&lt;a href=&quot;#footnote5&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/spreadsheets/d/1HO_ihLsjAv8MaLHNyZKdR333jYy1SBRt0jIpINsTBL8/pubhtml?widget=true&amp;amp;headers=false&quot; width=&quot;800&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Wikipedia: Visa Requirements for United States Citizens.&lt;/strong&gt;&lt;/a&gt;&lt;a href=&quot;#footnote6&quot;&gt;[6]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How did I discover things to do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Lists_of_World_Heritage_Sites&quot; target=&quot;_blank&quot;&gt;Wikipedia: List of UNESCO World Heritage Sites.&lt;/a&gt;&lt;a href=&quot;#footnote7&quot;&gt;[7]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;http://tripadvisor.com&quot; target=&quot;_blank&quot;&gt;TripAdvisor&lt;/a&gt;. Googling, “TripAdvisor Top 10 Things To Do In (given city)” is a good place to start for finding activities&lt;a href=&quot;#footnote8&quot;&gt;[8]&lt;/a&gt;. The TripAdvisor results are filtered showing highest rated activities first. The Traveler’s Choice award, certificate of excellence, and number of reviews tend to be good indicators of quality as well. Many of the TripAdvisor “Things To Do” results are also UNESCO World Heritage Sites.&lt;/p&gt;
+
+&lt;p&gt;The internet, blogs, travel sites, and UNESCO are certainly reliable sources. However, talking to locals, hosts, and fellow travelers is equally beneficial for discovering activities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How did I get around?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I flew. I discovered flights using &lt;a href=&quot;https://flights.google.com&quot; target=&quot;_blank&quot;&gt;Google Flights&lt;/a&gt;&lt;a href=&quot;#footnote9&quot;&gt;[9]&lt;/a&gt;. I rode the bus with &lt;a href=&quot;https://megabus.com&quot; target=&quot;_blank&quot;&gt;Megabus&lt;/a&gt; and &lt;a href=&quot;https://meinfernbus.de/en&quot; target=&quot;_blank&quot;&gt;Meinfernbus&lt;/a&gt;&lt;a href=&quot;#footnote10&quot;&gt;[10]&lt;/a&gt;. I used rideshare with &lt;a href=&quot;https://blablacar.com&quot; target=&quot;_blank&quot;&gt;BlaBlaCar&lt;/a&gt; and &lt;a href=&quot;https://uber.com&quot; target=&quot;_blank&quot;&gt;Uber&lt;/a&gt;&lt;a href=&quot;#footnote11&quot;&gt;[11]&lt;/a&gt;. I considered a 3-month &lt;a href=&quot;http://www.eurostar.com/us-en&quot; target=&quot;_blank&quot;&gt;Eurostar&lt;/a&gt; train pass, but I decided against it&lt;a href=&quot;#footnote12&quot;&gt;[12]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How did I find accommodation?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I always checked these 5 sites before I booked a stay in a new city: &lt;a href=&quot;http://www.hostelbookers.com&quot; target=&quot;_blank&quot;&gt;HostelBookers&lt;/a&gt;, &lt;a href=&quot;http://www.hostelworld.com&quot; target=&quot;_blank&quot;&gt;HostelWorld&lt;/a&gt;, &lt;a href=&quot;https://booking.com&quot; target=&quot;_blank&quot;&gt;Booking.com&lt;/a&gt;, &lt;a href=&quot;https://airbnb.com&quot; target=&quot;_blank&quot;&gt;Airbnb&lt;/a&gt;, and &lt;a href=&quot;https://couchsurfing.org&quot; target=&quot;_blank&quot;&gt;Couchsurfing.org&lt;/a&gt; (free)&lt;a href=&quot;#footnote13&quot;&gt;[13]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insurance, Identification, and Immunization Must-haves.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.geico.com/travel-insurance/&quot; target=&quot;_blank&quot;&gt;International travelers insurance&lt;/a&gt; is a comprehensive package covering medical &amp;amp; dental expenses, flight or trip cancellations for any reason, lost luggage, lost identification or theft, and car rental collision coverage. I recommend &lt;a href=&quot;http://www.geico.com&quot; target=&quot;_blank&quot;&gt;GEICO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a good idea to obtain an &lt;a href=&quot;http://www.aaa.com/vacation/idpapplc.html&quot; target=&quot;_blank&quot;&gt;international driver’s license&lt;/a&gt; issued by &lt;a href=&quot;http://www.aaa.com&quot; target=&quot;_blank&quot;&gt;AAA&lt;/a&gt; prior to traveling abroad. This can be used for international driving and car rentals. Without it, international police might may not be lenient.&lt;/p&gt;
+
+&lt;p&gt;Obtain duplicates of a passport, United States driver’s license, school identification, social security card, international travelers insurance proof, debit card, credit card, and any other critical cards or documents prior to the trip. Keep one set in a backpack and another elsewhere&lt;a href=&quot;#footnote14&quot;&gt;[14]&lt;/a&gt;. For example, in a concealed fanny pack. In the event one set is lost, there is a backup. It helps to avoid missing flights, unwanted examinations, and other bad things. This concept holds true for electronics too. A backup dummy mobile phone, in case a smartphone is lost. Or a tablet, in case a laptop is lost.&lt;/p&gt;
+
+&lt;p&gt;Immunizations are required or recommended in certain countries prior to travel. For example, India recommends the malaria and Japanese Encephalitis vaccinations. Research and check for each country prior to travel.&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;https://goo.gl/photos/67xSyzfGEx2tAHUeA&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;205 best photos&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/photos/WrARzZzkjcDCmE8v7&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Instagram photos&lt;/strong&gt;&lt;/a&gt; of my trip.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtube.com/watch?v=npg7uN-4fyc&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;4-minute video&lt;/strong&gt;&lt;/a&gt; of my travels around the world.&lt;a href=&quot;#footnote15&quot;&gt;[15]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PART TWO:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why did I do the trip?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I had 2 simple motivations. I wanted to learn more about how the world works and I wanted to understand people different than me.&lt;/p&gt;
+
+&lt;p&gt;Growing up, experiencing college, and doing internships, I was often surprised to learn how the biggest forces in life went unquestioned. Previously, I assumed conformity was always the best strategy. Sometimes it was not. I wondered if traveling could reveal broader ways in which our world is broken. With a clear mind, I could acquire an outsider’s perspective and judge things objectively. I could self-educate, become self-reliant, and have fun doing it. In short, my travel experiences would help me think clearly about life’s biggest questions and begin formulating solutions to real-world problems.&lt;/p&gt;
+
+&lt;p&gt;Second, throughout my life, my relationships with different racial cultures has been extremely special. It is a humbling experience to live as a local. Prior to the trip, I was excited to further my understanding of different cultures and perspectives.&lt;/p&gt;
+
+&lt;p&gt;A few critical things logistically enabled me to take a trip around the world. Temporarily living in San Francisco, California was a major step towards opening my mind. My parents and family played a role in the coordination of my trip. I had no commitments. No job, no schooling, and no spouse or children to care for. I had an open calendar and a motivation to explore.&lt;/p&gt;
+
+&lt;p&gt;My trip was spontaneous. I booked my flight to Europe 1 month before departing. While traveling, I rarely planned further than 1 week ahead.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DIFFICULT THINGS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I was scared on my trip. I was worried about safety, money, food, and if I would ever make it home. A few times, I questioned why I was even traveling. Why did I come across the world to be with people I do not understand, to inhabit shitty living conditions, to eat food I dislike, to be alone, and to burn money? Am I insane? Looking back, the questions are trivial, but at the time I worried a lot.&lt;/p&gt;
+
+&lt;p&gt;A few times, I experienced mental fatigue. I took 3, 4, or sometimes 7-day breaks to rejuvenate&lt;a href=&quot;#footnote16&quot;&gt;[16]&lt;/a&gt;. Without them, I would of been disfunctional. If I found myself in a state of constant activity, I would interrupt it immediately. The reset button was an effective thing.&lt;/p&gt;
+
+&lt;p&gt;Once or twice, I caught myself dreading my own trip. It was hell. I can remember waking up and immediately perceiving the day as too difficult and hopeless. With that attitude, the trip got exponentially worse over time. It was draining mentally and physically. Fuck that mindset.&lt;/p&gt;
+
+&lt;p&gt;I was homesick occasionally. I wanted to be in the United States where I felt comfortable. Where I would be close to and under the protection of my family. Where people looked like me and spoke like me. I wanted to have my own room again. I wanted access to a car. I wanted to have a work routine. I wanted to eat normal American food. I wanted the easy life again.&lt;/p&gt;
+
+&lt;p&gt;Language was the most overwhelming factor traveling from city to city each week. With no previous knowledge, I struggled communicating. Locals who can speak both the native language and English can be extremely helpful. They are liaisons who can help operationally. They can also facilitate learning. Try to get their contact information. If there is trouble, call them, and have them mediate a tough situation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SOME THOUGHTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I traveled alone. There are downsides, but the upsides included freedom, mobility, and decisiveness. If I was lonely, I could always opt to make a friend at the hostel. I never had to endure an argument with a travel companion. If I wanted to go to a particular restaurant or point of interest, I always got my way. I only had to worry about my own personal needs and issues. If I made a mistake or a bad travel decision, I could only blame myself. With a travel companion, it was unlikely I could fit 5+ activities into one day given limited time and money. But, I did it on a few occasions.&lt;/p&gt;
+
+&lt;p&gt;A unique experience.&lt;a href=&quot;#footnote17&quot;&gt;[17]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I copied everyone else’s travel plans in the beginning of my trip. Their itineraries were usually average, thus my experience was average. I wanted my trip to be unique. I thought I would try listening to my own travel desires instead of others. My trip was much interesting in the latter case. From then on, I continued listening respectfully to other opinions and factored it into my decisions. But, the weight of my own travel desires often outweighed others.&lt;/p&gt;
+
+&lt;p&gt;Understanding and appreciating things.&lt;/p&gt;
+
+&lt;p&gt;I was a voracious reader on my trip. I used my smartphone frequently to look things up on Google and Wikipedia. I was always consuming information about historical places, points of interest, reading pamphlets and magazines, listening to audio tours, and anything I could find&lt;a href=&quot;#footnote18&quot;&gt;[18]&lt;/a&gt;. It added to the depth of the experience. It was probably the biggest joy on my trip.&lt;/p&gt;
+
+&lt;p&gt;Avoiding bad outcomes.&lt;/p&gt;
+
+&lt;p&gt;I always assumed I was being targeted as outsider. I tried not to attract unwanted attention. I thought if I was careless with how I presented myself it was likely I would get myself into trouble, accidentally offend a local, get kidnapped, or even worse go to prison. Watching how the locals present themselves is a really good start towards blending in. For example, Germans prefer silence on trains. When I boarded a German train, within the first 5 minutes it became so obvious to me talking aloud was a terrible idea. I think most bad outcomes are reasonably preventable with careful attention to detail and not acting like a douchebag.&lt;/p&gt;
+
+&lt;p&gt;People staring is not always a bad sign. Except when they look really angry. But, most of the time I think they are trying to understand us because we are different. Whenever I got bumped into though, I was skeptical. It could have been a pickpocket. I was on high alert if someone was trailing me or walking straight at me. Paying attention and showing strangers an awareness was a good deterrent for bad outcomes. Exhibiting cluelessness is dangerous. I was scared, helpless, and clueless many times during my trip but I refused to show it externally. I always slept with my backpack because my IDs, electronics, and valuables were stashed in it. I never trusted the lockers they offered me because they could be broken into or previously tampered with. Every person I met I assumed untrustworthy&lt;a href=&quot;#footnote19&quot;&gt;[19]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is not easy, but integrating with the locals is a really healthy and safe thing to do. In some places, being a foreigner or a Westerner is the minimum criteria needed to be targeted. Integrating with the locals is an opportunity to discourage the foreigner label.&lt;/p&gt;
+
+&lt;p&gt;Safety.&lt;/p&gt;
+
+&lt;p&gt;In general, I think most Westerner’s who have not traveled believe the rest of the world is more dangerous. The rest of the world is dangerous in certain aspects, but overall I would argue the rest of the world is safer than our country. Components of this false perception might be psychological. For example, we feel safer in environments we are used to and comfortable in&lt;a href=&quot;#footnote20&quot;&gt;[20]&lt;/a&gt;. The rest of the world is unknown to us, so it could be assumed unsafe. Our beliefs about of the rest of the world are distorted by the media and what we see on TV. The Kardashian’s are about as appropriate of an indicator of the average American life as a foreign terrorist attack is of the safety of the world. Statistically, gun deaths are far lower outside the United States. In America, our culture is extremely competitive and psychologically intense. I think this is probably one of the main factors contributing to our statistically violent country. The rest of the world approaches life with a more laid back mentality, which probably results in less violence.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FINAL THOUGHTS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Traveling the world was probably the broadest challenge I faced in my life so far. I can not downplay the amount of time, work, and luck it took to complete without a major disaster. But, the experiences I took away make those troubles insignificant. Thinking about the infinite size of our physical world, the permanence of the human condition, the profound psychological benefits of having fun, the fragile structure of life, and a spiritual existence is continuously fulfilling. My travel experiences are forever a secret shared between the world and I.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RANDOM TIPS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried to take hard cover books on the trip. It was a terrible idea. Using eBooks is best.&lt;/p&gt;
+
+&lt;p&gt;Some museums in Europe are free after 5pm if you are under 25-years old. Ask. A student ID works everywhere in Europe for big discounts.&lt;/p&gt;
+
+&lt;p&gt;Use a Virtual Private Network abroad. Login with the US servers. It tricks the internet into thinking you are located in the United States. Without it, Netflix will not work. Foreign ads will be annoying. Certain websites and applications will not be accessible like normal in the United States.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/24-hour_clock&quot; target=&quot;_blank&quot;&gt;24-hour clock&lt;/a&gt; or Military Time is common abroad. It is a superior system of time to the &lt;a href=&quot;https://en.wikipedia.org/wiki/12-hour_clock&quot; target=&quot;_blank&quot;&gt;12-hour clock&lt;/a&gt;. The &lt;a href=&quot;https://en.wikipedia.org/wiki/metric_system&quot; target=&quot;_blank&quot;&gt;metric system&lt;/a&gt; is universally accepted abroad and is a superior system of measurement to the United States’ &lt;a href=&quot;https://en.wikipedia.org/wiki/imperial_units&quot; target=&quot;_blank&quot;&gt;Imperial system&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mobile internet can be difficult to obtain abroad. United States telecommunication companies generally do not offer cheap global packages. But, &lt;a href=&quot;http://www.t-mobile.com/cell-phone-plans/simple-choice-international-plan-countries.html&quot; target=&quot;_blank&quot;&gt;T-Mobile’s Simple Choice&lt;/a&gt; international plan has coverage in 140+ countries around the world at a fair price. I always had access to 3G data speeds on this plan. 4G speeds are extremely rare abroad. The alternative option is to sign up with a new carrier in each individual country. Not recommended.&lt;/p&gt;
+
+&lt;p&gt;Add fellow travelers on Facebook and social media. Stay in contact. I found following their trips was a good resource to learn. To find fellow American travelers, join Facebook American Expatriate groups in every country. They often post meetups to attend.&lt;/p&gt;
+
+&lt;p&gt;I communicated with my family and friends using &lt;a href=&quot;https://apple.com/mac/facetime&quot; target=&quot;_blank&quot;&gt;FaceTime&lt;/a&gt; and &lt;a href=&quot;https://skype.com&quot; target=&quot;_blank&quot;&gt;Skype&lt;/a&gt; for free audio or video communication. Any similar free VoIP (voice over IP) is sufficient. I used &lt;a href=&quot;https://whatsapp.com&quot; target=&quot;_blank&quot;&gt;WhatsApp&lt;/a&gt; and &lt;a href=&quot;https://messenger.com&quot; target=&quot;_blank&quot;&gt;Facebook Messenger&lt;/a&gt; for free text messaging.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/photos/QD8JwGPW6jncVFce8&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Apps&lt;/strong&gt;&lt;/a&gt; I used.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Best Hidden Gem - Slovenia&lt;/li&gt;
+  &lt;li&gt;An Unexpectedly Beautiful City - Prague&lt;/li&gt;
+  &lt;li&gt;Best Weather &amp;amp; People - Spain&lt;/li&gt;
+  &lt;li&gt;Best History &amp;amp; Food - Italy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to contribute to this article, liked it, or found errors, email me at mitch(dot)mclaughlin1(at)gmail(dot)com.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p id=&quot;footnote1&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[1] My trip started with the 11-hour flight from San Francisco to Munich. It continued on tracing points A-J, A-J, A-C, and so on. The blue lines indicate ground transportation. Black lines indicate air travel. The trip ends with the flight from Tokyo to Chicago. Pictures of my &lt;a href=&quot;https://goo.gl/photos/DtMg3s5gUBiHXTco8&quot; target=&quot;_blank&quot;&gt;flight and train tickets&lt;/a&gt;. Pictures of my &lt;a href=&quot;https://goo.gl/photos/vf1FtwJ22AQY1E7L6&quot; target=&quot;_blank&quot;&gt;bus tickets&lt;/a&gt;. This map was created using &lt;a href=&quot;https://www.google.com/maps/d/u/0/?hl=en_US&amp;amp;app=mp&quot; target=&quot;_blank&quot;&gt;Google My Maps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p id=&quot;footnote2&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[2] Equipment I wish I had for the trip: a Canon DSLR and a drone. In my suitcase, I packed roughly 2-weeks of clothes. Comprised, mostly of shorts, t-shirts, socks, and underwear. I packed one pair of clothes for cold weather, one pair of formal clothes, 2 pairs of shoes, and one pair of sandals. Rolling my clothes saved me space.&lt;/p&gt;
+
+&lt;p id=&quot;footnote3&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[3] I estimated the trip would cost $12,000. So, I overspent slightly. I started with $15,000. I returned home with less than $1000 in my bank account. ATM and currency fees are inevitable. $250 in fees is nominal for a $12,000 budget. I ignored credit card data when calculating total trip cost because my credit account was functioning as a subsidiary of my debit account.&lt;/p&gt;
+
+&lt;p id=&quot;footnote4&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[4] A common question I received was, “How many days do I need to explore (given city)?” I answered this question with the ‘Days Needed’ column.&lt;/p&gt;
+
+&lt;p id=&quot;footnote5&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[5] Red indicates extremely hot or cold temperatures, excessive precipitation, humidity, low number of sunlight hours per day, and or pollution. Green indicates mild or warm temperatures, dry, clear skies, clean air, and many hours of sunlight per day.&lt;/p&gt;
+
+&lt;p&gt;This chart is optimized for mild and sunny weather. If snow or any abnormal weather is the goal the chart is inappropriate.&lt;/p&gt;
+
+&lt;p&gt;Some destinations shut down seasonally. I wanted to visit Switzerland in November. But, the Alps shutdown November to February due to heavy snow. I made a planning mistake.&lt;/p&gt;
+
+&lt;p&gt;Remember, the seasons in the southern hemisphere are opposite of the northern hemisphere caused by the tilt and orbit of the Earth.&lt;/p&gt;
+
+&lt;p&gt;Seasons of the southern hemisphere:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Summer: December to February.&lt;/li&gt;
+  &lt;li&gt;Autumn: March to May.&lt;/li&gt;
+  &lt;li&gt;Winter: June to August.&lt;/li&gt;
+  &lt;li&gt;Spring: September to November.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p id=&quot;footnote6&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[6] A great resource for understanding entry into ANY foreign territory. Occasions I used it on my trip:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entry into the European Union (Schengen Area) - 90 day limit.&lt;/li&gt;
+  &lt;li&gt;Entry into India - 30 day Indian eVisa required. Sample &lt;a href=&quot;https://goo.gl/photos/g58LQxd32YAVFrmaA&quot; target=&quot;_blank&quot;&gt;eVisa&lt;/a&gt;. Must submit application at least 4 days before the flight departs for India. Must have a friend’s address in India to be permitted in prior to the flight.&lt;/li&gt;
+  &lt;li&gt;Entry into China - mainland China requires a valid Visa prior to the trip. No visa is required for Hong Kong and Macau.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p id=&quot;footnote7&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[7] A powerful collection of the most extraordinary places on Earth.&lt;/p&gt;
+
+&lt;p id=&quot;footnote8&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[8] Walking tours are especially great. The tour guide acts as a protector. I learned new things and I had the ability to meet new friends in my tour groups. Walking and learning is stimulating. A good 2-hour tour costs roughly $10-15. Specifically, I recommend &lt;a href=&quot;http://paris-walks.com&quot; target=&quot;_blank&quot;&gt;Paris Walks&lt;/a&gt; and &lt;a href=&quot;http://www.walks.com&quot; target=&quot;_blank&quot;&gt;London Walks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p id=&quot;footnote9&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[9] Google Flights is a simple and easy tool to find the best flights.&lt;/p&gt;
+
+&lt;p&gt;How to navigate Google Flights:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Enter starting point and destination point (click the plus sign to add nearby airports).&lt;/li&gt;
+  &lt;li&gt;If the dates are flexible, click the calendar and browse &lt;a href=&quot;https://goo.gl/photos/nYDYRnusMdAw1uix7&quot; target=&quot;_blank&quot;&gt;month-to-month&lt;/a&gt; to find the best prices.&lt;/li&gt;
+  &lt;li&gt;If the location is flexible, click the map and browse &lt;a href=&quot;https://goo.gl/photos/F3YrDQxzvBs36TkT9&quot; target=&quot;_blank&quot;&gt;area-to-area&lt;/a&gt; to find the best prices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If a traveler is time and location flexible, extremely cheap flights are common. If a traveler is flexible in one or the other, but not both, cheap flights are less common.&lt;/p&gt;
+
+&lt;p&gt;Best Budget Airline Brands:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;United States - Spirit Airlines&lt;/li&gt;
+  &lt;li&gt;Europe - Norwegian Air, RyanAir, EasyJet&lt;/li&gt;
+  &lt;li&gt;Asia - Asean Air, AirAsia, HK Express (Hong Kong), Peach Airlines (Korea and Japan)&lt;/li&gt;
+  &lt;li&gt;India - SpiceJet, Air India, Indigo Air&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;RyanAir flights in Europe are usually under €100 regionally. The best example was my round-trip flight from Barcelona to Ibiza for €20.&lt;/p&gt;
+
+&lt;p id=&quot;footnote10&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[10] Megabus is a quality, low-cost charter bus service from city to city. It functions similarly in the United States. Route availability mostly covers Western Europe. Meinfernbus is Europe’s version of Megabus. Similar in quality, price, and destinations. Route availability covers Western and Central Europe. I always booked overnight bus rides. Instead of sleeping at a hostel, I slept on the bus so my accommodation and transportation expense was the cost of my bus ticket.&lt;/p&gt;
+
+&lt;p id=&quot;footnote11&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[11] &lt;a href=&quot;https://goo.gl/photos/6Ba9GY42veufKvvU9&quot; target=&quot;_blank&quot;&gt;BlaBlaCar&lt;/a&gt; is similar to Uber. A ride comparable in distance from San Francisco to Los Angeles (8 hours) would only cost €30 in Europe with BlaBlaCar. I would use BlaBlaCar if it were in the United States.&lt;/p&gt;
+
+&lt;p&gt;Best Ridesharing Options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Europe - BlaBlaCar, Uber.&lt;/li&gt;
+  &lt;li&gt;Middle East - Uber.&lt;/li&gt;
+  &lt;li&gt;India - Uber (cheap, $1 for 10 minute ride), GrabTaxi, and Ryde.&lt;/li&gt;
+  &lt;li&gt;China - Uber &amp;amp; Didi.&lt;/li&gt;
+  &lt;li&gt;South Korea &amp;amp; Japan - Uber.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p id=&quot;footnote12&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[12] I did not want to solely rely on trains to get from place to place in Europe. I would have felt constrained as the Eurostar pass only works for certain routes and regions in Europe. Also, the Eurostar pass does not give you high speed rail access as sometimes advertised. A mix of flights, buses, ridesharing, and trains gave me total flexibility.&lt;/p&gt;
+
+&lt;p id=&quot;footnote13&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[13] Navigating these sites is straight-forward. Enter location and dates. I sorted the results by price low to high.&lt;/p&gt;
+
+&lt;p&gt;Look for hostels that are centrally located with access to public transit. Public transit provides the most options for access to points of interest. Trains, subways, and metros are particularly convenient because they have signs in English.&lt;/p&gt;
+
+&lt;p&gt;Look for great communities when it comes to hostels. The small hostels offer one-on-one attention from the staff and it is easy to make close friends. The big hostels function like factories and might feel unauthentic.&lt;/p&gt;
+
+&lt;p&gt;Exceptional Hostels I Stayed At:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fifth Hostel, Budapest, Hungary&lt;/li&gt;
+  &lt;li&gt;Gracia City Hostel, Barcelona, Spain&lt;/li&gt;
+  &lt;li&gt;Madpackers Hostel, Delhi, India&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p id=&quot;footnote14&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[14] Electronic versions are sufficient too. Most countries are technologically behind the West, so hard copies are preferred.&lt;/p&gt;
+
+&lt;p id=&quot;footnote15&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[15] Filmed with a GoPro Hero 4 Black and a GoPro Hero 4 Session. Edited in iMovie. Music credits: Phoebe Ryan - Mine (Win &amp;amp; Woo Remix) and Matoma &amp;amp; Nelsaan - Free Fallin (Tropical Mojito Remix).&lt;/p&gt;
+
+&lt;p id=&quot;footnote16&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[16] On rest days, I would lay in bed, watch TV or movies, and eat food. In a typical week, I did 3 days of intense exploring, tourism, and eating out, per 4 days of rest. Also, it was not financially sustainable for me to being doing activities 7 days a week.&lt;/p&gt;
+
+&lt;p id=&quot;footnote17&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[17] At tourist attractions like museums, palaces, and parks, I would often venture off the normal path. Sometimes I would not find anything of value, but sometimes I would find a gem. I would sit there for hours and appreciate it.&lt;/p&gt;
+
+&lt;p id=&quot;footnote18&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[18] A nice unintended side effect of consuming lots of information is the ability to retrieve and explain any moment of the trip later on.&lt;/p&gt;
+
+&lt;p id=&quot;footnote19&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[19] I am not saying everyone is in fact not worthy of my trust. Many people abroad are kind and trustworthy. But, trusting someone and being wrong was the difference between the survival and death of my trip.&lt;/p&gt;
+
+&lt;p id=&quot;footnote20&quot;&gt; &lt;/p&gt;
+&lt;p&gt;[20] After about 7 days, I was generally confident and safe in any new environment while abroad. It took less and less time to reach this same threshold of comfort in a new city as I accumulated experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Thanks&lt;/em&gt;&lt;/strong&gt; to Suzanne Nguyen for reading drafts of this. And to Boonsri Dickinson Srinivasan for watching edits of the video.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE (06-22-2016):&lt;/strong&gt; &lt;em&gt;Related to the metric system. “&lt;a href=&quot;https://www.youtube.com/watch?v=7bUVjJWA6Vw&quot; target=&quot;_blank&quot;&gt;Why The Metric System Matters&lt;/a&gt;” and “&lt;a href=&quot;http://www.theatlantic.com/education/archive/2016/06/why-the-metric-system-hasnt-failed-in-the-us/487040/&quot; target=&quot;_blank&quot;&gt;Why The Metric System Hasn’t Failed In The U.S.&lt;/a&gt;”&lt;/em&gt;&lt;/p&gt;</content><summary>Disclaimer: All opinions are my own. I was not paid to do this article. A few people asked me to write about my trip. I am happy to do it and share personal experiences.</summary></entry><entry><title>How I Landed An Internship At GoPro</title><link href="https://mitchellmclaughlin.com/gopro.html" rel="alternate" type="text/html" title="How I Landed An Internship At GoPro" /><published>2015-11-30T09:10:52-06:00</published><updated>2015-11-30T09:10:52-06:00</updated><id>https://mitchellmclaughlin.com/how-i-landed-an-internship-at-gopro</id><content type="html" xml:base="https://mitchellmclaughlin.com/gopro.html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/24086221&quot; target=&quot;_blank&quot;&gt;Chinese Translation 中文翻译&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*This article originally appeared on &lt;a href=&quot;https://medium.com/@m23mclaughlin/how-i-landed-an-internship-at-gopro-c988b1b2e29d#.y4o8nr482&quot; target=&quot;_blank&quot;&gt;medium.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: The views expressed in this article are my own and do not represent the views of companies I previously worked for.&lt;/p&gt;
+
+&lt;p&gt;This piece was inspired by ambitious professionals asking how I did it. It is intended to shine light on the internship process, be relevant to internships generally, and share my personal experiences.*&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GoPro&lt;/strong&gt; is the one of the coolest companies in the world — and also one of the most challenging. If you’re up for it, this is for you.&lt;/p&gt;
+
+&lt;p&gt;Writing on this topic was not easy because hiring strategies are constantly evolving. There are also many articles about getting internships already. My favorite is by my friend, &lt;a href=&quot;https://medium.com/u/2cc5b519b479&quot; target=&quot;_blank&quot;&gt;Andre Tacuyan&lt;/a&gt;, and his &lt;a href=&quot;https://medium.com/p/2fed4ce91b35&quot; target=&quot;_blank&quot;&gt;design internship at Google&lt;/a&gt;. Give it a read. It will broaden your perspective for this topic. My article will explore areas he did not.&lt;/p&gt;
+
+&lt;p&gt;If you are looking to get into startups more generally (smaller companies with less than 100 employees) this exceptional &lt;a href=&quot;https://medium.com/p/cc092432305a&quot; target=&quot;_blank&quot;&gt;article&lt;/a&gt; by &lt;a href=&quot;https://medium.com/u/65f7af1c3333&quot; target=&quot;_blank&quot;&gt;Ruben Harris&lt;/a&gt; will apply to you.&lt;/p&gt;
+
+&lt;p&gt;Those articles are great for a design internship at Google or a startup job. But, this article is about landing ANY great internship.&lt;/p&gt;
+
+&lt;p&gt;Recruiters at elite companies are elusive. They are trying to solve million dollar people problems everyday. They are dealing with full-time hires, participating in interviews, integrating complex hiring systems, and working cross-functionally on projects. So, when it comes to the application it MUST be quick &amp;amp; powerful. Cut out all the bullshit and simplify your message.&lt;/p&gt;
+
+&lt;p&gt;Here are the keys to landing an internship at GoPro.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Resume.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It has to be great. To give you a taste, here is mine.&lt;a href=&quot;#footnote1&quot;&gt;[1]&lt;/a&gt;
+&lt;img src=&quot;https://cdn.pbrd.co/images/1v76Xmh9.png&quot; alt=&quot;Resume.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice, the feel, layout, and aesthetics. What a resume is doing is giving the hiring manager an emotional taste of the person. It’s visual communication. Kind of like dating. Will it give a good first impression? Will the viewer be intrigued to learn more?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Build the automated application.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I recommend playing the long game. The intern process will start in August ending in May, worst case scenario. If you fail to secure an offer in the fall you still have the spring to fall back on. When I accepted my offer from GoPro, I had sent over 2000 applications in an 8-month period, been selected for 40+ phone interviews, and 12 in-person interviews from New York to San Francisco. Out of those 12 interviews, I was given 4 legitimate job offers. I gambled and turned 2 down because they were shitty offers. But in the end, GoPro prevailed.&lt;/p&gt;
+
+&lt;p&gt;How do you efficiently send 2000 applications? It is not easy, but you have to use software to save time. Build or download software to assist with filling out forms (demographic information, education history, work experience, military status, and minority status). I wrote my own scripts to fill out forms, but &lt;a href=&quot;http://www.dashlane.com&quot; target=&quot;_blank&quot;&gt;Dashlane&lt;/a&gt; is sufficient and Autofill occasionally works. Once you enter your information, create a user account with the website and save it. Anytime an application asks you to answer an open-ended question or write an essay, append it to a word document so you can reuse it. A good rule of thumb is to avoid doing any task twice. Take advantage of career sites allowing you to add and apply to multiple jobs with one job profile. If you are an engineer there are a variety of positions with overlapping skill sets. The same applies to the business side.&lt;/p&gt;
+
+&lt;p&gt;Use links. Many applications ask for a resume, portfolio, blog, or social media accounts. Use software to build and organize all this into a personal website and point to it. &lt;a href=&quot;https://mitchellmclaughlin.com&quot; target=&quot;_blank&quot;&gt;Here is mine&lt;/a&gt;. Build a core version of your resume and cover letter, then create tailored variations for each specific company &amp;amp; position.&lt;/p&gt;
+
+&lt;p&gt;One common mistake is applying to as many companies as possible. In this case, quantity over quality is NOT better. Focusing on 200 quality companies or less is ideal. The goal of the automated application is to free up hours originally intended for repetitive tasks to do productive tasks like creative thinking for open-ended questions, essays, software projects,  portfolio design, and networking.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be opportunistic.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Investing all of your time into one company during the hiring process is dangerous. I would not recommend it. Being opportunistic is a more practical strategy. What this means is the best offer will likely come from company 2, 3, 4 or 5 on your list. Do not be defeated, just embrace the opportunity.&lt;/p&gt;
+
+&lt;p&gt;Building the automated application is one part in a larger strategy of being opportunistic. It assumes change is the only constant in today’s environment. It is the premise of Reid Hoffman’s book “&lt;a href=&quot;http://www.amazon.com/The-Start-up-You-Yourself-Transform-ebook/dp/B0050DIWHU&quot; target=&quot;_blank&quot;&gt;The Start-Up Of You&lt;/a&gt;”. Having an extremely diverse skill set makes you opportunistic and will increase your odds. Chris Messina calls her or him the ‘&lt;a href=&quot;https://medium.com/p/ed0db089f0a1&quot; target=&quot;_blank&quot;&gt;full-stack employee&lt;/a&gt;’&lt;a href=&quot;#footnote2&quot;&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be patient &amp;amp; poised.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes the job offer is not immediate. One company may interview you 5 times, or string you out, and that is OK. A very good piece of advice I received from a former Google recruiter is “we will call you”. This simply means the recruiter controls when hiring progress is made. In March, I sat without a legitimate offer because nothing was the right fit. I patiently waited. It eventually came and changed everything.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For inspiration.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes it is all about the story. As Chris Sacca says: “Good stories always beat good spreadsheets.”&lt;/p&gt;
+
+&lt;p&gt;Here are 2 awesome short stories on landing internships.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.adweek.com/socialtimes/how-a-college-student-used-a-linkedin-ad-to-land-an-internship/131498&quot; target=&quot;_blank&quot;&gt;How a College Student Used a LinkedIn Ad to Land an Internship&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/527s6lta0533o1o/googlead.png?dl=0&quot; target=&quot;_blank&quot;&gt;Catch your employers eye with a $5 Google Ad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let this sink in and allow your mind explore all the untapped ways to attract an employer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GoPro.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On-boarding at GoPro is straightforward. In 2015, there were roughly 40 summer interns at headquarters in San Mateo, California. Every Thursday, all employees got 2 hours of “Live It, Love It, Eat It” time in the afternoon to do whatever they want. Common activities included surfing, playing soccer, slack lining, and going out to eat. The only requirement is to use the GoPro camera. My most memorable experiences during “Live It, Love It, Eat It” times were surfing with coworkers. It was a blast!&lt;/p&gt;
+
+&lt;p&gt;When I was selected for my interview, it is likely my skydiving and surfing pictures on social media helped my case as a cultural fit. So, if you do cool stuff post it to the internet; tag it with &lt;a href=&quot;http://instagram.com/explore/tags/gopro&quot; target=&quot;_blank&quot;&gt;#GoPro&lt;/a&gt;, &lt;a href=&quot;http://instagram.com/explore/tags/goprointern/&quot; target=&quot;_blank&quot;&gt;#GoProIntern&lt;/a&gt;, or &lt;a href=&quot;http://instagram.com/explore/tags/goproliveit/&quot; target=&quot;_blank&quot;&gt;#GoProLiveIt&lt;/a&gt;. Employees monitor these channels. GoPro runs &lt;a href=&quot;http://gopro.com/awards&quot; target=&quot;_blank&quot;&gt;contests&lt;/a&gt; frequently and reward you with money. These are all chances to show how you can add value before employment and fit into the GoPro culture.&lt;/p&gt;
+
+&lt;p&gt;All of the internship opportunities are posted on the &lt;a href=&quot;http://gopro.com/careers&quot; target=&quot;_blank&quot;&gt;GoPro website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most technical internships appear in the fall and non-technical in the spring. I remember looking at the GoPro career page thinking, I do not know what the hell some of the positions are. This is normal. Every company has a different organizational structure and creates unique job titles. If the position remotely aligns with your skills apply for it. In the tech world, interns often have multiple interviews for different positions within a company and are fought over. This is great.&lt;/p&gt;
+
+&lt;p&gt;The best place to learn: the &lt;a href=&quot;http://www.reddit.com/r/gopro&quot; target=&quot;_blank&quot;&gt;GoPro subreddit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes the best thing to do is the most obvious. Be yourself and invest in yourself. The internship game can be grueling and it is just a small slice of the big career pie. Do not sweat it.&lt;/p&gt;
+
+&lt;p&gt;For specific questions, email me at mitch(dot)mclaughlin1(at)gmail(dot)com.&lt;/p&gt;
+
+&lt;p&gt;Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=WfWqNm6QRFk&quot; target=&quot;_blank&quot;&gt;1-minute video&lt;/a&gt; I made of my time at GoPro.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p id=&quot;footnote1&quot;&gt;[1] This is a sample copy of my resume as of January, 2015. It does not include my GoPro experience. I did not have a 4.0. Feel free to reuse and distribute this work however you please. Consider it open-sourced. Email me for .psd file.&lt;/p&gt;
+
+&lt;p id=&quot;footnote2&quot;&gt;[2] ‘full-stack’ is a repurposed computer science term meaning every part of a technology product — design, hardware, and software.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Thanks&lt;/em&gt;&lt;/strong&gt; to Suzanne Nguyen, Nathan Bashaw, Andre Tacuyan, and Ruben Harris for reading drafts of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE (06-10-2016):&lt;/strong&gt; &lt;em&gt;I &lt;a href=&quot;https://github.com/jmopr/job-hunter&quot; target=&quot;_blank&quot;&gt;found&lt;/a&gt; a free computer program designed to automatically apply for jobs on indeed.com. I also &lt;a href=&quot;http://www.mathieupassenaud.fr/resume/&quot; target=&quot;_blank&quot;&gt;found&lt;/a&gt; a programmer who wrote his resume into his operating system.&lt;/em&gt;&lt;/p&gt;</content><summary>Chinese Translation 中文翻译</summary></entry></feed>

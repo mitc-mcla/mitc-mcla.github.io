@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <div class="post-meta">{{ post.date | date: "%B %Y" }} </div>
+	<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    </li>{% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Videos</h1>
+
+	<h4><a href="https://www.youtube.com/watch?v=npg7uN-4fyc" target="_blank">"Common Adventures", World Travels September 2015 - February 2016</a></h4>
+        <h4><a href="https://www.youtube.com/watch?v=WfWqNm6QRFk" target="_blank">GoPro Internship, Summer 2015</a></h4>
+        <h4><a href="https://www.youtube.com/watch?v=Bl7Ur6kYJoM" target="_blank">Go-Karts, Summer 2015</a></h4>
+
+  <h1 class="page-heading">Audio</h1>
+
+	<h6>
+
+  <p class="rss-subscribe">subscribe <a href="http://eepurl.com/b4b8zP" target="_blank">via Email</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a></p>
+
+
+</div>
