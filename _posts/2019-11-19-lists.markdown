@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Lists, my most important doc"
+date: 2019-11-20 10:10:52 +0100
+categories: blog
+permalink: /lists.html
+---
+
 **/doc**
 
 **/playlist**
@@ -5,238 +13,447 @@
 **Movies**
 
 the martian (2015) ridley 
+
 midnight in paris (2011)
+
 ex machina (2015)
+
 the theory of everything (2014)
+
 gattaca (1997)
+
 dawn of the planet of the apes (2014)
+
 citizen four (2014) spielberg
+
 da vinci code
+
 assassins creed
+
 imitation game (2014)
+
 gravity (2013)
+
 her (2013)
+
 american gangster (2007) ridley
+
 the great gatsby (2013)
+
 black hawk down (2001) ridley
+
 the hunger games (2012)
+
 lincoln (2012) spielberg
+
 marley and me (2008)
+
 coach carter (2005)
+
 tuesdays with morrie (1999)
+
 pulp fiction (1994) tarantino
+
 shawshank redepemption (1994)
+
 gladiator (2000) ridley
+
 the dark knight (2008) chris nolan
+
 passion of the christ (2004)
+
 the patriot (2000)
+
 gone girl (2014)
+
 up (2009)
+
 avatar (2009) james cameron
+
 the inside man (2006)
+
 straight outta compton (2015)
+
 zodiac (2007)
+
 bond movies
+
 -casino royale (2007)
+
 dave chapelle
+
 the prestige (2006) chris, jon nolan
+
 hidden figures (2017)
+
 arrival (2016)
+
 v for vendetta (2006)
+
 batman begins (2005) chris nolan
+
 momento (2000) chris, jon nolan
+
 interstellar (2014) chris nolan
+
 the adjustment bureau (2011)
+
 the matrix (1999)
+
 source code (2011)
+
 bridge of spies (2015) spielberg
+
 saving private ryan (1998) spielberg
+
 the negotiator (1998)
+
 i am not your negro (2017)
+
 remember the titans (2000)
+
 employee of the month (?)
+
 the purge (2013)
+
 training day (2001)
+
 love and basketball (2000)
+
 charlie’s angels (2000)
+
 a beautiful mind (2001) 
+
 cool hand luke (1967)
+
 enron the smartest guys in the room (2005)
+
 40 year old virgin (2005)
+
 friday night lights (2004)
+
 the longest yard (2005)
+
 finding nemo (2003)
+
 minority report (2001) spielberg
+
 tupac resurrection (2003)
 
+
 -directors (in no particular order)
+
 christopher, jonathan nolan
+
 james cameron
+
 stephen spielburg
+
 ridley scott
+
 enany
 
 **TV Shows**
 
 planet earth - bbc
+
 blue planet - bbc
+
 martin
+
 dexter
+
 westworld (2015-2018) enany, jon nolan
+
 mr robot (2015-2018) enany, sam esmail
+
 oj made in america (2016)
+
 the people versus oj simpson (2016)
+
 impractical jokers
+
 rick and morty
+
 chappelles show
 
 **YouTube Videos (general audience) *no particular order**
 
 history of the entire world, i guess - bill wurtz
+
 history of japan - bill wertz
+
 How the Internet Works in 5 Minutes - Aaron (2009)
+
 50 Centuries in 10 minutes - kardboardking (2014)
+
 Randy Pausch Last Lecture: Achieving Your Childhood Dreams - Randy Pausch (2007)
+
 Stephen Hawking’s The Meaning of Life (John Conway’s Game of Life Segment) (2012)
+
 Inside the Mind of a Master Procrastinator - Tim Urban (TED Talk)
+
 The Power of Vulnerability - Brene Brown (TED Talk)
+
 The Power of Introverts - Susan Cain (TED Talk)
+
 What makes a good life? Lessons from the longest study on happiness - Robert Waldinger (TED Talk)
+
 Your Elusive Creative Genius - Elizabeth Gilbert (TED Talk)
+
 Your Body Language May Shape Who You Are - Amy Cuddy (TED Talk)
+
 How Trees Talk to Each Other - TED
+
 Allen Iverson Basketball Hall of Fame Enshrinement Speech
+
 How America Became A Superpower - Vox Media
+
 Rapping deconstructed, the best rhymers of all time - Vox Media
+
 The Middle East’s Cold War Explained - Vox Media (2017)
+
 The Science is in, exercise isn’t the best way to lose weight - Vox Media
+
 Everything: Gameplay Trailer - PlayStation
+
 The History of the Romans: Every Year - EmperorTigerstar (2015)
+
 The History of Europe” Every Year - EmperorTigerstar (2016)
+
 The Map of Mathematics - Domain of Science
+
 The Map of Physics - Domain of Science
+
 The Map of Computer Science - Domain of Science
+
 Dave Chappelle
+
 George Carlin
+
 Alan Watts
+
 Kurzgesagt - In A Nutshell (Channel)
+
 Vox (Channel)
+
 TED (Channel)
+
 TED-Ed(ucation) (Channel)
+
 Blank on Blank (Channel)
+
 ASAPScience (Channel)
+
 SciShow (Channel)
+
 BigThink (Channel)
+
 The School of Life (Channel)
+
 Y Combinator (Channel)
+
 Wendover Productions (Channel)
+
 
 **YouTube Videos (scientific audience) *no particular order**
 
 Feynman Lectures
+
 Terrence McKenna
+
 Dark Matter and the Dinosaurs - Lisa Randall
+
 What The Physics?! (Channel)
+
 3Blue1Brown (Channel)
+
 Andreas Antonopolous (Channel)
+
 Linus Torvalds on Git @ Google - Linus Torvalds 
+
 Tom Preston-Warner @ Startup School: Optimizing For Happiness (2010)
+
 Shenzhen: The Silicon Valley of Hardware (Documentary) - WIRED UK
+
 Numberphile (Channel)
 
 **/notable written papers (general audience) *no particular order**
 
 How To Read a Paper - S. Keshav (2016)
+
 Tragedy of the Commons - Garrett Hardin (1968)
+
 Momento Mori - Nathan Nolan (2006)
+
 Increasing Returns and the New World of Business - W. Brian Arthur (1996)
+
 Berkshire Hathaway Letters to Shareholders 1964 - 2018 - Warren Buffett
+
 Crypto Anarchist Manifesto - Tim May (1992)
+
 Hacker’s Manifesto - The Mentor (Phrack Magazine, 1986)
+
 Why the Internet Only Just Works - Mark Handley (2006)
+
 Declaration of the Independence of Cyberspace - John Perry Barlow (1996)
+
 The Artificial Intelligence Revolution: The Road to Superintelligence, Wait Buy Why Blog - Tim Urban (2015)
+
 The Tail End, Wait Buy Why Blog - Tim Urban (2015)
+
 Your Life in Weeks, Wait But Why Blog - Tim Urban (2014)
+
 How To Pick Your Life Partner, Part 1, Wait But Why Blog - Tim Urban (2014)
+
 How To Pick Your Life Partner, Part 2, Wait But Why Blog - Tim Urban (2014)
+
 Everything You Didn’t Know About Tipping, Wait But Why Blog - Tim Urban (2014)
+
 It’s Going To Be Okay (Trump Getting Elected), Wait But Why Blog - Tim Urban (2016)
+
 Horizontal History, Wait But Why Blog - Tim Urban (2016)
+
 
 **/notable written papers (scientific audience) *no particular order**
 
 Bitcoin - Satoshi Nakamoto (2009)
+
 bmoney - Wei Dai
+
 Futarchy (Shall We Vote on Values, But Bet on Beliefs?) Robin Hanson
+
 IPFS (InterPlanetary File System) - Juan Benet
+
 Quantum Mechanical Computers - Richard Feynman
+
 On The Electrodynamics of Moving Bodies - Albert Einstein
+
 The Fermi Paradox, Wait But Why Blog - Tim Urban (2014)
+
 Are We Living In A Computer Simulation - Nick Bostrom (2003)
+
 The Republic - Plato
+
 Untraceable Electronic Mail, Returnable Addresses, and Digital Pseudonyms - David Chaum
+
 Decentralized Autonomous Organizations - Christoph Jentz
+
 A Mathematical Theory of Communication - Claude Shannon
+
 The Bandwagon - Claude Shannon
+
 Computing Machinery and Intelligence - Alan Turing (1950)
+
 On Computable Numbers, With an Application to the Entscheidungsproblem - Alan Turing (1936)
+
 How to Write A Whitepaper - Michael Stelzner
+
 Smart Contracts - Nick Szabo
+
 RCS - A System for Version Control - Walter F. Tichy
+
 New Directions in Cryptography - Whitfield Diffie and Martin Hellman
+
 To What Extent Did Marc Andressen Invent the Internet - eager.io
+
 The History of the URL: Domain, Protocol, and Port - eager.io
+
 
 **/books**
 
 Completed.
+
 In Progress.
 
 **2015: (unordered)**
+
 Founders At Work - Jessica Livingston
+
 Elon Musk: Tesla, SpaceX, & The Quest For A Fantastic Future - Ashlee Vance
+
 Future Crimes - Marc Goodman
+
 Ben Franklin: An American Life - Walter Isaacson
+
 Steve Jobs - Walter Isaacson
+
 I Invented The Modern Age - Henry Ford
+
 The Design Of Everyday Things - Donald Norman
+
 How Google Works - Eric Schmidt
+
 The Signal And The Noise - Nate Silver
+
 Autobiography Of A Yogi - Paramahansa
+
 The 80/20 Principle - Richard Koch
+
 The Start-Up Of You - Reid Hoffman
+
 The Fountain Head & Atlas Shrugged: - Ayn Rand
+
 The Innovator's Dilemma: - Clayton Christensen
+
 Charlie Munger The Complete Investor - Tren Griffin
+
 Titan: The Life Of John D. Rockefeller - Ron Chernow
+
 Meditations: - Marcus Aurelius
+
 Blink, Outliers, & David & Goliath - Malcolm Gladwell
+
 Zero To One - Peter Thiel
+
 Hackers: Heroes Of The Computer Revolution - Steven Levy
+
 Hackers & Painters: Big Ideas From The Computer Revolution - Paul Graham
+
 Hooked: How To Build Habit Forming Products - Nir Eyal
+
 Start-Up Nation: The Story Of Israel's Economic Miracle - Dan Senor
+
 The Hard Thing About Hard Things - Ben Horowitz
+
 Hatching Twitter - Nick Bilton
+
 Business Adventures - John Brooks
+
 The Innovators: How A Group Of Hackers, Geniuses, And Geeks Created The Digital Revolution - Walter Isaacson
+
 This Machien Kills Secrets: Julian Assange, The Cypherpunks, And Their Fight To Empower Whistleblowers - Andy Greenberg
+
 Growing Up: (unordered)
+
 Winning With People - John C. Maxwell
+
 Intelligent Investor: - Benjamin Graham
+
 Quiet Strength: - Tony Dungy
 
 **Growing-up:**
+
 Tuesdays With Morrie - Mitch Albom
+
 The Gold Standard: - Coach K
+
 Toughness: - Jay Bilas
+
 The Score Takes Care Of Itself: - Bill Walsh
+
 Poor Richard's Almanac: - Ben Franklin
+
 The Everything Store: Jeff Bezos And The Age Of Amazon: - Brad Stone
+
 The Billionaire Who Wasn't: How Chuck Feeney Secretly Made And Gave Away A Fortune: - Conor O'Clery
+
 Through My Eyes: Tim Tebow: - Nathan Whitaker
+
 Star In The Storm: - Joan Hiatt Harlow
+
 To Kill A Mockingbird: - Harper Lee
+
 The Giver: - Lois Lowry
+
 The Scarlett Letter: - Nathaniel Hawthorne

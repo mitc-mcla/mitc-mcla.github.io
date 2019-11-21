@@ -9,6 +9,7 @@ permalink: /notes.html
 **Mitch’s Private iOS Notes**
 
 *Each note is delineated with ————-
+
 *Notes are ordered from most recent at the top to oldest
 
 ———————————————————————————————————————
@@ -16,6 +17,7 @@ permalink: /notes.html
 events 11/21/2019
 
 jones co fair
+
 iowa state fair
 
 ———————————————————————————————————————
@@ -23,13 +25,19 @@ iowa state fair
 USA Trip 10/31/2019
 
 az bball sept nov tucson dec 1 anaheim dec 21 sf
+
 marquette bball
+
 drake bball
 
 dsm: blum, profs, bball, matty r
+
 cr: bob, rod j, stovie, jenkins, josh olgesby, wes
+
 atl: jd
+
 sd: tony, preston, winker
+
 chi: taylor olsen, jeff guzzi, tara, shana, kunal, chip & alyssa, mike m & francescha
 clev: matt and kristen, chapics
 oregon: ana, jess
