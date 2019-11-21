@@ -8,6 +8,18 @@ permalink: /lists.html
 
 **/doc**
 
+**/about**
+
+Hi, my name is Mitch McLaughlin.
+
+A few years ago, I dropped out of university (2016). While in school, I studied computer science and finance, played Division 1 basketball, and interned at GoPro(most recent), Oracle, and Nike.
+
+Immediately after leaving school, I traveled the world for 6 months.
+
+I am not completely sure what I will do the rest of my life. But, a few things I enjoy are: building things, reading and writing, language, art & culture, bioinformatics, bioengineering, economics, software, exercising, and having fun.
+
+I am fluent in English, computer software, math, music, dance, ebonics, body language, and emoji.
+
 **/playlist**
 
 **Movies**
