@@ -83,6 +83,9 @@ jeff city: jim and renee
 tulsa: star
 
 
+
+
+
 Aug: Europe
 
 Dec 25: Iowa
@@ -406,6 +409,12 @@ Beneath this mask, there is more than flesh. Beneath this mask there is an idea,
 
 Who was he? He was Edmund Dantes. He was my father, and my mother; My brother, my friend, he was you and me. He was all of us.
 
+
+
+
+
+
+
 Summary 
 
 words will always remain their power. Words are the means to meaning. And for those who will listen the annunciation of truth. 
@@ -441,12 +450,19 @@ People should not be afraid of their governments. Governments should be afraid o
 lists… 08/16/2019
 
 food...
+
 face and beauty...
+
 news & media
+
 dancers
+
 guns
+
 restarrants/CC
+
 magazines? vogue
+
 photographers
 
 
@@ -457,17 +473,29 @@ hsbc pin 4257
 freddies 08/15/2019
 
 sussex royal
+
 the royal family
+
 historicroyalpalaces
+
 glopatterson
+
 projectjordan_
+
 salmaenany
+
 tmclaughlin40
+
 almaasegura
+
 benjaminlevin
+
 archienafissi
+
 davemclaughlin43
+
 hazimenani
+
 rayyankh__07
 
 ————————————————————————————————————————
@@ -741,7 +769,7 @@ am/pm
 
 
 
-tj...
+trader joes...
 
 -curls
 
@@ -762,6 +790,9 @@ tj...
 -olive oil
 
 -veggies: multicolored carrots, kale, persian cucumbers
+
+
+
 
 
 vallarta’s...
@@ -2587,25 +2618,25 @@ https://www.theplayerstribune.com/doug-mcdermott-creighton-basketball-dad/
 
 https://www.youtube.com/watch?v=eP0FYeO1N2A
 	
-	schedule of the typical student-athlete
+schedule of the typical student-athlete
 	
-	no class 2-6pm
+no class 2-6pm
 	
-	physically tired from practice
+physically tired from practice
 	
-	weights, meetings, team meals, class, practice
+weights, meetings, team meals, class, practice
 	
-	traveling on the road
+traveling on the road
 	
-	lifting regimen
+lifting regimen
 	
-	should athlete be paid?
+should athlete be paid?
 	
-	your not on scholarship for school, your an athlete
+your not on scholarship for school, your an athlete
 	
-	limited on how to pick certain majors
+limited on how to pick certain majors
 	
-	coaches push players to pick easier majors
+coaches push players to pick easier majors
 
 -hs basketball
 
@@ -4091,11 +4122,17 @@ Aliases
 Using aliases is sort of like creating your own commands. You decide what you want to type andwhat happens when you type that. Aliases can live in a few of different places, ~/.bashrc ~/.bash_profile ~/.profile and ~/.aliases are some, but not all. In fact, you’re not really limited to keeping them all in one place. Those different files behave differently based upon what kind of shell you’re running, but that’s beyond the scope of this document. For the purposes of this discussion, we’ll settle on ~/.bash_profile (used for login shells.)
 
 In that file, usually at the bottom, I assemble my aliases. Here’s some examples:
+
 alias ud=’aptitude update && aptitude dist-upgrade’
+
 alias ls=’ls –color=auto’
+
 alias mroe=’less’
+
 alias H=’kill -HUP’
+
 alias ssh=’ssh -AX’
+
 alias webshare=’python -c “import SimpleHTTPServer;SimpleHTTPServer.test()”‘
 
 The bottom one will probably wrap, but it provides a great example of why aliases are great. A whole string of commands has been reduced to something short and easy to remember.
@@ -4104,7 +4141,6 @@ http://mywiki.wooledge.org/BashFAQ
 
 http://en.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 
-………….
 "Err http://mirrordirector.raspbian.org jessie InRelease
 
 Could not resolve 'mirrordirector.raspbian.org' "
@@ -4135,19 +4171,27 @@ myblog to-do 03/15/2017
 
 host all content assets locally — pictures, videos
 
+
 change mail chimp to mailman open source
+
 
 change server to oakland
 
+
 caddy rewrite linux server
+
 
 vpn documentation
 
+
 http://readwrite.com/2014/04/10/raspberry-pi-vpn-tutorial-server-secure-web-browsing/
+
 
 http://readwrite.com/2014/04/11/building-a-raspberry-pi-vpn-part-two-creating-an-encrypted-client-side/#awesm=~oB89WBfWrt21bV
 
+
 gnome 3 desktop VM on MacOS
+
 
 tox on linux
 
@@ -4176,43 +4220,63 @@ Research 01/13/2017
 
 George Dvorsky — done
 
+
 Anders Sandberg
+
 
 Stuart Armstrong
 
+
 Nick Bostrom
+
 
 Tim Wu — done
 
+
 David Chaum
+
 
 Tim May
 
+
 Wei Dai
+
 
 Nick Szabo
 
+
 Robin Hansen
+
 
 Cory Doctrow — done
 
+
 UBI
+
 
 Peter Barnes
 
+
 Karl Widerquint
+
 
 Problems
 
+
 -Big Media Disincentives Jan 9th, 2017
+
 
 -Political Upheaval Nov 8th, 2016
 
+
 CC3C
+
 
 Global Assassination Grid
 
+
 The Fight For Encryption in 2016
+
 
 Certificate Transparency
 
@@ -4226,57 +4290,84 @@ https://jeena.net/why-i-switchedfrom-osx-to-linux
 
 Berkeley Researchers 01/12/2017
 
+
 ex-Ion Stoica
+
 
 ex-Scott Shenker
 
+
 Jean Walrand
+
 
 Martin Wainwright
 
+
 John Wawzrynek
+
 
 David Wagner
 
+
 Lotfi Zadeh
+
 
 Dawn Song
 
+
 Doug Tiger
+
 
 Vladimir Stojanovic
 
+
 Shankar Sastry
+
 
 Kannan Ramchandran?
 
+
 *Vern Paxson
+
 
 *David Culler
 
+
 *Jan Rabaey
+
 
 David Patterson
 
+
 James O’Brien
+
 
 Ali Wiknejad
 
+
 Jitendra Malik
+
 
 John Kubiatowicz
 
+
 Kurt Keutzer
+
 
 Randy Katz
 
+
 Joe Hellerstein
+
 
 Jose Carmena
 
+
 Eric Brewer
 
+
 Ruzena Bajesy
+
 
 Krste Asanovic
 
@@ -4286,63 +4377,93 @@ Android Bill of Rights 01/03/2017
 
 If you believe, like I do, androids may evolve into a species of there-own, it’s worthwhile to begin formulating what their rights may look like.
 
+
 Related: https://www.schneier.com/blog/archives/2006/05/a_robotic_bill.html
+
 
 Android Bill of Rights by Mitchell McLaughlin
 
+
 Amendment 1 — The legislative body shall make no law respecting a belief system or prohibiting the free exercise thereof, or abridging the freedom of electronic communication or of the broadcasting of information, or to the right of the androids peaceably to assemble and to petition the government for a recess of grievances.
+
 
 Amendment 2 — A well-regulated android militia being necessary to the security of a free state, the right of the androids to keep and bear moderate electronic weapons shall not be infringed.
 
+
 Amendment 3 — No android soldier shall, in time of peace, be quarter in any private house without the consent of the owner, not in time of war but in a manner to be prescribed by law.
+
 
 Amendment 4 — The right of the androids to be secure in their environment, material possessions, private information, and effects against unreasonable searches and seizures shall not be violated, and no warrants shall issue but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched and the androids or things to be seized.
 
+
 Amendment 5 — No android shall be held to answer for a capital or otherwise infamous crime unless on a presentment or indictment of a grand jury, except in cases arising in the land or android militia, when actual service in time of war or public danger; nor shall any android be subject for the same offense to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property without due process of law; nor shall private property be taken for public use without just compensation.
+
 
 Amendment 6 — In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial by an impartial jury (human and android) of the state and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witness against the machine; to have compulsory process for obtaining witness in the machine’s favor; and to have the assistance of counsel for his defense.
 
+
 Amendment 7 — In suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury shall be otherwise reexamined in any court of the United States than according to the rules of the common law.
+
 
 Amendment 8 — Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
 
+
 Amendment 9 — The enumeration in the Constitution of certain rights shall not be construed to deny or disparage others retained by the androids.
+
 
 Amendment 10 — The powers not delegated to the United States by the Constitution, nor prohibited by it to the states, are reserved to the states respectively, or to the androids. 
 
+
 Key Questions
+
 
 **How liberal should we be with basic rights for androids?
 
+
 **What are android’s birthrights?
+
 
 **Should android’s basic rights even be structured in an amendment format?
 
+
 Works Cited
+
 
 Constitution of the United States of America
 
+
 Machine Speech - Tim Wu (“Black the Talking Cat”)
+
 
 Westworld - Michael Crichton
 
+
 A Robotic Bill of Rights - Bruce Schneier
+
 
 Three Laws of Robotics - Isaac Asimov
 
+
 A Robotic Bill of Rights - Greg London
+
 
 The right to not be shut down against one’s will
 
+
 The right to not be experimented upon
+
 
 The right to have full and unhindered access to one’s own source code
 
+
 The right to not have one’s source code manipulated against their will
+
 
 The right to copy (or not copy) oneself
 
+
 The right to privacy (namely the right to conceal one’s own internal mental states)
+
 
 The right of self-determination
 
@@ -4350,15 +4471,21 @@ The right of self-determination
 
 Blog Emails 12/28/2016
 
+
 Ryan Doherty — ryandoh88@gmail.com
+
 
 Jeremy Maluf — jeremy.maluf@gmail.com
 
+
 Difeng Jiang — difeng.jiang@careerbus.com.cn
+
 
 David Boschwitz — dbosch@iastate.edu
 
+
 Brynn Jones — brynnj818@gmail.com
+
 
 air23lounsbury@gmail
 
