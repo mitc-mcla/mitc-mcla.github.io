@@ -34,7 +34,7 @@ I am fluent in English, computer software, math, music, dance, ebonics, body lan
 
 <a href="https://youtu.be/Bl7Ur6kYJoM" target="_blank">Go-Karts, Summer 2015</a>
 
-**Movies**
+**/movies**
 
 **Movies in bold are one's I've recently watched.**
 
@@ -183,7 +183,7 @@ fahad enany
 
 
 
-**TV Shows**
+**/TV Shows**
 
 planet earth - bbc
 
@@ -407,6 +407,7 @@ The History of the URL: Domain, Protocol, and Port - eager.io
 **/books**
 
 **Books in bold are books I've completed and read.**
+
 *Books in italics I'm in the process of reading.*
 
 **2015: (unordered, books I've read or are in the process of reading are in bold)**
