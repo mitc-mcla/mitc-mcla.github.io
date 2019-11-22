@@ -14,7 +14,7 @@ permalink: /notes.html
 
 ———————————————————————————————————————
 
-events 11/21/2019
+**events 11/21/2019**
 
 jones co fair
 
@@ -22,7 +22,7 @@ iowa state fair
 
 ———————————————————————————————————————
 
-USA Trip 10/31/2019
+**USA Trip 10/31/2019**
 
 az bball sept nov tucson dec 1 anaheim dec 21 sf
 
@@ -118,7 +118,7 @@ Super Bowl Feb 3 miami
 
 ————————————————————————————————————————
 
-gitmoji 09/20/2019
+**gitmoji 09/20/2019**
 
 🐳docker
 
@@ -136,7 +136,7 @@ gitmoji 09/20/2019
 
 ————————————————————————————————————————
 
-addict 09/20/2019
+**addict 09/20/2019**
 
 i’m addicted to my phone. the biggest drug of them all. i’m going on a cleanse. i won’t see any posts or messages for at least the next 3 days, fyi. i’ll be refraining from using my device for all purposes.
 
@@ -144,7 +144,7 @@ i’m addicted to my phone. the biggest drug of them all. i’m going on a clean
 
 ————————————————————————————————————————
 
-campfire lyrics 09/19/2019
+**campfire lyrics 09/19/2019**
 
 our journey comes to an end with music of drama
 
@@ -164,7 +164,7 @@ on this side we have some widely contrasting examples taken from recent recordin
 
 ————————————————————————————————————————
 
-queue 09/17/2019
+**queue 09/17/2019**
 
 I want to share a few things...
 
@@ -248,21 +248,21 @@ numbers
 
 ————————————————————————————————————————
 
-it feels like we’re getting close to the singularity 09/19/2019
+**it feels like we’re getting close to the singularity 09/19/2019**
 
 ————————————————————————————————————————
 
-On Art — MOBILE 09/07/2019
+**On Art — MOBILE 09/07/2019**
 
 Marriam-Webster: “something that is created with imagination and skill and that is beautiful or that expresses important ideas or feelings.”
 
 ————————————————————————————————————————
 
-What’s the point of life? — MOBILE 08/23/2019
+**What’s the point of life? — MOBILE 08/23/2019**
 
 ————————————————————————————————————————
 
-Love & Marriage 08/23/2019
+**Love & Marriage 08/23/2019**
 
 modern love nytimes
 
@@ -320,7 +320,7 @@ But, maybe marriage is not for me.
 
 ————————————————————————————————————————
 
-Q 08-18-2019
+**Q 08-18-2019**
 
 feynman quote...
 
@@ -356,7 +356,7 @@ We have 3 billion new minds coming online, to do that which we must do.
 
 ————————————————————————————————————————
 
-V for Vendetta — MOBILE 08/16/2019
+**V for Vendetta — MOBILE 08/16/2019**
 
 2'
 
@@ -447,7 +447,7 @@ People should not be afraid of their governments. Governments should be afraid o
 
 ————————————————————————————————————————
 
-lists… 08/16/2019
+**lists… 08/16/2019**
 
 food...
 
@@ -470,7 +470,7 @@ hsbc pin 4257
 
 ————————————————————————————————————————
 
-freddies 08/15/2019
+**freddies 08/15/2019**
 
 sussex royal
 
@@ -500,7 +500,7 @@ rayyankh__07
 
 ————————————————————————————————————————
 
-Job 08/12/2019
+**Job 08/12/2019**
 
 I need to catch up on Hacker News
 
@@ -582,7 +582,7 @@ real.dev
 
 ————————————————————————————————————————
 
-08/12/2019
+**08/12/2019**
 
 sebastian telfair
 
@@ -606,7 +606,7 @@ chris henry wvu
 
 ————————————————————————————————————————
 
-N 08/03/2019
+**N 08/03/2019**
 
 -you can not just keep slowly bombing
 many months
@@ -691,7 +691,7 @@ No kiss
 
 ——————————————————————————————————————
 
-Pols 07/30/2019
+**Pols 07/30/2019**
 
 -medicare for all
 
@@ -699,7 +699,7 @@ Pols 07/30/2019
 
 ——————————————————————————————————————
 
-Grocery List 07/30/2019
+**Grocery List 07/30/2019**
 
 -cheese
 
@@ -831,7 +831,7 @@ stores: aldi’s, vallarta, whole foods, tj, sprouts
 
 ————————————————————————————————————————
 
-Bad Credit/Taxes/Vitus Fund 07/28/2019
+**Bad Credit/Taxes/Vitus Fund 07/28/2019**
 
 zebit
 
@@ -906,7 +906,7 @@ BUDGET DOC
 
 ————————————————————————————————————————
 
-Max Meeting NYC 07/28/2019
+**Max Meeting NYC 07/28/2019**
 
 -f
 
@@ -955,7 +955,7 @@ follow up!!
 
 ————————————————————————————————————————
 
-Banks 07/21/2019
+**Banks 07/21/2019**
 
 wells fargo - sf (national) x biz
 
@@ -999,7 +999,7 @@ bancorp bank wilmington, de
 
 ————————————————————————————————————————
 
-Noisebridge 07/21/2019
+**Noisebridge 07/21/2019**
 
 https://www.noisebridge.net/wiki/Resources
 
@@ -1009,7 +1009,7 @@ https://www.noisebridge.net/wiki/Computerology
 
 ————————————————————————————————————————
 
-Benefits Of Writing 07/21/2019
+**Benefits Of Writing 07/21/2019**
 
 http://lifehacker.com/the-psychological-benefits-of-writing-regularly-1783693547
 
@@ -1052,7 +1052,7 @@ Even in the face of criticism, writers learn to build thick skins like few other
 
 ————————————————————————————————————————
 
-Hypothesis’ 07/21/2019
+**Hypothesis’ 07/21/2019**
 
 Black holes are encrypted information entering and exiting our universe.
 The fundamentals of consciousness will be explained by quantum mechanics.
@@ -1061,7 +1061,7 @@ Almost all new inventions should be able to be observed in nature.
 
 ————————————————————————————————————————
 
-Apps 07/21/2019
+**Apps 07/21/2019**
 
 -oura $299
 
@@ -1209,7 +1209,7 @@ Apps 07/21/2019
 
 ————————————————————————————————————————
 
-Things I Am Thankful For 07/21/2019
+**Things I Am Thankful For 07/21/2019**
 
 -Waking up everyday and not knowing what will come up or what work will come my way.
 
@@ -1229,7 +1229,7 @@ I am human. I am human.
 
 ————————————————————————————————————————
 
-NY To-Do 07/21/2019
+**NY To-Do 07/21/2019**
 
 -Russell email x
 
@@ -1247,7 +1247,7 @@ flights to la/lbc x
 
 ————————————————————————————————————————
 
-06/27/2019
+**06/27/2019**
 
 “I’m not responsible for your life, you are.
 
@@ -1261,7 +1261,7 @@ I will always appreciate the times we had together. I love you forever. Please b
 
 ————————————————————————————————————————
 
-Film Festivals 05/19/2019
+**Film Festivals 05/19/2019**
 
 Sundance Jan 24 - feb 3
 
@@ -1271,7 +1271,7 @@ Venice August 28- sept 7
 
 ————————————————————————————————————————
 
-05/19/2019
+**05/19/2019**
 
 Young nigga on the c-class, booted up
 
@@ -1291,7 +1291,7 @@ Baby girl, you so damn fine************,      I think I like you
 
 ————————————————————————————————————————
 
-EVENTS 07/18/2018
+**EVENTS 07/18/2018**
 
 espy awards LA july 18
 
@@ -1433,7 +1433,7 @@ la 2024
 
 ————————————————————————————————————————
 
-snap 07/09/2018
+**snap 07/09/2018**
 
 {txted}
 
@@ -1577,7 +1577,7 @@ mackenzie kay - no mom & dad
 
 ————————————————————————————————————————
 
-06/24/2018
+**06/24/2018**
 
 micah whats your problem? no one thinks there cooler than anyone, you lost. were all moving on with our lives, nobody cares (i certainly dont), life isnt about winning and losing. i have other more important goals in life than “beating” other people like helping society and i plan on accomplishing those goals. if you wanna be a good friend and contribute with positive energy, make some lifestyle changes. i’ve told u over and over to stop being a psycho and u wont, at first it was funny since then its been really really bad. i repeat myself all the time to you, especially with the bitcoin stuff. after a while it’s very disrespectful to me and everything ive worked for in my life. u keep digging yourself a deeper hole, not sure why, do the right thing man. i hope u make lots of money off bitcoin, i could care less. the real problem with all of this is your actually ruining my life because all u worry about is bitcoin and u think its gunna solve all your problems. go read a book or something, wake the fuck up, figure things out for yourself. and if u think moneys gunna solve all your problems your a retard. money doesnt do anything, it might actually make life worse. figure out your life man, im tired of it. your ruining our friendship with the bitcoin stuff, its really sad.
 
@@ -1585,7 +1585,7 @@ i dont have a problem with this text group but i cant always respond nor do i wa
 
 ————————————————————————————————————————
 
-Mitch’s Travel Schedule (updated 6/21) 06/22/2018
+**Mitch’s Travel Schedule (updated 6/21) 06/22/2018**
 
 Summer 2018
 
@@ -1623,7 +1623,7 @@ Coachella
 
 ————————————————————————————————————————
 
-Culture primer 01/31/2018
+**Culture primer 01/31/2018**
 
 Structure of the fund
 
@@ -1652,7 +1652,7 @@ Service providers
 
 ————————————————————————————————————————
 
-Negotiation Strategy 11/17/2017
+**Negotiation Strategy 11/17/2017**
 
 Johnny————— 
 
@@ -1748,7 +1748,7 @@ At a minimum move forward on profit sharing.
 
 ————————————————————————————————————————
 
-michael neilsen 11/05/2017
+**michael neilsen 11/05/2017**
 
 constructor theory
 
@@ -1767,7 +1767,7 @@ https://arxiv.org/abs/1707.05320 
 
 ————————————————————————————————————————
 
-An Anonymity Protocol: 11/04/2017
+**An Anonymity Protocol: 11/04/2017**
 
 1. Acquire prepaid gift cards
 
@@ -1884,9 +1884,9 @@ Create my virtual persona on slack (cryptochat) and signal
 
 ————————————————————————————————————————
 
-10/25/2017
+**10/25/2017**
 
-Legal Call https://medium.com/blockchannel/q-a-with-amentum-a-crypto-fund-with-a-mission-d5386900e8fd
+**Legal Call https://medium.com/blockchannel/q-a-with-amentum-a-crypto-fund-with-a-mission-d5386900e8fd**
 
 -annual fees on this?
 
@@ -2026,7 +2026,7 @@ Names?
 
 ————————————————————————————————————————
 
-InfinityFund Wiki 9/22/2017
+**InfinityFund Wiki 9/22/2017**
 
 Global IP: 76.102.30.8
 
@@ -2038,7 +2038,7 @@ Gateway: 192.168.7.1
 
 ————————————————————————————————————————
 
-Personal Website
+**Personal Website**
 
 About
 
@@ -2334,7 +2334,7 @@ Data Skeptic
 
 ————————————————————————————————————————
 
-An open letter to young people: the world is your playground. 06/21/2017
+**An open letter to young people: the world is your playground. 06/21/2017**
 
 -never have to 'get a real job'
 
@@ -2364,7 +2364,7 @@ You will be the most achieved generation at a young age.
 
 ————————————————————————————————————————
 
-Paradoxs 05/31/2017
+**Paradoxs 05/31/2017**
 
 Paradox of talent - the more talent that exists, the greater the outcome relies on luck.
 
@@ -2411,7 +2411,7 @@ Axiom - well-evident and established statement, that is accepted without controv
 
 ————————————————————————————————————————
 
-A Story About Basketball 05/19/2017
+**A Story About Basketball 05/19/2017**
 
 https://www.wikiwand.com/en/History_of_games
 
@@ -2733,9 +2733,9 @@ The game also changed the way people view the world. Some people and kids love b
 
 ————————————————————————————————————————
 
-04/19/2017
+**04/19/2017**
 
-$5000, no strings attached
+**$5000, no strings attached**
 
 nadiaeghbal+grants@gmail.com
 
@@ -2831,7 +2831,7 @@ A: My estimated timeline for deliverables (roughly):
 
 ———————————————————————————————————————
 
-Eden 04/18/2017
+**Eden 04/18/2017**
 
 “This is what software developer candidates need to be good at: writing modular, compositional code, understand various means of abstraction, and thus be able to collaborate on creating theories of domains.”
 
@@ -2841,7 +2841,7 @@ https://hackernoon.com/why-functional-programming-matters-c647f56a7691
 
 ———————————————————————————————————————
 
-Thoughts — MOBILE 03/22/2017
+**Thoughts — MOBILE 03/22/2017**
 
 Notes from articles
 
@@ -3476,7 +3476,7 @@ Physiological effects of having fun
 
 ————————————————————————————————————————
 
-Documentation 03/16/2017
+**Documentation 03/16/2017**
 
 [//]: # comment-out words
 
@@ -4167,7 +4167,7 @@ dns-nameservers 8.8.8.8 8.8.4.4
 
 ————————————————————————————————————————
 
-myblog to-do 03/15/2017
+**myblog to-do 03/15/2017**
 
 host all content assets locally — pictures, videos
 
@@ -4197,13 +4197,13 @@ tox on linux
 
 ————————————————————————————————————————
 
-“Who The Future Belongs To” 02/28/2017
+**“Who The Future Belongs To” 02/28/2017**
 
 As a white, heterosexual, male born in the United States it is clear I am demographically uninteresting. I am proud of who I am today. However, I have often observed the most beautiful people are categorically not like me. Those in the ethnic & sexuality minorities, I envy you. The future belongs to you. Your journey will be so much more challenging, inspiring, and fulfilling.
 
 ————————————————————————————————————————
 
-Set up rpi in Oakland as cr backup 02/13/2017
+**Set up rpi in Oakland as cr backup 02/13/2017**
 
 "Deferring Work"
 
@@ -4216,7 +4216,7 @@ https://motherboard.vice.com/en_us/article/why-are-physical-software-sales-still
 
 ————————————————————————————————————————
 
-Research 01/13/2017
+**Research 01/13/2017**
 
 George Dvorsky — done
 
@@ -4262,13 +4262,13 @@ Certificate Transparency
 
 ————————————————————————————————————————
 
-Transitioning To Linux OS 01/12/2017
+**Transitioning To Linux OS 01/12/2017**
 
 https://jeena.net/why-i-switchedfrom-osx-to-linux
 
 ————————————————————————————————————————
 
-Berkeley Researchers 01/12/2017
+**Berkeley Researchers 01/12/2017**
 
 ex-Ion Stoica
 
@@ -4326,7 +4326,7 @@ Krste Asanovic
 
 ———————————————————————————————————————
 
-Android Bill of Rights 01/03/2017
+**Android Bill of Rights 01/03/2017**
 
 If you believe, like I do, androids may evolve into a species of there-own, it’s worthwhile to begin formulating what their rights may look like.
 
@@ -4392,7 +4392,7 @@ The right of self-determination
 
 ———————————————————————————————————————-
 
-Blog Emails 12/28/2016
+**Blog Emails 12/28/2016**
 
 Ryan Doherty — ryandoh88@gmail.com
 
@@ -4408,7 +4408,7 @@ air23lounsbury@gmail
 
 ———————————————————————————————————————-
 
-Seattle 12/25/2016
+**Seattle 12/25/2016**
 
 Olympic Penisula
 
@@ -4454,7 +4454,7 @@ Drive along hood river -- waterfalls
 
 ————————————————————————————————————————
 
-Geneology 12/18/2016
+**Geneology 12/18/2016**
 
 bernie and uncle tom
 
@@ -4587,13 +4587,13 @@ richard
 
 ——————————————————————————————————————
 
-5th Amendment 12/07/2016
+**5th Amendment 12/07/2016**
 
 "On counsel's advice, I invoke my right under the 5th Amendment not to answer, on the grounds I may incriminate myself."
 
 ——————————————————————————————————————
 
-Security — MOBILE 12/06/2016
+**Security — MOBILE 12/06/2016**
 
 phishing
 
@@ -4623,7 +4623,7 @@ pass: billyTruck7menLo132JaSper5345!
 
 ——————————————————————————————————————
 
-Ether Case 11/27/2016
+**Ether Case 11/27/2016**
 
 dereks ether wallet addr 0x6B83baE7b565244558555bcf4Ba8da2011891C17
 
@@ -4687,7 +4687,7 @@ Mitch contacts kraken to see if they will comply with criminal investigations/su
 
 ———————————————————————————————————————-
 
-Best Man Speech 09/04/2016
+**Best Man Speech 09/04/2016**
 
 I feel extremely thankful to be here today amongst the families and friends of the bride and the groom.
 
@@ -4809,15 +4809,15 @@ I thought I had lost had lost him, I cried for hours. I did not know if I was ma
 
 ————————————————————————————————————————
 
-the meaningful use of silence 08/23/106
+**the meaningful use of silence 08/23/106**
 
 http://www.slate.com/blogs/lexicon_valley/2016/08/17/the_ellipsis_in_medieval_manuscripts_how_subpuncting_in_the_middle_ages.html
 
 ————————————————————————————————————————
 
-                   A Cypherpunk's Manifesto 08/17/2016
+                   **A Cypherpunk's Manifesto 08/17/2016**
 
-                        by Eric Hughes
+                        **by Eric Hughes**
 
 Privacy is necessary for an open society in the electronic age.
 Privacy is not secrecy.  A private matter is something one doesn't
@@ -4920,11 +4920,11 @@ Eric Hughes
 
 ————————————————————————————————————————
 
-08/01/2016 How to be a good writer: -no arbitrary lists, examples, human-like characteristics, human-like actions, efficient sentences, a powerful quote, a relevant story, comparisons with nature, parable like stories (resonate), historical,
+**08/01/2016 How to be a good writer:** -no arbitrary lists, examples, human-like characteristics, human-like actions, efficient sentences, a powerful quote, a relevant story, comparisons with nature, parable like stories (resonate), historical,
 
 ————————————————————————————————————————
 
-“The Steve Jobs’ Archive” 07/19/2016
+**“The Steve Jobs’ Archive” 07/19/2016**
 
 “The Gospel of Jobs”
 
@@ -5073,7 +5073,7 @@ steve jobs interview unabridged (’95) 1:23:01 https://www.youtube.com/watch?v=
 
 ——————————————————————————————————————
 
-TPW blog 07/14/2016
+**TPW blog 07/14/2016**
 
 how i turned down 300k
 
@@ -5163,7 +5163,7 @@ If you do it right, open sourcing code is great advertising for you and your com
 
 ——————————————————————————————————————
 
-11 untranslatable japanese words 06/24/2016
+**11 untranslatable japanese words 06/24/2016**
 
 itadakimasu — i will have this (food, show appreciation for life, nature, and preparer)
 
@@ -5356,7 +5356,7 @@ road neutrality —no fast lanes
 
 ————————————————————————————————————————
 
-Build — MOBILE 06/16/2016
+**Build — MOBILE 06/16/2016**
 
 Set up node.js server.
 
@@ -5426,7 +5426,7 @@ http://crypto.stanford.edu/~dabo/pubs/pubs.html
 
 ————————————————————————————————————————
 
-Lists — MOBILE 06/16/2016
+**Lists — MOBILE 06/16/2016**
 
 Editors
 
@@ -5526,7 +5526,7 @@ https://partners.uber.com/i/f96s4xgyd
 
 ——————————————————————————————————————
 
-Genesis 2:4-3:24 03/07/2016
+**Genesis 2:4-3:24 03/07/2016**
 
 Adam and Eve
 
@@ -5598,7 +5598,7 @@ By the sweat of your brow     you will eat your food until you return to
 
 ——————————————————————————————————————-
 
-Dreams — MOBILE 02/15/2016
+**Dreams — MOBILE 02/15/2016**
 
 Wisconsin house dream
 
@@ -5700,7 +5700,7 @@ ROXBURY HOSTAGES
 
 —————————————————————————————————————-
 
-The lowest of the lows 02/11/2016
+**The lowest of the lows 02/11/2016**
 
 -mom & dad & matt fighting
 
@@ -5732,7 +5732,7 @@ real-estate — flipping homes, no real value.
 
 —————————————————————————————————————-
 
-Feynman Series -- MOBILE 01/29/2016
+**Feynman Series -- MOBILE 01/29/2016**
 
 LECTURE 1 - Gravity
 
@@ -6434,7 +6434,7 @@ Nature has a simplicity therefore a great beauty.
 
 ————————————————————————————————————————
 
-Twtr 01/29/2016
+**Twtr 01/29/2016**
 
 @peterlevin
 
@@ -6616,7 +6616,7 @@ Nicolechiu
 
 ———————————————————————————————————————-
 
-Harry Potter — MOBILE 01/22/2016
+**Harry Potter — MOBILE 01/22/2016**
 
 Harry Potter films made more on opening day than all 22 Bond movies and all Star Wars movies combined.
 
@@ -6644,7 +6644,7 @@ JK Rowling.
 
 ——————————————————————————————————————
 
-Beatles — MOBILE 01/22/2016
+**Beatles — MOBILE 01/22/2016**
 
 Brian Epstein
 
@@ -6682,7 +6682,7 @@ The Beatles London : A Magical History Tour
 
 ——————————————————————————————————————
 
-Mystical Templars — MOBILE 01/22/2016
+**Mystical Templars — MOBILE 01/22/2016**
 
 Friday the 13th
 
@@ -6706,7 +6706,7 @@ Templars curse
 
 ——————————————————————————————————————-
 
-Tesla — MOBILE 01/22/2016
+**Tesla — MOBILE 01/22/2016**
 
 The wonder world to be created by electricity - tesla
 
@@ -6740,7 +6740,7 @@ Niagra falls
 
 ———————————————————————————————————
 
-Buddhism — MOBILE 01/22/2016
+**Buddhism — MOBILE 01/22/2016**
 
 cause and effect
 
@@ -6762,7 +6762,7 @@ buddhism is highly scientific
 
 ———————————————————————————————————-
 
-French Revolution — MOBILE 01/22/2016
+**French Revolution — MOBILE 01/22/2016**
 
 What Danton was to the French Revolution, Snowden is to the next revolution.
 
@@ -6808,7 +6808,7 @@ Medevial/Roman city grid system
 
 ——————————————————————————————————————-
 
-Passion of the Christ — MOBILE 01/22/2016
+**Passion of the Christ — MOBILE 01/22/2016**
 
 "If you will not hear the truth, no one can tell you."
 
