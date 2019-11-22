@@ -394,11 +394,10 @@ The History of the URL: Domain, Protocol, and Port - eager.io
 
 **/books**
 
-Completed.
+**Books in bold are books I've completed and read.**
+*Books in italics I'm in the process of reading.*
 
-In Progress.
-
-**2015: (unordered)**
+**2015: (unordered, books I've read or are in the process of reading are in bold)**
 
 Founders At Work - Jessica Livingston
 
@@ -408,23 +407,23 @@ Future Crimes - Marc Goodman
 
 Ben Franklin: An American Life - Walter Isaacson
 
-Steve Jobs - Walter Isaacson
+**Steve Jobs - Walter Isaacson**
 
 I Invented The Modern Age - Henry Ford
 
-The Design Of Everyday Things - Donald Norman
+*The Design Of Everyday Things - Donald Norman*
 
 How Google Works - Eric Schmidt
 
 The Signal And The Noise - Nate Silver
 
-Autobiography Of A Yogi - Paramahansa
+**Autobiography Of A Yogi - Paramahansa**
 
-The 80/20 Principle - Richard Koch
+*The 80/20 Principle - Richard Koch*
 
-The Start-Up Of You - Reid Hoffman
+**The Start-Up Of You - Reid Hoffman**
 
-The Fountain Head & Atlas Shrugged: - Ayn Rand
+*The Fountain Head & Atlas Shrugged: - Ayn Rand*
 
 The Innovator's Dilemma: - Clayton Christensen
 
@@ -432,21 +431,21 @@ Charlie Munger The Complete Investor - Tren Griffin
 
 Titan: The Life Of John D. Rockefeller - Ron Chernow
 
-Meditations: - Marcus Aurelius
+*Meditations: - Marcus Aurelius*
 
 Blink, Outliers, & David & Goliath - Malcolm Gladwell
 
-Zero To One - Peter Thiel
+**Zero To One - Peter Thiel**
 
-Hackers: Heroes Of The Computer Revolution - Steven Levy
+*Hackers: Heroes Of The Computer Revolution - Steven Levy*
 
-Hackers & Painters: Big Ideas From The Computer Revolution - Paul Graham
+**Hackers & Painters: Big Ideas From The Computer Revolution - Paul Graham**
 
 Hooked: How To Build Habit Forming Products - Nir Eyal
 
 Start-Up Nation: The Story Of Israel's Economic Miracle - Dan Senor
 
-The Hard Thing About Hard Things - Ben Horowitz
+*The Hard Thing About Hard Things - Ben Horowitz*
 
 Hatching Twitter - Nick Bilton
 
@@ -456,38 +455,35 @@ The Innovators: How A Group Of Hackers, Geniuses, And Geeks Created The Digital 
 
 This Machien Kills Secrets: Julian Assange, The Cypherpunks, And Their Fight To Empower Whistleblowers - Andy Greenberg
 
-Growing Up: (unordered)
 
-Winning With People - John C. Maxwell
+**Growing Up: (unordered, books I've read are in bold)**
+
+**Winning With People - John C. Maxwell**
 
 Intelligent Investor: - Benjamin Graham
 
-Quiet Strength: - Tony Dungy
+**Quiet Strength: - Tony Dungy**
 
-
-
-**Growing-up:**
-
-Tuesdays With Morrie - Mitch Albom
+**Tuesdays With Morrie - Mitch Albom**
 
 The Gold Standard: - Coach K
 
-Toughness: - Jay Bilas
+**Toughness: - Jay Bilas**
 
 The Score Takes Care Of Itself: - Bill Walsh
 
-Poor Richard's Almanac: - Ben Franklin
+**Poor Richard's Almanac: - Ben Franklin**
 
 The Everything Store: Jeff Bezos And The Age Of Amazon: - Brad Stone
 
 The Billionaire Who Wasn't: How Chuck Feeney Secretly Made And Gave Away A Fortune: - Conor O'Clery
 
-Through My Eyes: Tim Tebow: - Nathan Whitaker
+**Through My Eyes: Tim Tebow: - Nathan Whitaker**
 
-Star In The Storm: - Joan Hiatt Harlow
+**Star In The Storm: - Joan Hiatt Harlow**
 
-To Kill A Mockingbird: - Harper Lee
+**To Kill A Mockingbird: - Harper Lee**
 
-The Giver: - Lois Lowry
+**The Giver: - Lois Lowry**
 
-The Scarlett Letter: - Nathaniel Hawthorne
+**The Scarlett Letter: - Nathaniel Hawthorne**
