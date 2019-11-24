@@ -3,7 +3,7 @@ layout: post
 title: "My financial situation."
 date: 2019-11-24 10:10:52 +0100
 categories: blog
-permalink: /finacials.html
+permalink: /financials.html
 ---
 
 As some of the big name crypto/bitcoin folks are joining us, it’s probably time I disclose my financial situation... I got into Bitcoin/crypto in 2013. The first time I took it serious from an investment standpoint was in 2014 when the Ethereum whitepaper came out. In 2015, the pre-seed/initial coin offering for Ethereum happened in June/July 2015 (I believe I was in my 3rd year of college at the time). And an ex-friend of mine, sold me 2000 shares at roughly $3, costing me $6000 of my own money. All the money I had at the time. Those shares are worth roughly $300k at today prices. Unfortunately, the ex-friend who sold them to me stole them from me, I sued him in 2015 and the money is still in litigation right now. (Link: https://webapps.sftc.org/ci/CaseInfo.dll?CaseNum=CGC16556154)
