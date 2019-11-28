@@ -8,7 +8,7 @@ permalink: /lists.html
 
 **/doc**
 
-__Any changes/edits made to this doc from original are represented by underlined text.__
+__**Any changes/edits made to this doc from original are represented by underline.**__
 
 **/about**
 
@@ -102,7 +102,7 @@ the inside man (2006)
 
 straight outta compton (2015)
 
-__**one flew over the cuckoo's nest**__
+_ _ **one flew over the cuckoo's nest** _ _
 
 **zodiac (2007)**
 
