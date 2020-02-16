@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mitch's Personal iOS Notes"
+title: "*Mitch's Personal iOS Notes"
 date: 2019-11-20 10:10:52 +0100
 categories: blog
 permalink: /notes.html
@@ -12,9 +12,181 @@ permalink: /notes.html
 
 *Notes are ordered from most recent at the top to oldest
 
+_ _ **Any noteable changes/edits made to this doc from original are represented by underline.** _ _
+
+_ _ from 11/21/2019 to 02/15/2020 have been updated...
+
 ———————————————————————————————————————
 
+**camping 2/15/2020**
+
+freecampsites.net
+publiclands.org
+recreation.gov
+
+———————————————————————————————————————
+
+**asian pacific elections 2/14/2020**
+
+japan october 2021
+south korea april 2020
+australia 2022
+new Zealand november 2020
+
+———————————————————————————————————————
+
+**passwords 2/1/2020**
+
+Laptop password: }Wzs4(z2Fww[Bw3b
+Majority of my social accounts: Jordan23! Or Jordan3229!
+
+———————————————————————————————————————
+
+**obvious 1/3/2020**
+
+hot meals, at all times
+uninterrupted sleep
+to work a job
+basic healthcare
+
+freedom of speech
+privacy
+a fair and speedy trial
+states rights
+
+———————————————————————————————————————
+
+**plan on 1/1/2020**
+
+I just wanna say I’m going to start using words and phrases such as “I want to” or “I plan on” doing x, y, z. I think things in the near term, like a day out are more likely to happen than say a week out or a month out. But, you get the idea, honestly, at a certain point I might just have to go with the flow on some decisions.
+
+———————————————————————————————————————
+**opensource applications 12/1/2019**
+
+libreoffice
+vlc
+gimp
+keepassx
+audacity
+mozilla
+openstreetmap
+gab
+mastodon
+
+chapeaux
+kali
+
+Audius.co
+Audius.co
+
+———————————————————————————————————————
+
+**Notice 12/19/2019**
+
+Notice: text messages will be posted shortly. Take any necessary steps in preparation. If you need to unfollow my account/posts/stories and refollow in a few days when the dust settles, go ahead. Unfollowing will prevent you from seeing any notifications from me in the interim. If you need a liberal friend to filter through the images first, may not be a bad idea. I will hide the images from my timeline immediately and post them to a photo album to reduce accidental exposure and to introduce a hurdle to get to them.
+
+———————————————————————————————————————
+
+**Social Media Protocols & Beyond 12/16/2019**
+
+In response to Jack Dorsey’s recent tweet, taking a courageous step to begin working on an open and decentralized standard for social media (see link to his tweet below). I have just attached a picture of my ideas for a similar/related project I call “an open-source software protocol” (see my pic attached below). Which was originally written by me in April 2017, and comes from my private iOS notes which I have already published here on Facebook and on my website. My goal for publishing these ideas is I hope it will influence his project but more broadly Facebook, Twitter, Instagram and all these social media platforms, even Bitcoin, our internet, their thinking, development and direction for the future which I care so much about.
+
+What’s interesting about where I have now posted these ideas is they are on a website called PrivateBin. PrivateBin is a website that no company owns. I dislike posting on Facebook generally because that means they own my data. With this paper being posted on PrivateBin (see link below), no single person or company owns the document. It simply belongs to the internet or the community of all of us people. There’s no profit motive. Anyway’s I hope this is well received and look forward to the discussion.
+
+https://twitter.com/jack/status/1204766078468911106
+
+https://privatebin.net/?dbdfc9ee651ce1c0#GtQLRo7d4bH4JUVpz5fr5uFrvaxRhKAyHffmCENbzuGu
+
+———————————————————————————————————————
+
+**communities 12/15/2019**
+
+places I have lives...
+
+cedar rapids
+des moines
+chicago
+san francisco
+los angeles
+
+schools...
+
+taft/lasalle
+xavier high/kennedy/linnmar/jeff/wash
+drake u/isu/iowa
+elmhurst
+
+jobs...
+
+oracle
+gopro
+infinityfund
+vitusfund
+
+other...
+
+intern events/friends
+world trip
+usa trip
+yc
+airbnb - oakland
+uber/lyft
+music feativals
+meerkat
+bebo
+founders dojo
+twitter
+instagram
+linkedin
+aau bball/twisters/knights/barnstormers/tornados
+bball pick up - berkeley, ucla, depaul, usf, ucsf, uci, 24 hr fit, oaktown, j run, ymca cr
+family
+
+———————————————————————————————————————
+
+**My current technology device setup: 12/15/2019**
+
+MacBook Pro Late-2017 - Running MacOS High Sierra
+Apple iPhone XS Max - Running iOS 13
+Apple iPhone 6S - Running iOS 13
+Google Pixel 3 - Running Android 10, I believe.
+
+———————————————————————————————————————
+
+**A quick thank you...12/3/2019**
+
+It’s been really great being back here in Iowa. And I’ve been thinking a lot about what makes this place, and more broadly the heartland here in America, special. I think the ideal life is to grow up get a normal job, have a normal family, and have close/meaningful relationships. That seems to be the only requirements for a dope life, which is how it should be. There’s a *real* sense of community. I don’t really recall many folks “having an agenda” here. What you get is usually what you’ve earned. There’s not many distractions. Folks work together and cooperate. People are 100% real. Sports are a part of life. The black, white, and hispanic folks are the most normal and real here that I’ve seen anywhere. People have the right values like, family, hard working, integrity, etc. Everything is just pretty normal and I think that’s why things function so well. All of this seems simple and obvious, but unfortunately it’s not like that everywhere for whatever reason.
+
+Finally, I’ve been pleasantly surprised how the people around here have doubled down on their values and principles. And I just wanna share I will always be thankful. I feel really blessed. Thank you.🙏🏼
+
+———————————————————————————————————————
+
+**word stew 12/3/2019**
+
+     .''.      .        yes you better watch 🌀🌀💠🔆⚜️ i have 🦷🗣lo 👨🏻💄lots of cars this week!*''*    :_\/_:     .
+      :_\/_:   _\(/_  .:.*_\/_*   : /\ :  .'.:.'.
+  .''.: /\ :    /)\   that is how ⛓⛓🔦💡✨✨that one kwame bro🌈⚡️':'* /\ *  : '..'.  -=😯:=-
+ :_\/_:'.:::.  | ' A Ch hgejkcded時小sっjんんとb
+mai co chi wa wa*''*    * '.\'/.'_\(/_'.':'.'
+ : /\ : :::::  =  *_\/_*     -= o =- /)\    '  *
+  '..'  ':::' === * /\ *     .'/.\'.  ' ._____
+      *        |   *..*       He gr✨☸️abbes✡️ fo💮r the ceter💓us para😊😊🌱bus 🕸🌀 woth🏧 he a⚜️cheese sauc🔅🚹e  :       |.   |' .---"|
+        *      |     _           .--'|  ||   | _|    |
+        *      |  .-'|       __  |   |  |    ||      |
+     .-----.   |  |' |  🤑👺✌🏼🙏🏼a nt ng gw nugget ||  |  | |   |  |    ||      |
+ ___'       ' /"\ |  '-."".    '-'   '-.'    '`      |____
+jgs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  &                   How 💠✨di🙏🏼‼️d he ☠️sh🔻it wit🔴🔴h tha shaw🔙🔙rewindo➰〰️ ~-~-~-~-~-~-~-~-~-~   /|
+ ejm97    )      ~-~-~-~-~-~-~-~  /|~       /_|\
+        _-H-__  -~-~-~-~-~-~     🆑craigslist,🆎antonio brown♨️java✴️🉑🆑collateral artemis! that’s what it was when i was in school 🌪✨✨🎖/_|\    -~======-~
+~-\XXXXXXXXXX/~     ~-~-~-~     /__|_\ ~-~-~-~ what happen to the 🖕🏼back in the 👀? N   f been there though👂🏻👥👵🏼
+~-~-~-~-~-~    这首😬！这次会议😵🤮奋斗fed㊙️🔱☄️💦……在一起⁉️‼️ ~-~~-~-~-~-~    ========  ~-~-~-~
+
+_ _
+
 **events 11/21/2019**
+
+———————————————————————————————————————
 
 jones co fair
 
