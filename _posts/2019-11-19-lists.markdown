@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lists, my most important doc"
+title: "*Lists, my most important doc"
 date: 2019-11-20 10:10:52 +0100
 categories: blog
 permalink: /lists.html
@@ -50,7 +50,7 @@ ex machina (2015)
 
 gattaca (1997)
 
-dawn of the planet of the apes (2014)
+_ _ **dawn of the planet of the apes (2014)** _ _
 
 citizen four (2014) spielberg
 
@@ -100,13 +100,17 @@ avatar (2009) james cameron
 
 the inside man (2006)
 
+_ _ **minions (2015)** _ _
+
 straight outta compton (2015)
 
-_ _ **one flew over the cuckoo's nest (1975)** _ _
+**one flew over the cuckoo's nest (1975)**
 
 **zodiac (2007)**
 
 bond movies
+
+_ _ **rest in power: the trayvon martin story** _ _
 
 -casino royale (2007)
 
@@ -126,6 +130,8 @@ momento (2000) chris, jon nolan
 
 interstellar (2014) chris nolan
 
+_ _ **call of the wild (2020)** _ _
+
 the adjustment bureau (2011)
 
 the matrix (1999)
@@ -133,6 +139,8 @@ the matrix (1999)
 source code (2011)
 
 bridge of spies (2015) spielberg
+
+_ _ **1917** _ _
 
 saving private ryan (1998) spielberg
 
@@ -148,6 +156,8 @@ employee of the month (?)
 
 training day (2001)
 
+_ _ **jackie (2016)** _ _
+
 love and basketball (2000)
 
 charlie’s angels (2000)
@@ -155,6 +165,8 @@ charlie’s angels (2000)
 **a beautiful mind (2001)**
 
 cool hand luke (1967)
+
+_ _ **navajo code talkers (1998)** _ _
 
 enron the smartest guys in the room (2005)
 
