@@ -416,7 +416,6 @@ Horizontal History, Wait But Why Blog - Tim Urban (2016)
 
 
 
-
 **/notable written papers (scientific audience) *no particular order**
 
 Bitcoin - Satoshi Nakamoto (2009)
@@ -540,11 +539,15 @@ Farmer and Farmer’s Essays - Sep Kamvar and Johnathan Harris
 
 Paul Romer’s Blog - Paul Romer
 
+Siddhartha - Herman Hesse
+
+*Chaos Monkeys - Antonio Garcia Martinez*
+
 Larry Summers’ Blog - Larry Summers
 
 **Tom Preston-Werner’s Blog - Tom Preston-Werner**
 
-Mythical Man Month - Fredrick P. Brooks Jr.
+*Mythical Man Month - Fredrick P. Brooks Jr.*
 
 Feynman Lectures On Computation - Richard Feynman
 
@@ -558,7 +561,7 @@ Tropic of Cancer - Henry Miller
 
 **Paul Graham’s Essays - Paul Graham**
 
-*Meditations - Marcus Arrelius*
+*Meditations - Marcus Aurelius*
 
 *Essays - George Orwell*
 
