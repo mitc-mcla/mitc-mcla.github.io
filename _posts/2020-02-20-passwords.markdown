@@ -12,7 +12,7 @@ gmail - mitch.mclaughlin1@gmail.com/mitch@vitusfund.com -- Jordan3229!!
 
 icloud - mitch.mclaughlin1@gmail.com/csm2303@me.com -- Jordan3229!!
 
-linkedin - mitch.mclaughlin1@gmail.com -- Jordan3229!
+linkedin - mitch.mclaughlin1@gmail.com -- Jordan3229!!
 
 snap - m23mclaughlin, mmclaughlin000 -- Jordan3229!!
 
@@ -33,3 +33,5 @@ bankofamerica - m23mclaughlin -- Jordan23
 wells fargo - m23mclaughlin -- sheba000
 
 amazon - mitch.mclaughlin1@gmail.com -- Jordan3229!
+
+github - mitc-mcla -- Jordan3229!!
