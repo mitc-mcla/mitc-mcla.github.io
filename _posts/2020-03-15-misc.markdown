@@ -21,3 +21,5 @@ Visa USBank Debit 4317-1944-8207-0746 12/21 cvv 893
 Mastercard HSBC Debit 5443-6877-6620-3291 cvv 08/24
 
 Visa GoBank Debit 4038-3300-0420-3203 cvv 05/23
+
+Visa UBS Debit 3456-2225-0708-3402 cvv 01/22
