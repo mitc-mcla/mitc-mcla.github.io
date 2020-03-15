@@ -6,7 +6,7 @@ categories: blog
 permalink: /misc.html
 ---
 
-Card #'s
+Card #s
 
 Mastercard Platinum 5178-0597-5423-9268 09/24 cvv 576
 
@@ -23,3 +23,13 @@ Mastercard HSBC Debit 5443-6877-6620-3291 cvv 08/24
 Visa GoBank Debit 4038-3300-0420-3203 cvv 05/23
 
 Visa UBS Debit 3456-2225-0708-3402 cvv 01/22
+
+Phone #s
+
+415.316.6028
+
+415.867.7022
+
+319.412.5770
+
+480.561.4314
