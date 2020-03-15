@@ -37,3 +37,5 @@ amazon - mitch.mclaughlin1@gmail.com -- Jordan3229!
 github - mitc-mcla -- Jordan3229!!
 
 azure - mitch@vitusfund.com -- Jordan3229!!
+
+skype - mitch.mclaughlin23 -- Jordan0820!!
