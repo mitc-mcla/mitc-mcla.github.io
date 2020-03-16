@@ -49,3 +49,5 @@ doordash - mitch.mclaughlin1@gmail.com -- Jordan23!
 digitalocean - mitchmc@protonmail.com -- Jordan3229!!
 
 cryptpad.fr - mitchm -- Jordan3229!!
+
+slack - mitch.mclaughlin1@gmail.com -- Jordan3229!
