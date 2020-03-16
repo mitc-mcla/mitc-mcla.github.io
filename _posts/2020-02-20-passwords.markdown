@@ -47,3 +47,5 @@ postmates - mitch.mclaughlin1@gmail.com -- Jordan3229!
 doordash - mitch.mclaughlin1@gmail.com -- Jordan23!
 
 digitalocean - mitchmc@protonmail.com -- Jordan3229!!
+
+cryptpad.fr - mitchm -- Jordan3229!!
