@@ -41,3 +41,7 @@ azure - mitch@vitusfund.com -- Jordan3229!!
 skype - mitch.mclaughlin23 -- Jordan0820!!
 
 bing - mitch@vitusfund.com -- Jordan3229?
+
+postmates - mitch.mclaughlin1@gmail.com -- Jordan3229!
+
+doordash - mitch.mclaughlin1@gmail.com -- Jordan23!
