@@ -8,7 +8,7 @@ permalink: /passwords.html
 
 protonmail - mitchmc@protonmail.com -- Jordan3229!!
 
-gmail - mitch.mclaughlin1@gmail.com/mitch@vitusfund.com -- Jordan3229!!
+gmail - mitch.mclaughlin1@gmail.com/mitch@vitusfund.com/mitch@infinityfund.io -- Jordan3229!!
 
 icloud - mitch.mclaughlin1@gmail.com/csm2303@me.com -- Jordan3229!!
 
