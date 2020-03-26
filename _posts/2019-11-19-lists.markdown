@@ -116,7 +116,7 @@ bond movies
 
 _ _ **rest in power: the trayvon martin story** _ _
 
--casino royale (2007)
+casino royale (2007)
 
 dave chapelle
 
@@ -186,6 +186,19 @@ minority report (2001) spielberg
 
 **tupac resurrection (2003)**
 
+**friday (1995)**
+
+**next friday (2000)**
+
+**friday after next (2002)**
+
+**leave no trace**
+
+**baldwins nigger (1969)**
+
+**angels and demons (2009)**
+
+**more than gold - jesse owens documentary (2016)**
 
 
 
@@ -224,6 +237,8 @@ oj made in america (2016)
 the people versus oj simpson (2016)
 
 impractical jokers
+
+rick and morty
 
 the expanse - syfy
 
@@ -469,6 +484,84 @@ The History of the URL: Domain, Protocol, and Port - eager.io
 
 *Books in italics I'm in the process of reading.*
 
+2020: (unordered)
+
+*State of Defense - Doug Ball*
+
+*Wild at Heart - John Eldridge*
+
+*In His Steps - Charles Sheldon*
+
+**Call of the Wild & White Fang - Jack London**
+
+2019: (unordered)
+
+**On Bullshit - Harry Franklin**
+
+The Message is the Medium - Marshall McLuhan
+
+Industries of the Future - Alec Ross
+
+The Book of Me - Nannette Stone
+
+The Holy Science - Sri Yukteswar Giri
+
+The Wisdom of Insecurity - Alan Watts
+
+Adventures of a Young Naturalist - David Attenborough
+
+Robot Sex - John Danaher
+
+The Chalice and the Blade - Riane Eisler
+
+*The Art of the Deal - Donald Trump (conservative)*
+
+Radical Market - Eric Posner
+
+Invisible Countries - Joshua Keating
+
+**Stories of Your Life - Ted Chiang**
+
+The Doors of Perception - Adolf Huxley
+
+Leave No Trace - Mindy Mejia
+
+The Archaic Revival - Terence McKenna
+
+True Hallucination - Terence McKenna
+
+Win Bigly - Scott Adams
+
+*The Sexual Power of Marijuana - Barbara Lewis (conservative)*
+
+Mr. Playboy: Hugh Hefner and the American Dream - Watts
+
+Sexual Behavior in the Human Female - Alfred Kinsey
+
+Sexual Behavior in the Human Male - Alfred Kinsey
+
+*Sun Tzu - Art of War (conservative)*
+
+*Beyond Good and Evil - Frederich Neizsche (conservative)*
+
+2018: (unordered)
+
+*The Sovereign Individual - James Davidson, William Rees-Mogg*
+
+**The Tao of Health, Sex, and Longevity - Daniel Reid**
+
+**Tropic of Cancer - Henry Miller**
+
+Mastering Ethereum - Andreas Antonopolous
+
+Diaspora - Greg Egan
+
+True Names - Verner Vinge
+
+Do Androids Dream of Electric Sheep - Philip K. Dick
+
+Manufacturing Consent - Edward Herman
+
 **2017: (unordered)**
 
 Manufacturing Consent - Edward Herman & Noam Chomsky
@@ -555,7 +648,11 @@ High Output Management - Andy Grove
 
 Capitalism and Freedom - Milton Friedman
 
+**Siddhartha- Herman Hesse**
+
 Tropic of Cancer - Henry Miller
+
+*Chaos Monkeys - Antonio García Martínez*
 
 **SPQR - Mary Beard**
 
@@ -621,7 +718,7 @@ Business Adventures - John Brooks
 
 The Innovators: How A Group Of Hackers, Geniuses, And Geeks Created The Digital Revolution - Walter Isaacson
 
-This Machien Kills Secrets: Julian Assange, The Cypherpunks, And Their Fight To Empower Whistleblowers - Andy Greenberg
+This Machine Kills Secrets: Julian Assange, The Cypherpunks, And Their Fight To Empower Whistleblowers - Andy Greenberg
 
 
 **Growing Up: (unordered, books I've read are in bold)**
