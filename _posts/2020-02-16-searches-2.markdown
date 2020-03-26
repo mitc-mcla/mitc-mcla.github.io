@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "*My Internet Search History"
+title: "*My Internet Search History #2"
 date: 2020-02-16 10:10:52 +0100
 categories: blog
-permalink: /searches.html
+permalink: /searches2.html
 ---
+
+*please note: this title was changed to searches #2 of 03/13, the newer searches are now just labeled searches
+
 
 **Internet Searches (most recent 03/11/2020 to least recent 09/21/2018)**
 
