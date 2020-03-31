@@ -272,11 +272,11 @@ http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/invphilintro.pdf
 
 Memo of Understanding (Dated 10/31/2017)
 
-CONFIDENTIAL
+**CONFIDENTIAL**
 
 *Contract outlining the agreement of equity splits amongst the founding partners
 
-MEMORANDUM OF UNDERSTANDING
+**MEMORANDUM OF UNDERSTANDING**
 
 This is an Agreement by and between the co-founders (hereinafter referred as, the “Parties”) of the to-be-formed fund, management, and/or IP entities. The purpose of this agreement is to in plain-language set forth the initial discussions of the to-be-formed entities only and shall not be an exhaustive list. The purpose is to simply give the co-founders assurances on what is expected to be the terms and conditions and completely understand that the entity Operating Agreements to be prepared will be in place and stead of this very preliminary understanding. This understanding is a non-binding agreement and will be subject to the recommendations that WSGR shall provide for the to-be-formed entities.
 
@@ -421,7 +421,7 @@ Any dispute that falls outside this agreement should be supervised by an indepen
 
 ----------------------------
 
-**Item | Description | Timing | Cost**
+Item/Description/Timing/Cost
 
 **Engineering Hires**
 
