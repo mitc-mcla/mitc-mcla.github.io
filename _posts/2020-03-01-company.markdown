@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**My Companies Docs, Thesis, Strategies, etc."
+title: "**My Companies Docs, Philosophies, Strategies, etc."
 date: 2020-02-18 10:10:52 +0100
 categories: blog
 permalink: /company.html
@@ -621,6 +621,82 @@ Major decisions include, but are not limited to:
 Dispute Resolution:
 
 Any dispute that falls outside this agreement should be supervised by an independent, neutral third party arbitrator and will be subject to international arbitration. The third party neutral will be selected by a majority vote between the Parties.
+
+----------------------------
+
+**Security & Recovery**
+
+**General Security Principles:**
+
+Security is a constant moving target and this document is subject to change overtime as our security principles evolve.
+
+When it comes to securely storing cryptoassets at InfinityFund, we like to refer to something as “$100,000 (or some dollar amount) secure”. How secure are your funds? Our funds are “$1 million secure”. What that means is one way security can be measured is as a dollar amount threshold. The higher the dollar amount the bigger the “honeypot” as we refer to it. A common question we can’t give a satisfactory answer to is: are you 100% sure you won’t get hacked? That’s an old way of thinking. In the Internet Age, another way security is generally measured is the probability of being hack. “What’s the likelihood of being hacked?” “The likelihood we will be hacked is 0.0001%”. “Or it’s such a small fraction that it’s not something we generally worry about.”
+
+**Storage Risk:**
+
+Vaulting: Gold or silver is physically stored in a secure, remote, and monitored facility. These same security fundamentals can be applied to cryptoassets. This security method is sometimes referred to as vaulting. Vaulting is generally applicable for the long-term storage of large amounts of cryptoassets. Common aspects of vaulting include: time delayed withdrawals of up to 48-72 hours, multi-signature approval to initiate, and offline storage. The general principle is to design a process preventing exploitation by an adversarial 3rd party. With this design, the 3rd party can never exploit a single-point of failure. One custodian that we model our vaulting security method after is Coinbase.com.
+
+For deeper reading on vaults see: http://fc16.ifca.ai/bitcoin/papers/MES16.pdf
+
+Multisig: Multisignature allows a group (generally 2-3 people) to jointly sign off on a given transaction. The multisignature acts as an escrow mechanism of sorts where 2 of 3 signatures are needed to initiate. It’s based on the classic financial separation of duties principle while being applied to cryptoassets. In our case, multisignature will be used for both cold cryptoassets as well as hot cryptoassets. Said another way, both of InfinityFund’s short-term positions and long-term positions are backed by a quasi-escrow mechanism.
+
+For further reading on multisig see: https://www.coindesk.com/2014-became-year-multisig/ 
+
+Cold-Storage Wallets (Paper & Hardware): cold-storage is a security technique to reserve cryptoassets offline (not subject to a MITM, man-in-the-middle, attack). This is frequently used to store large amounts of cryptoassets. One of the worst things to do when storing large amounts of cryptoassets is to store them on a device that’s connected to the internet where a hacker can access them. Only a small amount of cryptoassets should be held outside of cold storage to cover anticipated withdrawals. The two most common forms of cold storage are paper wallets and hardware wallets. Paper wallets are simple and easy to setup, however paper is not durable and is subject to loss or damage. Engraved metals are often a much more secure way to implement a paper wallet. Hardware wallets are also common. Hardware wallets are usually very secure but can add unneeded complexity to the storage of cryptoassets. Paper or engraved metal wallets are an elegant solution because they only require the transcription of the public and private key without the added bells-and-whistles of a hardware wallet computer interface.
+
+One clever way to implement a cold-storage wallet we prefer is with Cryptosteel: (https://bitcoinmagazine.com/articles/review-cryptosteel-great-way-back-bitcoin-private-keys/)
+
+One quality hardware wallet we like is: trezor.io
+
+Airgapped Wallets: Airgapping is a network security method used to ensure a secure computer network is physically isolated from an unsecure network such as the internet or a local area network. Airgapping is never allowing a newly built computer device to connect to a network. The standard practice is to boot a computer without connecting to the internet while then generating a seed or cryptographic private key with locally deployed code. Then, erasing all data activity of the event before reconnecting to an unsecure network.
+
+Escrow: Escrow is a classic financial mechanism for storing and delivering assets until contractual obligations are met. With regards to the InfinityFund there are 2 distinguishable categories of escrow. The first type is technological escrow. This is the use of technology, or software in our case, as a mechanism for achieving escrow. However, the second type is human 3rd party escrow. This traditionally is an independent 3rd party institution responsible for custody of assets. At the InfinityFund, we have a general skepticism towards 3rd party institutions holding cryptoassets. We’d prefer to be the custodian because we believe we are better at security than most all institutions. However, we understand there are tradeoffs and in most instances we are willing to work with institutions. We are also open to the discretion of our limited partners with regards to escrow.
+
+Insurance: Traditionally, insurance is a financial derivative in the form of a put- or call option that is employed to offset the risk of loss for an underlying asset. Insurance of the underlying cryptoasset is a security tactic we use at the InfinityFund to provide complete assurance to our limited partners. Cryptoasset insurance, however, is not cheap. With regards to limited partners cryptoassets insurance it is a negotiable item. It could be subject to a tax on the carry of either the general partners or the limited partners, at perhaps, a 1% rate. For insurance packages we look to Bitcoin Financial Group, LLC (BitSecure for Xapo) or Mitsui Sumitomo Insurance (https://btcmanager.com/mitsui-sumimoto-launches-insurance-coverage-for-cryptocurrency-exchanges/) for their offerings. Cryptoasset insurance is a worst-case/disaster type of security tool. The aforementioned tools should be sufficient, but the insurance acts as a catch-all for any and all catastrophic events.
+
+**Further Security Best Practices:**
+
+Separation of Duties: Requiring one or more persons to complete a task. It’s an internal control intended to prevent fraud and error. In technical and financial systems, the concept is one way to achieve redundancy. In practice, separation of duties might include mandatory periodic leave for certain V.I.P.s (very important persons) when it comes to InfinityFund’s core activities. It might also include multi signatures for very important documents.
+
+Redundancy: Redundancy at a high level is the concept of preventing single-points of failure. At the InfinityFund, we apply redundancy to all core business critical systems the same way a data center might apply it to core information systems. Examples might include having 4-7 physical, geographically distributed backups of critical systems. That might also include things like land to satellite based backup bitcoin transaction broadcasting systems. Or backup software defined radio communication and bitcoin transaction broadcasting systems. Redundancy is never finished and a security principle we actively strive for over time.
+
+Safeguarding against human error: Human errors are all too common. To provide mechanisms for overcoming these we will employ a variety of methods. Some examples include: key checking for typos and miskeys, sending small test transaction amounts before sending large amounts, chunking transaction amounts, amongst many more.
+
+Auditing: Auditing is a systematic and independent process for examining all critical aspects to our company's operations. It’s not limited to just our information systems or financial systems or even security systems. It’s traditionally not the most pleasant process, but it’s something we see as healthy and necessary to the going concern of our company. It’s both an internal process as well as an external service we will subject ourselves to. We will subject ourselves to audits frequently (quarterly) across all core operations of our company.
+
+Passwords & Private Keys: Passwords are the digital keys to our virtual world. If we store all of our personal and company data digitally, it’s of the highest importance to make sure keep keys clean. Methods to achieve this may include: every so often (3 months) changing and updating passwords where it seems plausible, regenerating cold storage private keys yearly, and resetting team communication application passwords every so often (6 months). With regards to sensitive accounts, we generally prefer to generate long random passwords that are resistant to brute force. 
+
+For more advanced and elaborate password security techniques see: https://krebsonsecurity.com/password-dos-and-donts/  
+
+Phishing: Phishing is the classic spam email designed to clickbait the receiver into deploying a malicious piece of code locally. Phishing will be a frequent topic of discussion/training within InfinityFund and raising awareness among employees for browsing the web and reading emails is a priority. Our employees could potentially be subject to large-scale phishing attacks by nation-states.
+
+Logging: data logging is fundamental and the first chronological piece of any information system. Generally, it records user specific, time stamped, location specific data. It is used to monitor any and all digital activity on a 24-hour basis. Data logs are often referred to in the media as “metadata”. Metadata is arguably more descriptive and revealing of activity than normal data. All information systems from the very beginning at the InfinityFund will be logged.
+
+Zero-knowledge Secure Multi-Party Setup: secure multi-party computation is a method for parties to jointly compute a function of inputs while keeping those inputs private. In this model of cryptography, the adversary is assumed to be an active participant within the group. This setup will be used during the creation of the initialization of the InfinityFund information system along with the creation of encrypted keys to ensure the system’s security is enduring.
+
+For further reading see: https://eprint.iacr.org/2017/1050 
+
+**F.A.Q.**
+
+Do we store cryptoassets on exchanges?
+
+We prefer not to. Exchanges to us, can be seen as a gateway to access and trade cryptoassets. But, we are not comfortable storing them long-term if we are not familiar with the exchanges security model.
+
+Do we use encrypted communications? Email? SMS? VPN?
+
+Yes, all of the above. We compartmentalize when and where certain conversations should take place. Or when are where certain browsing activities are to take place. We prefer to custom build these types of security tools in-house with a secure zero-knowledge multi-party computational setup, not rely on the cryptographic tools of others, but also not “roll our own crypto” algorithms.
+
+Do we use two-factor authentication?
+
+Always and often. We are also picky about which types of 2FA we use. We are okay with TOTP 2FA. But, Yubico keys are also a security apparatus we use quite often for financially sensitive operations. We generally never use our phone number and SMS for our 2FA.
+
+Do we use bespoke emails/phones/laptops?
+
+Yes, we always prefer to when it seems plausible and necessary. Bespoke is a concept that’s also sometimes referred to as a burner. These are devices or instruments are are only use on a one time basis for security purposes then immediately disposed of.
+
+**Consulting**
+
+This document is meant to serve as a high-level introduction into Vitus Fund's larger security strategy. We will be contracting experts such as Third Key Solutions or Open Zeppelin to further the execution of our security strategy.
 
 ----------------------------
 
