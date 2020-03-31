@@ -1,0 +1,630 @@
+----
+layout: post
+title: "*My Companies Docs, Thesis, Strategies, etc.”
+"
+date: 2020-03-01 10:10:52 +0100
+categories: blog
+permalink: /co.html
+---
+
+----------------------------
+
+*These docs originated in a Google Drive at InfinityFund and continued to live on when I started my own firm Vitus Fund. It’s a culmination of my life’s work and many others close to me. It builds on the work of some of the greatest thinkers I’ve encountered. It spans across many different disciplines economics, law, computer science, psychology, biology, religion, and language. I was influenced by many people, places, and things. Credit could be given to anybody and everybody associated with my life. This work belongs to the community.
+
+----------------------------
+Doc 1
+
+**Investment Philosophy, Strategy, and Thesis**
+
+**Introduction**
+
+Version 1: Wall Street
+
+Mission: Cryptocurrencies have ushered in a new era of finance. We have never seen so many attractive investment characteristics packaged into an asset class like this ever before. We’ve never seen these this scale of risk-adjusted rates of return before. It’s a new world. A blank slate for financial institutions to be refounded. And most importantly, there’s an unimaginable of money to be made.
+
+Version 2: Technologists
+
+Mission: The effects of technology in today’s world are profound. Technology cuts across the entire economic, political, and cultural aspects of society. Our mission at the InfinityFund is to catalyze large-scale change in all areas by way of investing.
+
+When Ronald Coase wrote The Nature of the Firm (1937), he examined the firm’s role in an economy. How it functions, what’s controllable, what it effects, and what it looks like. We don’t know if he imagined the line between a firm and an economy blurring, but it has and it continues. It’s a fundamental change to see cryptoassets exhibiting monetary characteristics traditionally reserved to sovereign nations. One goal of ours is to completely redefine and reassess how microeconomics functions in practice. It’s quite challenging and that’s what gets us excited at the Vitus Fund.
+
+Version 1: Wall Street
+
+A brand new asset class has emerged. It’s completely uncorrelated to traditional assets. The average returns are staggering. Bitcoin in particular has one of the best value propositions as a store-of-value asset.
+
+Version 2: Technology
+
+The Vitus Fund strategically invests in deep technology. We prefer software or hardware or sometimes both. When we look at a given technology we consider the implications of it. The more profound, the more interesting it is to us. Today, the internet is one of the most profound things to us, and more generally, web 3.0 technologies, bitcoin and bitcoin related technology, which we commonly refer to as cryptoassets.
+
+Information is power[1]. And one of the most interesting aspects of mechanism design is the feedbacks loops which fuel network effects and data network effects. William Bryan Arthur, who wrote “Increasing Returns and the New World of Business” further alludes to these characteristics and explains what this actually means for the future of business and economics. The hidden power and subtleties of these ideas cannot be overstated. These are the underpinnings for exponential returns in the cryptoasset space. Cryptoassets, to us, are the next extension and logical manifestation of W.B. Arthur’s original vision.
+
+**Investment Philosophy**
+
+Long-term value investing approach...
+
+We take a long-term value investing approach to cryptoassets, often referred to as “HODLing”. We are fundamental in our thinking. When we look at the fundamentals we consider these areas: growth expectations, risk transparency, management analysis, and software analysis. If high-quality fundamentals exist, that’s a great indicator for future prospects. One of the caveats in the cryptoasset world is, generally, cash flow analysis are analogous to code analysis. In both cases, the price of the asset is a lagging indicator. One of the benefits of long-term investing is indifference to cyclical risk, that’s key to us. We think of our investment time horizon in decades. We ask “Can we foresee this asset surviving and thriving in 10 years? 20 years?” We actually believe in the long-term, cryptoasset markets will be less cyclical relative to traditional markets, fortunately, but we still assign priority to fundamentals as well. We don’t engage in speculation. We prefer to be contrarian where it makes sense.
+
+Thoughts on markets…
+
+Thoughts on risk and return....
+
+**Investment Strategy**
+
+**Introduction…**
+
+We believe there will likely be only 10-15 or so crypto-funds that will take the majority share of all cryptoasset returns in the long-term. Vitus Fund will be one of those crypto-funds. It’s also not uncommon to see cryptoasset growth rates of 10X year-over-year.
+
+One observation we’ve made is in deflationary store-of-value cryptoasset economies the urgency to lend is much lower. This is a good thing. The assumption that borrowing encourages growth in the economy isn’t always true in crypto-economies, i.e. Bitcoin. We do not prefer to engage in derivative trading. The opposite, taking extremely leveraged positions is not what we do. We do not prefer to engage in arbitrage activities.
+
+Cryptoasset Classes:
+
+1. Digital Assets - Indexes and Major Blockchains, Altcoins and ICOs, and Early-Stage Assets
+
+2. Real Assets - Cryptoasset Mining Facilities
+
+Active Investing (20%): we are actively pursuing ICO deals/discounts, deal flow, and very early-stage projects. We provide resources, training, guidance, and frameworks to scale these immature projects into strong, healthy, high performing cryptocurrencies. We think of ourselves as an accelerator of sorts. Active investment will require a good chunk of our time. However, we see helping projects as a strength of ours. We really enjoy doing it and the returns are huge.
+
+Passive Investing (80%): The benefits of passive investing are the ability to do many investments in parallel. With passive investments we don’t look at market ups-and-downs or short-term price fluctuations. We are looking to capture the persistent and pervasive returns over a long time-period.
+
+**Thoughts on markets...**
+
+Few investors beat the market consistently. Our goal at the Vitus Fund is to consistently outperform the market benchmarks. How should we be evaluated? Based on benchmarks. A few important benchmarks include: real estate, bonds, traditional stocks, the S&P 500, the best traditional hedge funds, The Bitcoin Index(™), Altcoins, and the best crypto-hedge funds.
+
+Historically, the average returns in traditional finance: real estate ~5%/year, bonds ~4%, JPMorgan ~9%, Apple 31%, gold ~13%, S&P 500 ~11%, the best traditional hedge funds ~20%. Then you have the new asset class: the Bitcoin Index(™) ~500%-1000%/year, Ethereum ~1000%/year, and the best crypto-hedge funds 1000%/year.
+
+The reason we named Bitcoin the Bitcoin Index is because we think calling a basket of the top 10-20 cryptocurrencies an ‘index’ is a fallacy. Each cryptocurrency itself exhibits more traditional index behaviors rather than a basket of them. The Bitcoin Index we discovered is also likely the best risk-adjusted return asset ever.
+
+Another staggering statistic is the sheer size of the total addressable market for some of the world’s biggest financial markets waiting to be marginalized by cryptocurrencies. Compared to today’s numbers, cryptocurrencies still have a long way to go.
+
+Thoughts on risk and return....
+
+Uncorrelated. This asset class does not generally move at all with traditional asset classes. We think that’s a huge opportunity in diversification for traditional portfolio managers. Cryptoassets are the likely the best alternative investment. If you hold Bitcoin, it’s often referred to as hedge against traditional markets. Bitcoin goes up during time of chaos and anarchy. The best examples include Zimbabwe, Venezuela, and other hyperinflated economies.
+
+Highly liquid.
+
+Liquidity is the ability to buy and sell an asset on a public market easily and quickly. There’s two aspects to liquidity 1. Timing 2. Volume. It not only has to be quick to trade the assets, the markets also have to be deep enough to support large trades. Cryptocurrencies are likely the most liquid asset class ever. The importance of this cannot be overstated.
+
+Price Projections
+
+If we map out the rate at which the price of bitcoin is growing it’d be described as exponential.
+
+(insert graph)
+
+ICOs/Alt-coins vs. Bitcoin
+
+We are more comfortable taking calculated risks with founders as opposed to market risk.
+
+ETFs
+
+Bitcoin Investment Trusts
+
+Ethereum Investment Trusts
+
+Zcash Investment Trusts​​​​
+​​​​​​
+Traditional risk and return models tend to measure risk in terms of volatility or standard deviation
+​​​​​
+**Characteristics We Look For When Investing**
+
+People
+
+One of the first things ask before investing is, “is this person capable of actually pulling off the impossible?” If so, we like those types. The path by which success or achievement manifests is secondary to the inevitability of the end destination. This is a personal trait that is not specific to any domain. Since this is our approach, we often find ourselves investing in categories we couldn’t have predicted but what others would call unusual.
+
+One of the best indicators of investing in people is assessing the sheer size of their general intelligence. The bigger, the more likely they are capable of calibrating a vision and executing it.
+
+Developers
+
+Paul Graham said something along the lines of, “Whatever hackers are doing you’ll probably be doing too before long.” We agree and we think that is a very insightful observation. As a general outlook, we invest to serve the developer community. Developers are where technological innovation stems. When we are investing we think like engineers. We are half serious when we think of ourselves as engineers who just happen to know how to invest as a complementary skill set.
+
+Engineering is core to what we do and something that differentiates us from other crypto-hedge funds.
+
+And when we can’t find what we are looking to invest in, we build it ourselves.
+
+Visionaries------
+
+A full-stack approach, vertically integrated, economies of scale, controlling the entire supply chain.
+
+We take a contrarian view on our investing strategy. We look for investments that the mainstream is not aware of, or not interested in, yet.
+
+Completely new, carved out an area that is so unusual there’s likely to be no competition.
+There is little to no pre existing ecosystem, this project is literally building it.
+
+These types are attractive to us because we intuitively know less entrepreneurs are willing to try it.
+
+-Founder → pragmatism over idealism
+
+-”We look for cryptoassets that will fundamentally alter the cryptoasset space”
+
+Deal Flow: “Whitepaper technical analysis is the new deal flow”
+
+Lead Generation:
+
+One of the best ways to monitor new and exciting projects is on Twitter. In the beginning, all great projects are usually discussed by industry leaders from the onset. Knowing when and where and between whom these conversations take place is one aspect of finding the next great projects.
+
+Here’s a list of some the best experts at the moment, in a given domain,:
+
+Cryptography: Matthew Green, Adam Back
+Security: Andreas Antonopoulos - Third Key Solutions, Pamela Morgan, Manuel Aaroz - Zeppelin, Peter Todd
+
+Computer Science: Emin Gun Sirer, Nick Szabo, Adam Back
+
+Economics: Erik Voorhees, Emin Gun Sirer, Chris Dixon, Marc Andreessen
+
+**subject to change, always evolving
+
+Thought leaders are unequivocally valuable. There are maybe 2 or 3 people who if they mention or support a project it lends incredible weight. A rough analogy would be if Warren Buffett were to take a large position in a company it would really get your attention. With these categories of folks, the same it true. However, there’s more work on the backend of the investment decision to examine their claim instead of just blindly agreeing with their endorsement. That process can actually take years.
+
+For example, one of the best early projects in the Bitcoin space was Ethereum. The Ethereum whitepaper circulated amongst the circle of industry leaders very early on in 2014. It left an impression on them and they shared their excitement publicly.
+
+Twitter is a medium that is incredibly valuable, but often hard to index. We passively know what conversations took place, but these conversations are ephemeral and hard to retrace. The conversations are not always Googlable. That’s what make Twitter interesting and also highly exclusive. It’s sort of like observing a very important group of people having a conversation and at the same time internalizing it.
+
+
+Investment Process - Stages
+
+1. High level review of key documents and due diligence of the founding team
+
+a. Time Period: typically Months 0 - 6 sometimes up to 12 months
+
+b. Allow Experts In Computer Science, Economics, Cryptography, Security, and Governance To Perform Initial Reviews And Give Opinions
+
+c. Weigh Their Opinions and Criticisms On Merit And Proceed To Next Stage of Investment Process
+
+2. More in depth
+
+a. Time Period: typically Months 6 - 12 sometimes up to 18 or 24 months
+
+3. Deep dive into the technical documentation and team
+
+a. Time Periods: typically Months 12 - 24 sometimes up to 36 or 48 months
+
+
+Hitting Critical Mass / Exponential Growth -- > Timing
+
+Interesting Cryptoasset Areas We’re Monitoring
+
+Purely Functional Blockchains
+
+Self-Amending Ledger
+
+Robust Oracle Protocols
+
+Scale. Velocity. Endurance.
+
+We look to invest in blockchain protocols because of their extreme scale and growth potential. Protocols are platforms that enable new platforms—the next Amazons and Googles of the
+blockchain world, to be built upon. They provide the rules, incentives, and infrastructure for global marketplaces, where all the fundamental value is captured at the protocol layer.
+
+1. I prefer to concentrate my allocation on 2-3 cryptoassets. In general, the simpler the better.
+
+2. I look for teams that mechanically operate like startups but capture value via cryptoassets.
+
+3. I look for teams driven by a missionary founder. Huge scale, huge vision, and incredible experimentation speed.
+
+4. I look for teams preferably created with a product and engineering type co-founder combination.
+
+5. I prefer investing in cryptoasset teams that have delivered actual products over a minimum time period of 2 years. They’ve proved their ability to deliver consistently, early, often, and with few resources.
+
+6. I prefer investing in lower priced coins, for example, less than $3. So, I can acquire a large amount of share).
+
+7. I prefer contrarian cryptoasset investment picks. Not given too much media attention and overlooked or written off by most.
+
+Metrics I go by:
+
+● GitHub code repository activity. How many contributors are there? Do the contributors have a good reputation within the development community? How many times has the repository been cloned? Forked? Is experimentation happening with the code base?
+
+○ Doing extensive due diligence on the core development team. Do they have a track record of delivering successful software projects? Are they actually skilled in the programming languages they claim to be using? Could the software team plausibly build the system described in the whitepaper?
+
+● Who are the founders? What does their social media look like? What’s their experience listed on LinkedIn?
+
+● Do the influential thinkers in the cryptoasset space have opinions on the project? Are they critical of it, if so is it valid? If they’re a supporter are they being paid to do so? What other bias might be affecting their opinion? Do they really believe this technology is fundamentally different? Why?
+
+We invest in people
+
+We are contrarian
+
+We invest in enabling technology as a force for positive change.
+
+We invest in technology that fundamentally changes how society is organized.
+
+It just so happens that is also tends to be lucrative.
+
+Tokens as the best mechanism for capturing value
+
+Investment Picks
+
+1. Bitcoin
+
+2. Ethereum
+
+The Ethereum project is one of the most important infrastructure layer web 3.0 technologies. The vision is extremely ambitious. Developers are building things for the entire technology stack, lower-level, middleware, and apps. If you like Ethereum you essentially believe in the original vision of the founding fathers of the internet. Decentralization, free, meritocratic, anyone can contribute and consume, universal way to communicate, borderless, and global decision-making. The value of these ideals cannot be overstated. Today, the Ethereum community has created one of the largest experimentation surface areas for web 3.0 technologies. They are working on cutting edge technologies like: Zk-Snarks, Sharding, Proof-of-Stake and other consensus algorithms. We are able to correlate developer activity to token price empirically. And Ethereum is very developer friend. Combine all that with a kickass team, lead by the genius Vitalik Buterin, and that’s what makes Ethereum one of the most attractive cryptoassets today.
+
+3. Zcash
+
+4. Lisk
+
+Lisk’s is very similar to Ethereum in many ways. Huge vision, incredible technology, and a stellar team. We have been able to personally talk to the founding team and feel out their values. They excite us. The rate of growth and attention to detail in Lisk’s growth trajectory is something we assign a lot of value to. They have achieved a $1B valuation in 2 years. They are using some of the best cutting edge technology. They care about fundamentals. They see themselves as the Javascript of web 3.0. That’s really powerful to us as a value proposition since a large portion of today’s internet runs on Javascript.
+
+Sources
+
+1. https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
+
+2. W.B. Arthur - Increasing Returns and the New World of Business (1996)
+<https://www.ncbi.nlm.nih.gov/pubmed/10158472>
+
+3. Hacker & Painters - Paul Graham
+
+4. http://www.socialcapital.com/vision/
+
+5. How To Write A Whitepaper.pdf
+
+6. How To Read A Paper.pdf
+
+http://www.usv.com/blog/fat-protocols
+
+http://www.usv.com/blog/usv-thesis-20
+
+https://a16z.com/2015/01/22/16-things/
+
+https://a16z.com/2016/06/10/fund-v/
+
+http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/invphilintro.pdf
+
+----------------------------
+
+Memo of Understanding (Dated 10/31/2017)
+
+CONFIDENTIAL
+
+*Contract outlining the agreement of equity splits amongst the founding partners
+
+MEMORANDUM OF UNDERSTANDING
+
+This is an Agreement by and between the co-founders (hereinafter referred as, the “Parties”) of the to-be-formed fund, management, and/or IP entities. The purpose of this agreement is to in plain-language set forth the initial discussions of the to-be-formed entities only and shall not be an exhaustive list. The purpose is to simply give the co-founders assurances on what is expected to be the terms and conditions and completely understand that the entity Operating Agreements to be prepared will be in place and stead of this very preliminary understanding. This understanding is a non-binding agreement and will be subject to the recommendations that WSGR shall provide for the to-be-formed entities.
+
+Principles:
+
+• The Parties agree to permit WSGR provide templated Operating Agreements subject to the best practices for similar entities, subject to the specific terms and conditions set forth below.
+
+• The Parties agree that all investment results are deemed to have been achieved as a result of the combined efforts of all co-founders, as opposed to just one or two.
+
+General Structure:
+
+• The Parties want the to-be formed entitles to be Member-Managed LLCs (General Partner Entity, Management Company, Master Fund, Feeder Fund, IP Entity, and any other InfinityFund related entity)
+
+• Member-managers are all equal general partners.
+
+• Co-founders are awarded highest class of ownership shares.
+
+• Co-founders have pre-emptive rights on new equity offerings.
+
+• No Board of Directors or Board Members.
+
+The Parties agree that the distribution of Profit and Losses will roughly be as follows:
+
+• Peita: 22%
+
+• Archie: 22%
+
+• Mitch: 22%
+
+• Johnny: 16%
+
+• 18%: Pool for Investors, Key Employees and others to be discussed.
+
+Distribution of Ownership/Voting Shares:
+
+• Mitch: 44%
+
+• Peita: 13%
+
+• Archie: 13%
+
+• Johnny: 12%
+
+• 18% pool for other members to be discussed and added
+
+The to-be-formed entities will indemnify and hold harmless the individual members in executing the duties and obligations of Directors and Officers. The entities will likely consider D&O insurance as well.
+
+This agreement applies to equity splits for both profit share, ownership/voting rights for these entities: Management Co., General Partner Entity, Master Feeder, IP entity, and other IF related entities)
+
+Time Commitment Expectations:
+
+Peita: Full-Time, InfinityFund
+
+Mitch: Full-Time, InfinityFund
+
+Archie: Medium-Time, InfinityFund CEO Cogni
+
+Johnny: Medium-Time, InfinityFund, CEO Amity
+
+
+Exits:
+
+The Parties agree that this is not an exhaustive metric and is still subject to further discussion pending best practices as mentioned by not mandatory, we can mutually agree to leave on other terms, but if not this is the fallback):
+
+1. % ownership & profit share of the co-founders/GPs will have highest class of shares and pre-emptive rights
+
+2. If co-founders if ousted “without cause” then:
+
+InfinityFund Management (or any reasonably related mgmt/master entity for [created by] the core Infinity Group) shall be subject to a 4 year vesting schedule
+
+If you leave voluntarily or ousted with cause then this shall be the vesting:
+
+< 1mo 10%
+
+< 3mo 25%
+
+< 6mo 35%
+
+< 9mo 40%
+
+< 1 year 45%
+
+< year 2 65%
+
+< year 3 85%
+
+< year 4 100%
+
+If a member is ousted without cause within the first 4 years, then an additional 5% will vest depending on where in the vesting schedule the member is ousted. At no time, will the a member be able to vest more than 100% of the member’s interest.
+
+InfinityFund Master (feeder or any reasonably related feeder for [created by] the InfinityGroup)
+
+• Same vesting and vesting penalty as the above. The penalty to the Company only applies in the event of a termination without cause.
+
+IP Entity (or any reasonably related entity holding intangibles for [created by] the core Infinity Group)
+
+• Same vesting and vesting penalty as above. The penalty to the Company only applies in event of a termination without cause.
+
+In the scenario the team behind the InfinityFund does subsequent funds:
+
+InfinityTwo, Three (or any reasonably related investment entity for [created by] the core Infinity Group) →
+
+• Same vesting and vesting penalty as above. The penalty to the Company only applies in event of a termination without cause.
+
+• Any future fund entity before the “departure” date, whether voluntarily or involuntarily, by a member will entitle them to the same vesting schedule.
+
+Voting:
+
+Supermajority vote on issues of major importance.
+
+Tier 1: Major and high level decisions require 66% vote by the Parties to be confirmed in writing [e-mail communication between the Parties to constitute a writing].
+
+• Mitch: 44%
+
+• Peita: 13%
+
+• Archie: 13%
+
+• Johnny: 12%
+
+• 18% Pool for other investor(s)/key employees that will have to be discussed.
+
+Major decisions include, but are not limited to:
+
+• Entering and exiting GPs
+
+• Buying a company, M&A, selling part of the company, bankruptcy filing
+
+• Amendments to the major aspects of underlying operating agreements including management fees, carry, voting, exits, GP compensation, dispute resolution (with regards to management company, GP entity, IP entity, master fund)
+
+- Tier 2: Medium-involvement decisions
+
+- Tier 3: Low-involvement decisions
+
+Dispute Resolution:
+
+Any dispute that falls outside this agreement should be supervised by an independent, neutral third party arbitrator and will be subject to international arbitration. The third party neutral will be selected by a majority vote between the Parties.
+
+----------------------------
+
+*Bonus - Hiring Strategy Docs
+
+----------------------------
+
+**Item | Description | Timing | Cost**
+
+**Engineering Hires**
+
+Item: Security
+
+Description: Contracting third-party service
+
+Timing: 1-2 week(s) before fund deployment
+Cost: $50,000 annual subscription service
+
+Item: Software Engineering (2) - VP of Engineering, Software Engineer
+Description: Internal tools, Data/Database Infrastructure (Backend), Authentication/Logging/Timestamping/Basic Security, Trade Execution Systems, Low Frequency Algorithmic Trading, Exchange Protocols, LP Performance Interfaces, Business Intelligence Systems, ICO Buying (max gas), Web/Mobile Dev, Data Collection/API & Benchmarking, and Capital Deployment Tracking System.
+
+Middleware:
+
+Authentication, logging, timestamping, security
+-accountants and software engineer working
+-what roles do we need?
+
+Data Collection & Benchmarking:
+
+-traditional economy (benchmark) bond yield, fx, currencies,
+
+-api’s integration - push and pull
+
+-ico’s
+
+-historical pricing
+
+-blockchain data: transaction and network healthy
+
+Special projects:
+
+● 2010 greece, countries when they were in default
+
+● Analysing links between cryptoeconomy and the real economy
+
+● Hyperbitcoinization -- Zimbabwe and Venezuela
+
+● Bubbles analyzed
+
+● Flash crashes
+
+Blockchain Crypto-Engineer: ICO engineer (solidity), blockchain, smart contract deployment/security, Atomic Swaps, DEXs, blockchain data: transaction and network healthy
+
+-big data - samples, unstructured data, batch processing, cleaning data?, qualitative
+
+-asset allocation of traditional economy
+
+-Machine learing, AI
+
+-a/b testing → optimization, markets, absolute
+
+
+1. System Architecture
+
+
+Data science, ML, AI
+
+Item: Legal (1)
+
+
+-buy during the lull
+
+-buy dips for major blockchains
+
+
+
+Trading System Architecture
+
+examples:
+https://www.slideshare.net/ksvali/fixed-income-tradingsystemarchitecture
+
+----------------------------
+
+**Hiring Budget - Bridge Round**
+
+Hire: (1x) VP of Engineering and (1x) Software Engineer
+
+Description: Trade execution systems, and data lakes to support quantitative analysis, and investment research teams.
+
+● Exchange data feeds, data pipelines, and data lakes (storage).
+
+○ Live data feeds from exchanges and decentralized exchanges.
+
+○ Historical data feeds from exchanges.
+
+○ Data cleaning and transformation pipelines (to support quantitative asset pricing teams)
+
+○ High availability and redundancy data stores.
+○ *Blockchain scraping systems (network analysis and profiling ICO contributers)
+
+● Trade Execution Systems
+
+○ Trade authentication, logging, and documentation (automated reporting).
+
+○ Testing and deployment environments (testing environments for trade execution)
+
+○ Exchange API testing suites.
+
+○ ICO smart contracts (automated bidding contracts)
+
+● Reporting
+
+○ Performance benchmarking and visual interfaces for LPs (portals).
+
+○ Capital Deployment Tracking Systems.
+Systems to Build:
+
+● TexSys™ (Node, Python and C, or Rust)
+
+● Caspian Sea™ (Node, Python and C, or Rust)
+
+● Crawler™ (Javascript)
+
+Skills:
+
+● Distributed Systems
+
+● Database and Systems Architecture
+
+● Web Development
+
+Timing: December 2017
+
+Cost: varies, $300,000 annual salary combined. Check Archie’s contacts in Russia.
+
+Hire: (1x) Junior Cryptoasset Investment Analyst
+Description:
+
+● Profile deals and run investments through pipeline
+
+● Extract and gather data on TGE/ICO deals
+
+● Monitor slack and communication channels for news.
+
+● Document and report on daily blockchain related news.
+
+● Edit Medium articles written by cryptoasset investments teams.
+
+Skills:
+● Law, Journalism, or Finance background, with blockchain knowledge.
+
+● Writing skills
+
+● Organisational Skills
+
+● Google docs, and slack
+
+Timing: January 2017
+
+Cost: $80,000 annually
+
+
+Hire: (1x) Cryptoasset Data Scientist
+
+Description:
+
+● Construct metrics and variables based on research from asset pricing teams
+
+● Transform and process data, ready for asset pricing and trading teams
+
+● Backtest asset pricing models developed by asset pricing team.
+
+● Data science or algorithmic trading background
+Skills:
+
+● Python and R.
+
+● Statistics and linear algebra.
+
+● Web development knowledge: web APIs and backend infrastructure.
+
+Timing: December 2017
+
+Cost: $110,000 annually
+
+
+Hire: (2x) Quantitative Cryptoasset Researcher (PhD level)
+
+Description:
+
+● Develop and test asset pricing models: multifactor pricing models adapted for cryptoassets
+
+● Develop quantitative finance models adapted from commodities derivatives research
+Skills:
+
+● Research background
+
+● Statistics (econometrics, time-series testing, VAR, jump-processes)
+
+● Asset pricing (constructing factor portfolios, mimicking portfolios)
+
+● Blockchain protocols
+
+● Python and R
+
+● Nice-to-have: Non-parametric methods for asset pricing
+
+● Nice-to-have: Bayesian methods for asset pricing
+
+● Nice-to-have: Quantitative finance (measure theory, stochastic calculus)
+
+Timing: December 2017
+
+Cost: $170,000 annually
