@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "**My Companies Docs, Thesis, Strategies, etc."
-date: 2020-03-01 10:10:52 +0100
+date: 2020-02-18 10:10:52 +0100
 categories: blog
-permalink: /co.html
+permalink: /company.html
 ---
 
 ----------------------------
