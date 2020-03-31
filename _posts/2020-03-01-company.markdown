@@ -67,9 +67,9 @@ Passive Investing (80%): The benefits of passive investing are the ability to do
 
 **Thoughts on markets...**
 
-Few investors beat the market consistently. Our goal at the Vitus Fund is to consistently outperform the market benchmarks. How should we be evaluated? Based on benchmarks. A few important benchmarks include: real estate, bonds, traditional stocks, the S&P 500, the best traditional hedge funds, The Bitcoin Index(™), Altcoins, and the best crypto-hedge funds.
+Few investors beat the market consistently. Our goal at the Vitus Fund is to consistently outperform the market benchmarks. How should we be evaluated? Based on benchmarks. A few important benchmarks include: real estate, bonds, traditional stocks, the S&P 500, the best traditional hedge funds, The Bitcoin Index, Altcoins, and the best crypto-hedge funds.
 
-Historically, the average returns in traditional finance: real estate ~5%/year, bonds ~4%, JPMorgan ~9%, Apple 31%, gold ~13%, S&P 500 ~11%, the best traditional hedge funds ~20%. Then you have the new asset class: the Bitcoin Index(™) ~500%-1000%/year, Ethereum ~1000%/year, and the best crypto-hedge funds 1000%/year.
+Historically, the average returns in traditional finance: real estate ~5%/year, bonds ~4%, JPMorgan ~9%, Apple 31%, gold ~13%, S&P 500 ~11%, the best traditional hedge funds ~20%. Then you have the new asset class: the Bitcoin Index ~500%-1000%/year, Ethereum ~1000%/year, and the best crypto-hedge funds 1000%/year.
 
 The reason we named Bitcoin the Bitcoin Index is because we think calling a basket of the top 10-20 cryptocurrencies an ‘index’ is a fallacy. Each cryptocurrency itself exhibits more traditional index behaviors rather than a basket of them. The Bitcoin Index we discovered is also likely the best risk-adjusted return asset ever.
 
@@ -101,6 +101,7 @@ Ethereum Investment Trusts
 
 Zcash Investment Trusts​​​​
 ​​​​​​
+
 Traditional risk and return models tend to measure risk in terms of volatility or standard deviation
 ​​​​​
 
