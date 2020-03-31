@@ -1,11 +1,10 @@
 ----
 layout: post
-title: "*My Companies Docs, Thesis, Strategies, etc.”
-"
+title: "*My Companies Docs, Thesis, Strategies, etc."
 date: 2020-03-01 10:10:52 +0100
 categories: blog
 permalink: /co.html
----
+----
 
 ----------------------------
 
@@ -104,6 +103,7 @@ Zcash Investment Trusts​​​​
 ​​​​​​
 Traditional risk and return models tend to measure risk in terms of volatility or standard deviation
 ​​​​​
+
 **Characteristics We Look For When Investing**
 
 People
