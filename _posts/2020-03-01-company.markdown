@@ -424,7 +424,7 @@ Any dispute that falls outside this agreement should be supervised by an indepen
 
 Item/Description/Timing/Cost
 
-**Engineering Hires**
+**Engineering Strategy**
 
 Item: Security
 
