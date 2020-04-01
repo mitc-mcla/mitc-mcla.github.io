@@ -8,10 +8,12 @@ permalink: /company.html
 
 ----------------------------
 
-*These docs originated in a Google Drive at InfinityFund and continued to live on when I started my own firm Vitus Fund. It’s a culmination of my life’s work and many others close to me. It builds on the work of some of the greatest thinkers I’ve encountered. It spans across many different disciplines economics, law, computer science, psychology, biology, religion, and language. I was influenced by many people, places, and things. Credit could be given to anybody and everybody associated with my life. This work belongs to the community.
+*These docs originated in a Google Drive at InfinityFund and continued to live on when I started my own firm Vitus Fund. It’s a culmination of my life’s work and many others close to me. It builds on the work of some of the greatest thinkers I’ve encountered. It spans across many different disciplines economics, law, computer science, psychology, biology, chemistry, religion, and language. I was influenced by many people, places, and things. Credit could be given to anybody and everybody associated with my life. This work belongs to the community.
 
 ----------------------------
 Doc 1
+
+*please advise: this document was written in late-2017 and needs a bit of polishing to bring it up-to-date.
 
 **Investment Philosophy, Strategy, and Thesis**
 
@@ -19,7 +21,7 @@ Doc 1
 
 Version 1: Wall Street
 
-Mission: Cryptocurrencies have ushered in a new era of finance. We have never seen so many attractive investment characteristics packaged into an asset class like this ever before. We’ve never seen these this scale of risk-adjusted rates of return before. It’s a new world. A blank slate for financial institutions to be refounded. And most importantly, there’s an unimaginable of money to be made.
+Mission: Cryptocurrencies have ushered in a new era of finance. We have never seen so many attractive investment characteristics packaged into an asset class like this ever before. We’ve never seen these this scale of risk-adjusted rates of return before. It’s a new world. A blank slate for financial institutions to be refounded. And most importantly, there’s an unimaginable amount of money to be made.
 
 Version 2: Technologists
 
@@ -43,13 +45,11 @@ Long-term value investing approach...
 
 We take a long-term value investing approach to cryptoassets, often referred to as “HODLing”. We are fundamental in our thinking. When we look at the fundamentals we consider these areas: growth expectations, risk transparency, management analysis, and software analysis. If high-quality fundamentals exist, that’s a great indicator for future prospects. One of the caveats in the cryptoasset world is, generally, cash flow analysis are analogous to code analysis. In both cases, the price of the asset is a lagging indicator. One of the benefits of long-term investing is indifference to cyclical risk, that’s key to us. We think of our investment time horizon in decades. We ask “Can we foresee this asset surviving and thriving in 10 years? 20 years?” We actually believe in the long-term, cryptoasset markets will be less cyclical relative to traditional markets, fortunately, but we still assign priority to fundamentals as well. We don’t engage in speculation. We prefer to be contrarian where it makes sense.
 
-Thoughts on markets…
-
-Thoughts on risk and return....
+Thoughts on risk and return...
 
 **Investment Strategy**
 
-**Introduction…**
+**Introduction...**
 
 We believe there will likely be only 10-15 or so crypto-funds that will take the majority share of all cryptoasset returns in the long-term. Vitus Fund will be one of those crypto-funds. It’s also not uncommon to see cryptoasset growth rates of 10X year-over-year.
 
@@ -67,7 +67,7 @@ Passive Investing (80%): The benefits of passive investing are the ability to do
 
 **Thoughts on markets...**
 
-Few investors beat the market consistently. Our goal at the Vitus Fund is to consistently outperform the market benchmarks. How should we be evaluated? Based on benchmarks. A few important benchmarks include: real estate, bonds, traditional stocks, the S&P 500, the best traditional hedge funds, The Bitcoin Index, Altcoins, and the best crypto-hedge funds.
+Few investors beat the market consistently. Our goal at Vitus Fund is to consistently outperform the market benchmarks. How should we be evaluated? Based on benchmarks. A few important benchmarks include: real estate, bonds, traditional stocks, the S&P 500, the best traditional hedge funds, The Bitcoin Index, Altcoins, and the best crypto-hedge funds.
 
 Historically, the average returns in traditional finance: real estate ~5%/year, bonds ~4%, JPMorgan ~9%, Apple 31%, gold ~13%, S&P 500 ~11%, the best traditional hedge funds ~20%. Then you have the new asset class: the Bitcoin Index ~500%-1000%/year, Ethereum ~1000%/year, and the best crypto-hedge funds 1000%/year.
 
@@ -77,7 +77,7 @@ Another staggering statistic is the sheer size of the total addressable market f
 
 Thoughts on risk and return....
 
-Uncorrelated. This asset class does not generally move at all with traditional asset classes. We think that’s a huge opportunity in diversification for traditional portfolio managers. Cryptoassets are the likely the best alternative investment. If you hold Bitcoin, it’s often referred to as hedge against traditional markets. Bitcoin goes up during time of chaos and anarchy. The best examples include Zimbabwe, Venezuela, and other hyperinflated economies.
+Uncorrelated. This asset class does not generally move at all with traditional asset classes. We think that’s a huge opportunity in diversification for traditional portfolio managers. Cryptoassets are the likely the best alternative investment. If you hold Bitcoin, it’s often referred to as a hedge against traditional markets. Bitcoin goes up during time of chaos and anarchy. The best examples include Zimbabwe, Venezuela, and other hyperinflated economies.
 
 Highly liquid.
 
@@ -109,7 +109,7 @@ Traditional risk and return models tend to measure risk in terms of volatility o
 
 People
 
-One of the first things ask before investing is, “is this person capable of actually pulling off the impossible?” If so, we like those types. The path by which success or achievement manifests is secondary to the inevitability of the end destination. This is a personal trait that is not specific to any domain. Since this is our approach, we often find ourselves investing in categories we couldn’t have predicted but what others would call unusual.
+One of the first things we ask before investing is, “is this person capable of actually pulling off the impossible?” If so, we like those types. The path by which success or achievement manifests is secondary to the inevitability of the end destination. This is a personal trait that is not specific to any domain. Since this is our approach, we often find ourselves investing in categories we couldn’t have predicted but what others would call unusual.
 
 One of the best indicators of investing in people is assessing the sheer size of their general intelligence. The bigger, the more likely they are capable of calibrating a vision and executing it.
 
@@ -128,7 +128,7 @@ A full-stack approach, vertically integrated, economies of scale, controlling th
 We take a contrarian view on our investing strategy. We look for investments that the mainstream is not aware of, or not interested in, yet.
 
 Completely new, carved out an area that is so unusual there’s likely to be no competition.
-There is little to no pre existing ecosystem, this project is literally building it.
+There is little to no pre-existing ecosystem, this project is literally building it.
 
 These types are attractive to us because we intuitively know less entrepreneurs are willing to try it.
 
@@ -204,7 +204,7 @@ blockchain world, to be built upon. They provide the rules, incentives, and infr
 
 5. I prefer investing in cryptoasset teams that have delivered actual products over a minimum time period of 2 years. They’ve proved their ability to deliver consistently, early, often, and with few resources.
 
-6. I prefer investing in lower priced coins, for example, less than $3. So, I can acquire a large amount of share).
+6. I prefer investing in lower priced coins, for example, less than $3. So, I can acquire a large amount of shares.
 
 7. I prefer contrarian cryptoasset investment picks. Not given too much media attention and overlooked or written off by most.
 
@@ -226,7 +226,7 @@ We invest in enabling technology as a force for positive change.
 
 We invest in technology that fundamentally changes how society is organized.
 
-It just so happens that is also tends to be lucrative.
+It just so happens that it also tends to be lucrative.
 
 Tokens as the best mechanism for capturing value
 
@@ -236,7 +236,7 @@ Investment Picks
 
 2. Ethereum
 
-The Ethereum project is one of the most important infrastructure layer web 3.0 technologies. The vision is extremely ambitious. Developers are building things for the entire technology stack, lower-level, middleware, and apps. If you like Ethereum you essentially believe in the original vision of the founding fathers of the internet. Decentralization, free, meritocratic, anyone can contribute and consume, universal way to communicate, borderless, and global decision-making. The value of these ideals cannot be overstated. Today, the Ethereum community has created one of the largest experimentation surface areas for web 3.0 technologies. They are working on cutting edge technologies like: Zk-Snarks, Sharding, Proof-of-Stake and other consensus algorithms. We are able to correlate developer activity to token price empirically. And Ethereum is very developer friend. Combine all that with a kickass team, lead by the genius Vitalik Buterin, and that’s what makes Ethereum one of the most attractive cryptoassets today.
+The Ethereum project is one of the most important infrastructure layer web 3.0 technologies. The vision is extremely ambitious. Developers are building things for the entire technology stack, lower-level, middleware, and apps. If you like Ethereum you essentially believe in the original vision of the founding fathers of the internet. Decentralization, free, meritocratic, anyone can contribute and consume, universal way to communicate, borderless, and global decision-making. The value of these ideals cannot be overstated. Today, the Ethereum community has created one of the largest experimentation surface areas for web 3.0 technologies. They are working on cutting edge technologies like: Zk-Snarks, Sharding, Proof-of-Stake and other consensus algorithms. We are able to correlate developer activity to token price empirically. And Ethereum is very developer friendly. Combine all that with a kickass team, lead by the genius Vitalik Buterin, and that’s what makes Ethereum one of the most attractive cryptoassets today.
 
 3. Zcash
 
