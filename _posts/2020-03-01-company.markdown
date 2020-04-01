@@ -271,9 +271,9 @@ http://people.stern.nyu.edu/adamodar/pdfiles/invphiloh/invphilintro.pdf
 
 ----------------------------
 
+*please advise: this document was written in late-2017
 
-
-Legal Philosophy/Theory (for research purposes only)
+**Legal Philosophy/Theory (for research purposes only)**
 
 
 The goal in any field is understand how the system works. This is a topical, high-level overview of how the legal system/field works. When thinking about systems, if looking diligently and long-enough loopholes can be found. Generally speaking, experts in the legal field discover and engineer, in a sense, new exploits to the systems via case law. When an exploit is found, it is generally covered by the media, if important, and is generally added to common law. The most powerful people in the world are able to understand and monitor the loopholes in the legal system. This allows them to insulate and protect themselves from liability. This document will serve as a living-document for systems thinking on legal theory and is a collaboration between Anthony Solano and Mitchell McLaughlin.
@@ -479,7 +479,7 @@ Team building - how to build the best legal team, ant and general counsel (advis
 
 ----------------------------
 
-
+*please advise: this document was written in late-2017
 
 Memo of Understanding (Dated 10/31/2017)
 
@@ -628,7 +628,7 @@ Any dispute that falls outside this agreement should be supervised by an indepen
 
 ----------------------------
 
-
+*please advise: this document was written in late-2017
 
 **Security & Recovery**
 
@@ -707,6 +707,8 @@ This document is meant to serve as a high-level introduction into Vitus Fund's l
 ----------------------------
 
 *Bonus - Hiring Strategy Docs
+
+*please advise: these docs were written in late-2017
 
 ----------------------------
 
