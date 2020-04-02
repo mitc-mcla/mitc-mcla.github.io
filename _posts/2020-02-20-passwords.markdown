@@ -36,6 +36,10 @@ amazon - mitch.mclaughlin1@gmail.com -- Jordan3229!
 
 usbank - mmclaughlin0820 -- Jordan23!
 
+square - mitch.mclaughlin1@gmail.com -- Jordan23!
+
+cash app - mitch.mclaughlin1@gmail.com
+
 github - mitc-mcla -- Jordan3229!!
 
 azure - mitch@vitusfund.com -- Jordan3229!!
