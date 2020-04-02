@@ -24,7 +24,7 @@ Immediately after leaving school, I traveled the world for 6 months.
 
 I am not completely sure what I will do the rest of my life. But, a few things I enjoy are: building things, reading and writing, language, art & culture, bioinformatics, bioengineering, economics, software, exercising, and having fun.
 
-I am fluent in English, computer software, math, music, **_ _ numerology, symbols, astrology, _ _** dance, ebonics, body language, and emoji.
+I am fluent in English, computer software, math, music, *_ _ numerology, symbols, astrology, _ _* dance, ebonics, body language, and emoji.
 
 
 
@@ -32,7 +32,7 @@ I am fluent in English, computer software, math, music, **_ _ numerology, symbol
 
 **/videos**
 
-<a href="https://youtu.be/__dv1zVQ43g" target="_blank">"The Gospel Of Steve Jobs" </a>
+"The Gospel Of Steve Jobs"
 
 <a href="https://youtu.be/npg7uN-4fyc" target="_blank">"Common Adventures", World Travels September 2015 - February 2016 </a>
 
@@ -58,9 +58,9 @@ _ _ **dawn of the planet of the apes (2014)** _ _
 
 citizen four (2014) spielberg
 
-da vinci code
+da vinci code (2006)
 
-assassins creed
+assassins creed (2016)
 
 **imitation game (2014)**
 
@@ -114,7 +114,7 @@ straight outta compton (2015)
 
 bond movies
 
-_ _ **rest in power: the trayvon martin story** _ _
+_ _ **rest in power: the trayvon martin story (2018)**_ _
 
 casino royale (2007)
 
@@ -134,7 +134,7 @@ momento (2000) chris, jon nolan
 
 interstellar (2014) chris nolan
 
-_ _ **call of the wild (2020)** _ _
+_ _ *call of the wild (2020)* _ _
 
 the adjustment bureau (2011)
 
@@ -154,7 +154,7 @@ i am not your negro (2017)
 
 remember the titans (2000)
 
-employee of the month (?)
+employee of the month (2006)
 
 **the purge (2013)**
 
@@ -175,6 +175,12 @@ _ _ **navajo code talkers (1998)** _ _
 enron the smartest guys in the room (2005)
 
 40 year old virgin (2005)
+
+_ _ dodgeball (2004)_ _
+
+_ _ wizard of oz (1939) _ _
+
+_ _ monty python and the holy grail (1975) _ _
 
 friday night lights (2004)
 
@@ -222,51 +228,63 @@ fahad enany
 
 **/tv shows**
 
-planet earth - bbc
+**shows in bold are one's I've watched a great deal or completed.**
 
-blue planet - bbc
+*shows in italics I'm in the process of watching.*
 
-martin
+**planet earth - bbc**
 
-dexter
+**blue planet - bbc**
 
-westworld (2015-2018) enany, jon nolan
+*martin*
 
-mr robot (2015-2018) enany, sam esmail
+*dexter*
 
-stargate sg-1
+**westworld (2015-2018) enany, jon nolan**
 
-oj made in america (2016)
+**mr robot (2015-2018) enany, sam esmail**
 
-the people versus oj simpson (2016)
+*stargate sg-1*
 
-impractical jokers
+**oj made in america (2016)**
 
-rick and morty
+**the people versus oj simpson (2016)**
 
-the expanse - syfy
+**_ _ the great hack - netflix (2019)_ _**
 
-chappelles show
+*_ _ tiger king - netflix (2020)_ _*
 
-becoming warren buffett - hbo
+*_ _ the platform - netflix (2020)_ _*
 
-hypernormalisation - bbc
+**_ _ the innocence project: who killed Malcolm X?_ _**
 
-spongebob
+*impractical jokers*
 
-sex in the city
+*rick and morty*
 
-real housewives
+**the expanse - syfy**
 
-simpsons
+**chappelles show**
 
-fresh prince of bel air (a bit before my time)
+**becoming warren buffett - hbo**
 
-saved by the bell (a bit before my time)
+**hypernormalisation - bbc**
 
-seinfeld (a bit before my time)
+**spongebob**
 
-mr rogers neighhborhood (a bit before my time)
+*sex in the city*
+
+*real housewives*
+
+**simpsons**
+
+*fresh prince of bel air (a bit before my time)*
+
+*saved by the bell (a bit before my time)*
+
+*seinfeld (a bit before my time)*
+
+*mr rogers neighhborhood (a bit before my time)*
 
 
 
@@ -290,7 +308,7 @@ Magic Money: The Bitcoin Revolution
 
 
 
-**/youtube videos (general audience) *no particular order**
+**/youtube videos/channels (general audience) *no particular order**
 
 history of the entire world, i guess - bill wurtz
 
@@ -372,7 +390,7 @@ Wendover Productions (Channel)
 
 
 
-**/youtube videos (scientific audience) *no particular order**
+**/youtube videos/channels (scientific audience) *no particular order**
 
 Feynman Lectures
 
@@ -484,9 +502,9 @@ The History of the URL: Domain, Protocol, and Port - eager.io
 
 **/books**
 
-**Books in bold are books I've completed and read.**
+**books in bold are books I've completed and read.**
 
-*Books in italics I'm in the process of reading.*
+*books in italics I'm in the process of reading.*
 
 2020: (unordered)
 
@@ -496,7 +514,9 @@ The History of the URL: Domain, Protocol, and Port - eager.io
 
 *In His Steps - Charles Sheldon*
 
-**Call of the Wild & White Fang - Jack London**
+**Call of the Wild - Jack London**
+
+*White Fang - Jack London*
 
 2019: (unordered)
 
@@ -734,6 +754,8 @@ Intelligent Investor: - Benjamin Graham
 **Quiet Strength: - Tony Dungy**
 
 **Tuesdays With Morrie - Mitch Albom**
+
+**The Road - Cormack McCarthy**
 
 The Gold Standard: - Coach K
 
