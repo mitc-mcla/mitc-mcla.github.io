@@ -14,7 +14,7 @@ Mastercard Quicksilver 5178-0595-8374-2508 04/24 cvv 735
 
 Mastercard Cap1 Debit 5108-0501-6468-6656 07/23 cvv 288
 
-Visa BankofAmeica Debit 4815-8201-9540-5293 07/23 cvv 476
+Visa BankofAmerica Debit 4815-8201-9540-5293 07/23 cvv 476
 
 Visa USBank Debit 4317-1944-8207-0746 12/21 cvv 893
 
