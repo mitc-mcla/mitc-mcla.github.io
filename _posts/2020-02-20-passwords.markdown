@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "*My Passwords"
+title: "My Passwords"
 date: 2020-02-22 10:10:52 +0100
 categories: blog
 permalink: /passwords.html
