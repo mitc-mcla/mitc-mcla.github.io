@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "*My Internet Search History #2"
+title: "My Internet Search History #2"
 date: 2020-02-16 10:10:52 +0100
 categories: blog
 permalink: /searches2.html
