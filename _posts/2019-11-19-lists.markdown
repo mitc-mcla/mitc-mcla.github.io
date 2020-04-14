@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "*Lists, my most important doc"
+title: "**Lists, my most important doc"
 date: 2019-11-20 10:10:52 +0100
 categories: blog
 permalink: /lists.html
@@ -144,7 +144,33 @@ the matrix (1999)
 
 source code (2011)
 
+_ _ elysium (2013) _ _
+
+_ _ ex machina (2015) _ _
+
+_ _ her (2013) _ _
+
+_ _ transcendence (2014) _ _
+
+_ _ big hero 6 (2014) _ _
+
+_ _ ghost in the shell (2017) _ _
+
+_ _ irobot (2014) _ _
+
+_ _ blade runner movies _ _
+
+_ _ eva (2011) _ _
+
+_ _ passengers (2016) _ _
+
+_ _ ai rising (2019) _ _
+
+_ _ morgan (2016) _ _
+
 bridge of spies (2015) spielberg
+
+
 
 _ _ **1917** _ _
 
@@ -322,6 +348,8 @@ history of the entire world, i guess - bill wurtz
 
 history of japan - bill wertz
 
+less than one short film
+
 How the Internet Works in 5 Minutes - Aaron (2009)
 
 50 Centuries in 10 minutes - kardboardking (2014)
@@ -343,6 +371,8 @@ Your Elusive Creative Genius - Elizabeth Gilbert (TED Talk)
 Your Body Language May Shape Who You Are - Amy Cuddy (TED Talk)
 
 How Trees Talk to Each Other - TED
+
+The Evolution of Language - TED-Ed
 
 Allen Iverson Basketball Hall of Fame Enshrinement Speech
 
@@ -366,9 +396,17 @@ The Map of Physics - Domain of Science
 
 The Map of Computer Science - Domain of Science
 
+Viruses - Terence McKenna
+
+The History of Magic - Terence McKenna
+
+Intuition - Terence McKenna
+
 Dave Chappelle
 
 George Carlin
+
+Santos Bonacci
 
 Alan Watts
 
