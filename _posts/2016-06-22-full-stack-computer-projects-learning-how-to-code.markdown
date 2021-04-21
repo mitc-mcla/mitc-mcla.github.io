@@ -351,8 +351,7 @@ Great, everything is installed and you have generated your site locally. This is
 $ sudo apt-get install apache2
 {% endhighlight %}
 
-Apache HTTP Server is the most popular web server technology in the world. As of November 2015, it serves 50% of all websites. It also happens to be the easiest to implement. When I was setting up my web server at first, I mistakenly thought I needed a LAMP architecture (pictured below). The solution is actually much simpler with Apache.
-<img src="https://cdn.pbrd.co/images/21vNuEAy.png">
+Apache HTTP Server is the most popular web server technology in the world. As of November 2015, it serves 50% of all websites. It also happens to be the easiest to implement. When I was setting up my web server at first, I mistakenly thought I needed a LAMP architecture. The solution is actually much simpler with Apache.
 
 **Dynamic DNS**
 
