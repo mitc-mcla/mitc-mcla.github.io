@@ -40,8 +40,6 @@ permalink: /server.html
 
 <p id="project1"> </p>**Setting Up A Personal Web Server With The Raspberry Pi 3**
 
-<img src="https://cdn.pbrd.co/images/1J8Hzm6G.png" alt="pi">
-
 What is the value of building a personal web server?
 
 A personal web server is "the cloud" essentially, except, in this case, you will own and control it. As opposed to a large corporation. And owning a little cloud has a lot of benefits. Customization. Free storage. Free internet services. A path into open-source software. High-quality security. Full control over your content. The ability to make quick changes. A place to experiment with code. And many more. Most of these benefits are immeasurable. But, financially these benefits can save you $100+/month.
@@ -72,9 +70,10 @@ Things I Used:
 + USB MicroSD Card Reader
 + Ethernet Cable
 + Router Connected To WiFi
-+ Raspberry Pi Case
-+ Amazon Basics MicroUSB Cable
-+ Apple Wall Charger
++ Raspberry Pi Clear Plastic Case
++ Amazon Basics MicroUSB Cable (Power Supply)
++ Apple Wall Charger (Power Supply)
++ External Hard Drive (500GB, Storage/Memory)
 + USB Mouse
 + USB Keyboard
 + Amazon Basics HDMI Cable
@@ -83,13 +82,9 @@ Things I Used:
 
 **STEP 1: SETTING UP THE RASPBERRY PI**
 
-Download the most recent release of Raspbian (the Raspberry Pi operating system). <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank">Raspbian Jessie</a> ZIP version is ideal<a href="#footnote1">[1]</a>. Unzip/extract the downloaded file. Now, you need to copy it onto the SD card. <a href="http://ivanx.com/raspberrypi/" target="_blank">Pi Filler</a> makes this process easy. Download <a href="http://ivanx.com/raspberrypi/files/PiFiller.zip" target="_blank">Pi Filer 1.3</a> or the most recent version. Unzip/extract the downloaded file again and open it. You should be greeted with this prompt.
+Download the most recent release of Raspbian (the Raspberry Pi operating system). <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank">Raspbian Jessie</a> ZIP version is ideal<a href="#footnote1">[1]</a>. Unzip/extract the downloaded file. Now, you need to copy it onto the SD card. <a href="http://ivanx.com/raspberrypi/" target="_blank">Pi Filler</a> makes this process easy. Download <a href="http://ivanx.com/raspberrypi/files/PiFiller.zip" target="_blank">Pi Filer 1.3</a> or the most recent version. Unzip/extract the downloaded file again and open it. You should be greeted with this prompt reading "Pi Filler will assist with copying a Raspberry Pi operation system (available at www.raspberrypi.org) to an SD card. If you have already attached your SD card to your Mac, please eject it before continuing."
 
-<img src="https://cdn.pbrd.co/images/1Yhqcd2J.png">
-
-Make sure the USB card reader has NOT been inserted yet. If it has, eject it. Proceed by clicking continue. A file explorer should appear. Locate the uncompressed Raspberry Pi OS file from your Mac or PC and select it. You should see another prompt like the one pictured below.
-
-<img src="https://cdn.pbrd.co/images/1YhjhxSm.png">
+Make sure the USB card reader has NOT been inserted yet. If it has, eject it. Proceed by clicking continue. A file explorer should appear. Locate the uncompressed Raspberry Pi OS file from your Mac or PC and select it. You should see another prompt reading "Please insert the SD card you want to use for the Raspberry Pi. It should be at least 2 GB (preferably 4 GB or more). It will be completely ERASED. As a precaution, you may want to rename the card to "RASPBERRY" after inserting it, to minimize the chance of confusion with any other disks."
 
 Insert the MicroSD card (32GB recommended, 16GB minimum) into the USB MicroSD Card Reader. Then, insert the USB reader into the Mac or PC. You can rename the SD card to "Raspberry" to distinguish it from others. Click continue. Make sure the SD card is empty. Pi Filler will ERASE all previous storage at runtime. If you need to backup the card do it now. When you are ready to continue, the Raspbian OS will be written to the SD card. It should take between 1-3 minutes. Once the write is completed, eject the USB reader, remove the SD card and insert it into the Raspberry Pi SD card slot. Give the Raspberry Pi power by plugging the power cord into the wall. It should start booting up. The Raspberry Pi default login is:
 
@@ -98,17 +93,13 @@ username: pi
 password: raspberry
 {% endhighlight %}
 
-When the Raspberry Pi has completed booting for the first time, a configuration screen titled "Setup Options" should appear like the image below<a href="#footnote2">[2]</a>.
+When the Raspberry Pi has completed booting for the first time, a configuration screen titled "Rasperry Pi Software Configuration Tool (raspi-config) and Setup Options" should appear<a href="#footnote2">[2]</a>.
 
-<img src="https://cdn.pbrd.co/images/1J5IvUC5.png">
-
-Select the "Expand Filesystem" option and hit the enter key<a href="#footnote3">[3]</a>. 
+Select the "1 Expand Filesystem" option and hit the enter key<a href="#footnote3">[3]</a>. 
 
 Also, I recommend selecting the 2nd option "change user password". It is important for security. It also personalizes your Raspberry Pi.
 
-Select the 3rd option in the setup options list, "Enable Boot To Desktop/Scratch" and hit the enter key. It will take you to another window titled "choose boot option" like the image below.
-
-<img src="https://cdn.pbrd.co/images/1J5UXkDa.png">
+Select the 3rd option in the setup options list, "Enable Boot To Desktop/Scratch" and hit the enter key. It will take you to another window titled "choose boot option".
 
 In the "choose boot option" window, select the 2nd option, "Desktop Log in as user 'pi' at the graphical desktop" and hit the enter button<a href="#footnote4">[4]</a>. Once this is done you will be taken back to the "Setup Options" page. If not, select the "OK" button at the bottom of this window and you will be taken back to the previous window.
 
@@ -118,9 +109,7 @@ Once both these steps are done, select the "finish" button at the bottom of the 
 $ sudo reboot
 {% endhighlight %}
 
-After the reboot from the previous step, if everything went right, you will end up on the desktop similar to the image below.
-
-<img src="https://cdn.pbrd.co/images/1J8U3D2X.png">
+After the reboot from the previous step, if everything went right, you will end up on the desktop GUI.
 
 Once you are on the desktop, open a terminal and enter the following commands to update the firmware of the Raspberry Pi.
 
@@ -171,21 +160,28 @@ Xrdp supports the Microsoft Remote Desktop Client for Mac and PC.
 
 On Mac, navigate to the app store and search for "Microsoft Remote Desktop". Download it. On PC, see footnote<a href="#footnote6">[6]</a>.
 
-After installation, search your Mac for a program called "Microsoft Remote Desktop". Open it. You should see this.
+After installation, search your Mac for a program called "Microsoft Remote Desktop". Open it.
 
-<img src="https://cdn.pbrd.co/images/1J83FZJd.png">
+Click "New" to setup a remote connection. Fill in the blanks in the table as follows.
 
-Click "New" to setup a remote connection. Fill in the blanks as shown below.
-
-<img src="https://cdn.pbrd.co/images/1J80QO0L.png">
+{% highlight shell %}
+"Connection Name" pi
+"PC Name" your_ip_address
+"Gateway" select No gateway configured
+"Credentials"
+"User name" pi
+"Password" *************
+"Resolution" select Native
+"Colors" select True Color (24 bit)
+"Full screen mode" select OS X native
+select Scale Content
+{% endhighlight %}
 
 Save it by exiting out of the "New" window.
 
 You should now see the remote connection listed under "My Desktops". Double-click it.
 
-After briefly loading, you should see your Raspberry Pi desktop in a window on your screen. Like this.
-
-<img src="https://cdn.pbrd.co/images/1J8U3D2X.png">
+After briefly loading, you should see your Raspberry Pi desktop GUI in a window on your screen.
 
 Perfect. Now, you don't need a separate mouse, keyboard, or monitor to control the Pi. This is a much more elegant setup.
 
@@ -204,8 +200,6 @@ $ netstat -nr
 {% endhighlight %}
 
 Write down the "destination" and the "gateway/network".
-
-<img src="https://cdn.pbrd.co/images/1J7Wu2T3.png">
 
 The culumlative records should look something like this:
 
@@ -279,9 +273,7 @@ It should prompt you for the password.
 
 Check to see if port forwarding is working for remote desktop as well. Open Microsoft Remote Desktop. Your previous remote connection settings should be saved. But, you need to update the "PC name" field with the static external IP address (for example, 195.198.227.116) instead of the static internal address (for example, 192.168.1.115).
 
-Now, try connecting via remote desktop. It should briefly load and arrive at the Pi’s desktop.
-
-<img src="https://cdn.pbrd.co/images/1J8U3D2X.png">
+Now, try connecting via remote desktop. It should briefly load and arrive at the Pi’s desktop GUI.
 
 Good job. The Raspberry Pi is now accessible from the internet and ready for advanced projects.
 
@@ -644,9 +636,7 @@ $ sudo-rasps-config
 {% endhighlight %}
 <p id="footnote3"> </p>[3] We do this to make use of all the space present on the SD card as a full-partition. All this does is, expand the operating system to fit the whole space on the SD card which can then be used as storage memory for the Raspberry Pi.
 <p id="footnote4"> </p>[4] We do this because we want to boot into the desktop environment which we are familiar with. If we do not do this step, the Raspberry Pi boots into a terminal each time with no graphical-user interface.
-<p id="footnote5"> </p>[5]
-
-<img src="https://cdn.pbrd.co/images/1J7ONkCx.jpg">
+<p id="footnote5"> </p>[5] The prompt should be titled "PuTTY Config". "Basic options for your PuTTY session", then "Specify the destination you want to connect to", then "Host Name (or IP address)" which I entered {% highlight shell %} 192.168.1.102 {% endhighlight %}, then "Port" which I entered {% highlight shell %} 22 {% endhighlight %}, and finally "Connection Type" SSH should be selected.
 
 Download and run <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">PuTTY</a> or another SSH client for Windows. Enter your IP address in the field, as shown in the above screenshot. Keep the default port at 22. Hit enter, and PuTTY will open a terminal window which will prompt you for your username and password. Fill those in, and begin working remotely on your Pi.
 <p id="footnote6"> </p>[6] If it is not already installed, download <a href="https://www.microsoft.com/en-us/store/apps/microsoft-remote-desktop/9wzdncrfj3ps" target="_blank">Microsoft Remote Desktop</a>. Search your computer for Microsoft Remote Desktop. Run it. Input the IP address when prompted. Next, an xrdp window will pop up, prompting you for your username and password.
