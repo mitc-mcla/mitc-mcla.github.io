@@ -16,14 +16,11 @@ tl;dr version - Try to complete part one if limited on time or attention. Part t
 My route.<a href="#footnote1">[1]</a>
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y" width="640" height="480"></iframe>
 
-Thumbtacks.
-<img src="https://cdn.pbrd.co/images/1s0VtduV.jpg" alt="Thumbtacks.">
+<a href="https://goo.gl/photos/jmRCArpLS5UE7PCY6" target="_blank">Thumbtacks.</a>
 
 **What I packed.**<a href="#footnote2">[2]</a>
 
-<a href="https://cdn.pbrd.co/images/1cWVuepP.png" target="_blank">My backpack.</a>
-
-<a href="https://cdn.pbrd.co/images/1peJdJRT.jpg" target="_blank">My luggage.</a>
+<a href="https://photos.app.goo.gl/iXzpJLo1C31fcfDR8" target="_blank">My backpack.</a> And one roller luggage bag.
 
 **Crazy moments.**
 
