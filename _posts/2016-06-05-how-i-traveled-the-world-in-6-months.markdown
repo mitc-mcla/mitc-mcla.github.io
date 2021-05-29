@@ -14,13 +14,16 @@ tl;dr version - Try to complete part one if limited on time or attention. Part t
 **PART ONE:**
 
 My route.<a href="#footnote1">[1]</a>
+
+source: https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y
+
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y" width="640" height="480"></iframe>
 
-<a href="https://goo.gl/photos/jmRCArpLS5UE7PCY6" target="_blank">Thumbtacks.</a>
+Thumbtacks. https://goo.gl/photos/jmRCArpLS5UE7PCY6
 
 **What I packed.**<a href="#footnote2">[2]</a>
 
-<a href="https://photos.app.goo.gl/iXzpJLo1C31fcfDR8" target="_blank">My backpack.</a> And one roller luggage bag.
+My backpack (https://photos.app.goo.gl/iXzpJLo1C31fcfDR8). And one roller luggage bag.
 
 **Crazy moments.**
 
@@ -32,57 +35,60 @@ I could only account for $12,600 of expenses from my bank account. The real tota
 
 **Finances.**<a href="#footnote3">[3]</a>
 
+source: https://docs.google.com/spreadsheets/d/1qwJFX_SYyw3ouGrRStcoidVRsZnvDu9evNHPgj1XVEE/pubhtml?widget=true&amp;headers=false 
+
 <iframe src="https://docs.google.com/spreadsheets/d/1qwJFX_SYyw3ouGrRStcoidVRsZnvDu9evNHPgj1XVEE/pubhtml?widget=true&amp;headers=false" width="800" height="400"></iframe>
 
 **Major Cities Compared.**<a href="#footnote4">[4]</a>
 
+source: https://docs.google.com/spreadsheets/d/1nahV7P6wLifMAcHJINttCt-2k0wjPMoGRhMQNEU_KQg/pubhtml?widget=true&amp;headers=false
+
 <iframe src="https://docs.google.com/spreadsheets/d/1nahV7P6wLifMAcHJINttCt-2k0wjPMoGRhMQNEU_KQg/pubhtml?widget=true&amp;headers=false" width="800" height="400"></iframe>
 
-
-
 **Optimizing for Good Weather.**<a href="#footnote5">[5]</a>
+
+source: https://docs.google.com/spreadsheets/d/1HO_ihLsjAv8MaLHNyZKdR333jYy1SBRt0jIpINsTBL8/pubhtml?widget=true&amp;headers=false
 
 <iframe src="https://docs.google.com/spreadsheets/d/1HO_ihLsjAv8MaLHNyZKdR333jYy1SBRt0jIpINsTBL8/pubhtml?widget=true&amp;headers=false" width="800" height="400"></iframe>
 
 
-
-<a href="https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens" target="_blank">**Wikipedia: Visa Requirements for United States Citizens.**</a><a href="#footnote6">[6]</a>
+**Wikipedia: Visa Requirements for United States Citizens (https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens).**</a><a href="#footnote6">[6]</a>
 
 **How did I discover things to do?**
 
-<a href="https://en.wikipedia.org/wiki/Lists_of_World_Heritage_Sites" target="_blank">Wikipedia: List of UNESCO World Heritage Sites.</a><a href="#footnote7">[7]</a>
+Wikipedia: List of UNESCO World Heritage Sites (https://en.wikipedia.org/wiki/Lists_of_World_Heritage_Site).</a><a href="#footnote7">[7]</a>
 
-I used <a href="http://tripadvisor.com" target="_blank">TripAdvisor</a>. Googling, “TripAdvisor Top 10 Things To Do In (given city)” is a good place to start for finding activities<a href="#footnote8">[8]</a>. The TripAdvisor results are filtered showing highest rated activities first. The Traveler’s Choice award, certificate of excellence, and number of reviews tend to be good indicators of quality as well. Many of the TripAdvisor “Things To Do” results are also UNESCO World Heritage Sites.
+I used TripAdvisor (http://tripadvisor.com). Googling, “TripAdvisor Top 10 Things To Do In (given city)” is a good place to start for finding activities<a href="#footnote8">[8]</a>. The TripAdvisor results are filtered showing highest rated activities first. The Traveler’s Choice award, certificate of excellence, and number of reviews tend to be good indicators of quality as well. Many of the TripAdvisor “Things To Do” results are also UNESCO World Heritage Sites.
 
 The internet, blogs, travel sites, and UNESCO are certainly reliable sources. However, talking to locals, hosts, and fellow travelers is equally beneficial for discovering activities.
 
-*Edit: 01/13/2017 - <a href="https://www.amazon.com/Atlas-Obscura-Explorers-Worlds-Wonders/dp/0761169083" target="_blank">Atlas Obscura: An Explorer's Guide to the Hidden Wonders of the World</a> - Joshua Foer
+*Edit: 01/13/2017 - Atlas Obscura: An Explorer's Guide to the Hidden Wonders of the World - Joshua Foer https://www.amazon.com/Atlas-Obscura-Explorers-Worlds-Wonders/dp/0761169083 
 
-*Edit: 01/23/2017 - <a href="http://marginalrevolution.com/marginalrevolution/2017/01/organize-first-day-new-city-traveling.html" target="_blank">How to organize your first day in a new city when you are traveling</a> - Tyler Cowen
+*Edit: 01/23/2017 - How to organize your first day in a new city when you are traveling - Tyler Cowen http://marginalrevolution.com/marginalrevolution/2017/01/organize-first-day-new-city-traveling.html
 
 **How did I get around?**
 
-I flew. I discovered flights using <a href="https://flights.google.com" target="_blank">Google Flights</a><a href="#footnote9">[9]</a>. I rode the bus with <a href="https://megabus.com" target="_blank">Megabus</a> and <a href="https://meinfernbus.de/en" target="_blank">Meinfernbus</a><a href="#footnote10">[10]</a>. I used rideshare with <a href="https://blablacar.com" target="_blank">BlaBlaCar</a> and <a href="https://uber.com" target="_blank">Uber</a><a href="#footnote11">[11]</a>. I considered a 3-month <a href="http://www.eurostar.com/us-en" target="_blank">Eurostar</a> train pass, but I decided against it<a href="#footnote12">[12]</a>.
+I flew. I discovered flights using Google Flights https://flights.google.com<a href="#footnote9">[9]</a>. I rode the bus with Megabus https://megabus.com and Meinfernbus https://meinfernbus.de/en<a href="#footnote10">[10]</a>. I used rideshare with BlaBlaCar https://blablacar.com and Uber https://uber.com<a href="#footnote11">[11]</a>. I considered a 3-month Eurostar http://www.eurostar.com/us-en train pass, but I decided against it<a href="#footnote12">[12]</a>.
 
 **How did I find accommodation?**
 
-I always checked these 5 sites before I booked a stay in a new city: <a href="http://www.hostelbookers.com" target="_blank">HostelBookers</a>, <a href="http://www.hostelworld.com" target="_blank">HostelWorld</a>, <a href="https://booking.com" target="_blank">Booking.com</a>, <a href="https://airbnb.com" target="_blank">Airbnb</a>, and <a href="https://couchsurfing.org" target="_blank">Couchsurfing.org</a> (free)<a href="#footnote13">[13]</a>.
+I always checked these 5 sites before I booked a stay in a new city: HostelBookers http://www.hostelbookers.com, HostelWorld http://www.hostelworld.com, Booking.com, Airbnb https://airbnb.com, and Couchsurfing.org (free)<a href="#footnote13">[13]</a>.
 
 **Insurance, Identification, and Immunization Must-haves.**
 
-<a href="http://www.geico.com/travel-insurance/" target="_blank">International travelers insurance</a> is a comprehensive package covering medical & dental expenses, flight or trip cancellations for any reason, lost luggage, lost identification or theft, and car rental collision coverage. I recommend <a href="http://www.geico.com" target="_blank">GEICO</a>.
+International travelers insurance http://www.geico.com/travel-insurance/ is a comprehensive package covering medical & dental expenses, flight or trip cancellations for any reason, lost luggage, lost identification or theft, and car rental collision coverage. I recommend GEICO.
 
-It is a good idea to obtain an <a href="http://www.aaa.com/vacation/idpapplc.html" target="_blank">international driver’s license</a> issued by <a href="http://www.aaa.com" target="_blank">AAA</a> prior to traveling abroad. This can be used for international driving and car rentals. Without it, international police might may not be lenient.
+It is a good idea to obtain an international driver’s license http://www.aaa.com/vacation/idpapplc.html issued by AAA http://www.aaa.com prior to traveling abroad. This can be used for international driving and car rentals. Without it, international police might may not be lenient.
 
 Obtain duplicates of a passport, United States driver’s license, school identification, social security card, international travelers insurance proof, debit card, credit card, and any other critical cards or documents prior to the trip. Keep one set in a backpack and another elsewhere<a href="#footnote14">[14]</a>. For example, in a concealed fanny pack. In the event one set is lost, there is a backup. It helps to avoid missing flights, unwanted examinations, and other bad things. This concept holds true for electronics too. A backup dummy mobile phone, in case a smartphone is lost. Or a tablet, in case a laptop is lost.
 
 Immunizations are required or recommended in certain countries prior to travel. For example, India recommends the malaria and Japanese Encephalitis vaccinations. Research and check for each country prior to travel.
 
-My <a href="https://goo.gl/photos/67xSyzfGEx2tAHUeA" target="_blank">**205 best photos**</a>.
+My **205 best photos** (https://goo.gl/photos/67xSyzfGEx2tAHUeA).
 
-<a href="https://goo.gl/photos/WrARzZzkjcDCmE8v7" target="_blank">**Instagram photos**</a> of my trip.
+**Instagram photos** of my trip (https://goo.gl/photos/WrARzZzkjcDCmE8v7).
 
-<a href="https://youtube.com/watch?v=npg7uN-4fyc" target="_blank">**4-minute video**</a> of my travels around the world.<a href="#footnote15">[15]</a> 
+**4-minute video** https://youtube.com/watch?v=npg7uN-4fyc of my travels around the world.<a href="#footnote15">[15]</a> 
 
 **PART TWO:**
 
@@ -146,15 +152,15 @@ Some museums in Europe are free after 5pm if you are under 25-years old. Ask. A 
 
 Use a Virtual Private Network abroad. Login with the US servers. It tricks the internet into thinking you are located in the United States. Without it, Netflix will not work. Foreign ads will be annoying. Certain websites and applications will not be accessible like normal in the United States.
 
-The <a href="https://en.wikipedia.org/wiki/24-hour_clock" target="_blank">24-hour clock</a> or Military Time is common abroad. It is a superior system of time to the <a href="https://en.wikipedia.org/wiki/12-hour_clock" target="_blank">12-hour clock</a>. The <a href="https://en.wikipedia.org/wiki/metric_system" target="_blank">metric system</a> is universally accepted abroad and is a superior system of measurement to the United States’ <a href="https://en.wikipedia.org/wiki/imperial_units" target="_blank">Imperial system</a>.
+The 24-hour clock https://en.wikipedia.org/wiki/24-hour_clock or Military Time is common abroad. It is a superior system of time to the 12-hour clock https://en.wikipedia.org/wiki/12-hour_clock. The metric system https://en.wikipedia.org/wiki/metric_system is universally accepted abroad and is a superior system of measurement to the United States’ Imperial system (https://en.wikipedia.org/wiki/imperial_units).
 
-Mobile internet can be difficult to obtain abroad. United States telecommunication companies generally do not offer cheap global packages. But, <a href="http://www.t-mobile.com/cell-phone-plans/simple-choice-international-plan-countries.html" target="_blank">T-Mobile’s Simple Choice</a> international plan has coverage in 140+ countries around the world at a fair price. I always had access to 3G data speeds on this plan. 4G speeds are extremely rare abroad. The alternative option is to sign up with a new carrier in each individual country. Not recommended.
+Mobile internet can be difficult to obtain abroad. United States telecommunication companies generally do not offer cheap global packages. But, T-Mobile’s Simple Choice international plan http://www.t-mobile.com/cell-phone-plans/simple-choice-international-plan-countries.html has coverage in 140+ countries around the world at a fair price. I always had access to 3G data speeds on this plan. 4G speeds are extremely rare abroad. The alternative option is to sign up with a new carrier in each individual country. Not recommended.
 
 Add fellow travelers on Facebook and social media. Stay in contact. I found following their trips was a good resource to learn. To find fellow American travelers, join Facebook American Expatriate groups in every country. They often post meetups to attend.
 
-I communicated with my family and friends using <a href="https://apple.com/mac/facetime" target="_blank">FaceTime</a> and <a href="https://skype.com" target="_blank">Skype</a> for free audio or video communication. Any similar free VoIP (voice over IP) is sufficient. I used <a href="https://whatsapp.com" target="_blank">WhatsApp</a> and <a href="https://messenger.com" target="_blank">Facebook Messenger</a> for free text messaging.
+I communicated with my family and friends using FaceTime https://apple.com/mac/facetime and Skype https://skype.com for free audio or video communication. Any similar free VoIP (voice over IP) is sufficient. I used WhatsApp https://whatsapp.com and Facebook Messenger https://messenger.com for free text messaging.
 
-<a href="https://goo.gl/photos/QD8JwGPW6jncVFce8" target="_blank">**Apps**</a> I used.
+**Apps** I used. https://goo.gl/photos/QD8JwGPW6jncVFce8
 
 + Best Hidden Gem - Slovenia
 + An Unexpectedly Beautiful City - Prague
@@ -165,7 +171,7 @@ If you want to contribute to this article, liked it, or found errors, email me a
 
 **Notes**
 
-<p id="footnote1"> </p>[1] My trip started with the 11-hour flight from San Francisco to Munich. It continued on tracing points A-J, A-J, A-C, and so on. The blue lines indicate ground transportation. Black lines indicate air travel. The trip ends with the flight from Tokyo to Chicago. Pictures of my <a href="https://goo.gl/photos/DtMg3s5gUBiHXTco8" target="_blank">flight and train tickets</a>. Pictures of my <a href="https://goo.gl/photos/vf1FtwJ22AQY1E7L6" target="_blank">bus tickets</a>. This map was created using <a href="https://www.google.com/maps/d/u/0/?hl=en_US&app=mp" target="_blank">Google My Maps</a>.
+<p id="footnote1"> </p>[1] My trip started with the 11-hour flight from San Francisco to Munich. It continued on tracing points A-J, A-J, A-C, and so on. The blue lines indicate ground transportation. Black lines indicate air travel. The trip ends with the flight from Tokyo to Chicago. Pictures of my flight and train tickets (https://goo.gl/photos/DtMg3s5gUBiHXTco8). Pictures of my bus tickets (https://goo.gl/photos/vf1FtwJ22AQY1E7L6). This map was created using Google My Maps (https://www.google.com/maps/d/u/0/?hl=en_US&app=mp).
 
 <p id="footnote2"> </p>[2] Equipment I wish I had for the trip: a Canon DSLR and a drone. In my suitcase, I packed roughly 2-weeks of clothes. Comprised, mostly of shorts, t-shirts, socks, and underwear. I packed one pair of clothes for cold weather, one pair of formal clothes, 2 pairs of shoes, and one pair of sandals. Rolling my clothes saved me space.
 
@@ -191,20 +197,20 @@ Seasons of the southern hemisphere:
 <p id="footnote6"> </p>[6] A great resource for understanding entry into ANY foreign territory. Occasions I used it on my trip:
 
 + Entry into the European Union (Schengen Area) - 90 day limit.
-+ Entry into India - 30 day Indian eVisa required. Sample <a href="https://goo.gl/photos/g58LQxd32YAVFrmaA" target="_blank">eVisa</a>. Must submit application at least 4 days before the flight departs for India. Must have a friend’s address in India to be permitted in prior to the flight.
++ Entry into India - 30 day Indian eVisa required. Sample eVisa (https://goo.gl/photos/g58LQxd32YAVFrmaA). Must submit application at least 4 days before the flight departs for India. Must have a friend’s address in India to be permitted in prior to the flight.
 + Entry into China - mainland China requires a valid Visa prior to the trip. No visa is required for Hong Kong and Macau.
 
 <p id="footnote7"> </p>[7] A powerful collection of the most extraordinary places on Earth.
 
-<p id="footnote8"> </p>[8] Walking tours are especially great. The tour guide acts as a protector. I learned new things and I had the ability to meet new friends in my tour groups. Walking and learning is stimulating. A good 2-hour tour costs roughly $10-15. Specifically, I recommend <a href="http://paris-walks.com" target="_blank">Paris Walks</a> and <a href="http://www.walks.com" target="_blank">London Walks</a>.
+<p id="footnote8"> </p>[8] Walking tours are especially great. The tour guide acts as a protector. I learned new things and I had the ability to meet new friends in my tour groups. Walking and learning is stimulating. A good 2-hour tour costs roughly $10-15. Specifically, I recommend Paris Walks http://paris-walks.com and London Walks (http://www.walks.com).
 
 <p id="footnote9"> </p>[9] Google Flights is a simple and easy tool to find the best flights.
 
 How to navigate Google Flights:
 
 1. Enter starting point and destination point (click the plus sign to add nearby airports).
-2. If the dates are flexible, click the calendar and browse <a href="https://goo.gl/photos/nYDYRnusMdAw1uix7" target="_blank">month-to-month</a> to find the best prices.
-3. If the location is flexible, click the map and browse <a href="https://goo.gl/photos/F3YrDQxzvBs36TkT9" target="_blank">area-to-area</a> to find the best prices.
+2. If the dates are flexible, click the calendar and browse month-to-month https://goo.gl/photos/nYDYRnusMdAw1uix7 to find the best prices.
+3. If the location is flexible, click the map and browse area-to-area https://goo.gl/photos/F3YrDQxzvBs36TkT9 to find the best prices.
 
 If a traveler is time and location flexible, extremely cheap flights are common. If a traveler is flexible in one or the other, but not both, cheap flights are less common.
 
@@ -219,7 +225,7 @@ RyanAir flights in Europe are usually under €100 regionally. The best example 
 
 <p id="footnote10"> </p>[10] Megabus is a quality, low-cost charter bus service from city to city. It functions similarly in the United States. Route availability mostly covers Western Europe. Meinfernbus is Europe’s version of Megabus. Similar in quality, price, and destinations. Route availability covers Western and Central Europe. I always booked overnight bus rides. Instead of sleeping at a hostel, I slept on the bus so my accommodation and transportation expense was the cost of my bus ticket.
 
-<p id="footnote11"> </p>[11] <a href="https://goo.gl/photos/6Ba9GY42veufKvvU9" target="_blank">BlaBlaCar</a> is similar to Uber. A ride comparable in distance from San Francisco to Los Angeles (8 hours) would only cost €30 in Europe with BlaBlaCar. I would use BlaBlaCar if it were in the United States.
+<p id="footnote11"> </p>[11] BlaBlaCar https://goo.gl/photos/6Ba9GY42veufKvvU9 is similar to Uber. A ride comparable in distance from San Francisco to Los Angeles (8 hours) would only cost €30 in Europe with BlaBlaCar. I would use BlaBlaCar if it were in the United States.
 
 Best Ridesharing Options:
 
@@ -259,7 +265,7 @@ Exceptional Hostels I Stayed At:
 
 **_Thanks_** to Suzanne Nguyen for reading drafts of this. And to Boonsri Dickinson Srinivasan for watching edits of the video.
 
-**UPDATE (06-22-2016):** *Related to the metric system. "<a href="https://www.youtube.com/watch?v=7bUVjJWA6Vw" target="_blank">Why The Metric System Matters</a>" and "<a href="http://www.theatlantic.com/education/archive/2016/06/why-the-metric-system-hasnt-failed-in-the-us/487040/" target="_blank">Why The Metric System Hasn't Failed In The U.S.</a>"*
+**UPDATE (06-22-2016):** *Related to the metric system. "Why The Metric System Matters (https://www.youtube.com/watch?v=7bUVjJWA6Vw)" and "Why The Metric System Hasn't Failed In The U.S.(http://www.theatlantic.com/education/archive/2016/06/why-the-metric-system-hasnt-failed-in-the-us/487040/)"*
 
 [wiki-visa]: https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens
 [wiki-unesco]: https://en.wikipedia.org/wiki/Lists_of_World_Heritage
