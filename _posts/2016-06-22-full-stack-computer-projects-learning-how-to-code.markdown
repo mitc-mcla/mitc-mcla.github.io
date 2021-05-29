@@ -11,12 +11,12 @@ permalink: /server.html
 
 **Table Of Contents:** (more tutorials coming soon...)
 
-1. <a href="#project1">"Setting Up A Personal Web Server With The Raspberry Pi 3"</a> (Appeared as <a href="https://opensource.com/article/17/3/building-personal-web-server-raspberry-pi-3" target="_blank">"How To Set Up A Personal Web Server With A Raspberry Pi"</a> on **Opensource.com**)
+1. <a href="#project1">"Setting Up A Personal Web Server With The Raspberry Pi 3"</a> (Appeared as "How To Set Up A Personal Web Server With A Raspberry Pi https://opensource.com/article/17/3/building-personal-web-server-raspberry-pi-3" on **Opensource.com**)
 2. <a href="#project2">"Building A Personal Website Using A Domain Name, GitHub Pages, Jekyll, Dynamic DNS (Domain Name Server), and Apache"</a>
 3. <a href="#project3">"Securing A Website With HTTPS (Let's Encrypt)"</a>
 4. <a href="#project4">"Protecting A Website With CloudFlare"</a>
 5. <a href="#project5">"Setting Up Web Analytics & Website Monitoring"</a>
-6. <a href="https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/" target="_blank">"Creating A Custom 404 Page For Your Github Page Site"</a>
+6. "Creating A Custom 404 Page For Your Github Page Site (https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/)"
 7. <a href="#project7">"Redirecting www Traffic To non-www With Apache"</a>
 8. "Creating A Secure VPN (Virtual Private Network)"
 9. <a href="#project9">"Setting Up Cloud-based Storage"</a>
@@ -66,7 +66,7 @@ Free Services:
 Things I Used:
 
 + Raspberry Pi 3 Model B
-+ MicroSD Card (32GB recommended, Raspberry Pi <a href="http://elinux.org/RPi_SD_cards" target="_blank">Compatible SD Cards</a>)
++ MicroSD Card (32GB recommended, Raspberry Pi Compatible SD Cards http://elinux.org/RPi_SD_cards)
 + USB MicroSD Card Reader
 + Ethernet Cable
 + Router Connected To WiFi
@@ -82,7 +82,7 @@ Things I Used:
 
 **STEP 1: SETTING UP THE RASPBERRY PI**
 
-Download the most recent release of Raspbian (the Raspberry Pi operating system). <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank">Raspbian Jessie</a> ZIP version is ideal<a href="#footnote1">[1]</a>. Unzip/extract the downloaded file. Now, you need to copy it onto the SD card. <a href="http://ivanx.com/raspberrypi/" target="_blank">Pi Filler</a> makes this process easy. Download <a href="http://ivanx.com/raspberrypi/files/PiFiller.zip" target="_blank">Pi Filer 1.3</a> or the most recent version. Unzip/extract the downloaded file again and open it. You should be greeted with this prompt reading "Pi Filler will assist with copying a Raspberry Pi operation system (available at www.raspberrypi.org) to an SD card. If you have already attached your SD card to your Mac, please eject it before continuing."
+Download the most recent release of Raspbian (the Raspberry Pi operating system). Raspbian Jessie ZIP version https://www.raspberrypi.org/downloads/raspbian/ is ideal<a href="#footnote1">[1]</a>. Unzip/extract the downloaded file. Now, you need to copy it onto the SD card. Pi Filler http://ivanx.com/raspberrypi/ makes this process easy. Download Pi Filer 1.3 http://ivanx.com/raspberrypi/files/PiFiller.zip or the most recent version. Unzip/extract the downloaded file again and open it. You should be greeted with this prompt reading "Pi Filler will assist with copying a Raspberry Pi operation system (available at www.raspberrypi.org) to an SD card. If you have already attached your SD card to your Mac, please eject it before continuing."
 
 Make sure the USB card reader has NOT been inserted yet. If it has, eject it. Proceed by clicking continue. A file explorer should appear. Locate the uncompressed Raspberry Pi OS file from your Mac or PC and select it. You should see another prompt reading "Please insert the SD card you want to use for the Raspberry Pi. It should be at least 2 GB (preferably 4 GB or more). It will be completely ERASED. As a precaution, you may want to rename the card to "RASPBERRY" after inserting it, to minimize the chance of confusion with any other disks."
 
@@ -255,11 +255,11 @@ It can be a fragile process initially. Call your ISP and request a static extern
 
 Great, now you obtained a static global IP address. However, this IP address your ISP assigned is for accessing the router. The Raspberry Pi is still unreachable. You need to set up port forwarding to access the Raspberry Pi specifically.
 
-Ports are virtual pathways where information travels on the internet. You sometimes need to forward a port in order to make a computer, like the Raspberry Pi, accessible to the internet since it is behind a network router. A YouTube video helped me visually understand <a href="https://www.youtube.com/watch?v=iskxw6T1Wb8" target="_blank">ports</a>.
+Ports are virtual pathways where information travels on the internet. You sometimes need to forward a port in order to make a computer, like the Raspberry Pi, accessible to the internet since it is behind a network router. A YouTube video helped me visually understand ports (https://www.youtube.com/watch?v=iskxw6T1Wb8).
 
-Port forwarding can be used for projects like a Raspberry Pi web server, or applications like VoIP, or peer-to-peer downloading. There are <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers" target="_blank">65,000+ ports</a> to choose from, so you can assign a different port for every internet applcation you build.
+Port forwarding can be used for projects like a Raspberry Pi web server, or applications like VoIP, or peer-to-peer downloading. There are 65,000+ ports https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers to choose from, so you can assign a different port for every internet applcation you build.
 
-The way to set up port forwarding can depend on your router. If you have a Linksys like I do, this <a href="https://www.youtube.com/watch?v=i1vB7JnPvuE#t=07m08s" target="_blank">video</a> explains how to set it up. If you don't have a Linksys, read the documentation that comes with your router in order to customize and define ports to forward.
+The way to set up port forwarding can depend on your router. If you have a Linksys like I do, this video https://www.youtube.com/watch?v=i1vB7JnPvuE#t=07m08s explains how to set it up. If you don't have a Linksys, read the documentation that comes with your router in order to customize and define ports to forward.
 
 You will need to port forward for SSH as well as the remote desktop.
 
@@ -279,13 +279,13 @@ Good job. The Raspberry Pi is now accessible from the internet and ready for adv
 
 As a bonus option, you can maintain 2 remote connections to your Pi. One via the internet and the other via the LAN (local area network). It's easy to setup. In Microsoft Remote Desktop, keep one remote connection called "Pi Internet" and another called "Pi Local". Configure Pi Internet's "PC name" to the static external IP address. For example, 195.198.227.116. Configure Pi Local's, "PC name" to the static internal IP address. For exmaple, 192.168.1.115. Now, you have the option to connect golbally or locally.  
 
-Watch this awesome <a href="https://www.youtube.com/watch?v=i1vB7JnPvuE" target="_blank">video</a> as a transition into project 2. It will show you the techincal architecture behind your project. In this case, you are using a Raspberry Pi instead of a Ubuntu server. The dynamic DNS sits between the domain company and your router, which he leaves out. Beside this subtlety, the video is spot on explaining visually how the system works. You might notice project 1 covered the Raspberry Pi setup and port forwarding. This is the server-side or back end. Project 2 covers the the domain name, dynamic DNS, Jekyll (static HTML generator) and Apache (web hosting). This is the client-side or front end. 
+Watch this awesome video https://www.youtube.com/watch?v=i1vB7JnPvuE as a transition into project 2. It will show you the techincal architecture behind your project. In this case, you are using a Raspberry Pi instead of a Ubuntu server. The dynamic DNS sits between the domain company and your router, which he leaves out. Beside this subtlety, the video is spot on explaining visually how the system works. You might notice project 1 covered the Raspberry Pi setup and port forwarding. This is the server-side or back end. Project 2 covers the the domain name, dynamic DNS, Jekyll (static HTML generator) and Apache (web hosting). This is the client-side or front end. 
 
 <p id="project2"> </p>**Building A Personal Website Using A Domain Name, GitHub Pages, Jekyll, Dynamic DNS (Domain Name Server), and Apache**
 
-If you already own a domain name skip to the next paragraph. If you need to acquire a domain name I recommend <a href="http://domains.google.com" target="_blank">Google Domains</a> or <a href="http://godaddy.com" target="_blank">GoDaddy</a>.
+If you already own a domain name skip to the next paragraph. If you need to acquire a domain name I recommend Google Domains http://domains.google.com or GoDaddy (http://godaddy.com).
 
-GitHub Pages are websites built on Jekyll and versioned using a git hosted repository on <a href="http://github.com" target="_blank">GitHub</a>. Jekyll is a simple, blog aware, static site generator. It takes <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, a lightweight markup language, and spits out a complete, static HTML website suitable for serving with Apache or similar web server.
+GitHub Pages are websites built on Jekyll and versioned using a git hosted repository on GitHub (http://github.com). Jekyll is a simple, blog aware, static site generator. It takes Markdown (https://daringfireball.net/projects/markdown/), a lightweight markup language, and spits out a complete, static HTML website suitable for serving with Apache or similar web server.
 
 Let's get started by installing Ruby. Ruby is a programming language that uses a package manager called gems. Gems can install Jekyll. From your Raspberry Pi, in terminal type (using ssh or remote desktop):
 {% highlight shell %}
@@ -298,7 +298,7 @@ If 'gem install jekyll' fails try:
 $ sudo gem install jekyll
 {% endhighlight %}
 
-You can find Jekyll documentation <a href="https://jekyllrb.com/" target="_blank">here</a>. Once you have Jekyll installed, you will want to create a directory for your blog.
+You can find Jekyll documentation here (https://jekyllrb.com/). Once you have Jekyll installed, you will want to create a directory for your blog.
 {% highlight shell %}
 $ jekyll new myblog
 {% endhighlight %}
@@ -313,7 +313,7 @@ Navigate to the myblog directory by typing:
 $ cd myblog
 {% endhighlight %}
 
-If you plan on writing to your blog, I recommend installing <a href="http://git-scm.com" target="_blank">git</a>. The blog will evolve over time as content is added. Git creates a snapshot of your blog at some point in time. So, you have the option to rollback a mistake or revert to some point in the past. Git is an amazing tool. It has become widely-accepted as a standard for version control of software. Version control is a far-reaching idea itself. It's a solution to capture the evolution of an information system over time. For exmaple, writing a book, producing a movie, or writing software. It has endless applications in the arts. I witnessed organizations using it as a communication tool. I could forsee it being applied in genetic engineering. If Microsoft Word or PowerPoint crashes, you might recall the ability to recover a document from an earlier time. This is the same underlying version control technology. I could go on. Anyways, to begin install git, type:
+If you plan on writing to your blog, I recommend installing git (http://git-scm.com). The blog will evolve over time as content is added. Git creates a snapshot of your blog at some point in time. So, you have the option to rollback a mistake or revert to some point in the past. Git is an amazing tool. It has become widely-accepted as a standard for version control of software. Version control is a far-reaching idea itself. It's a solution to capture the evolution of an information system over time. For exmaple, writing a book, producing a movie, or writing software. It has endless applications in the arts. I witnessed organizations using it as a communication tool. I could forsee it being applied in genetic engineering. If Microsoft Word or PowerPoint crashes, you might recall the ability to recover a document from an earlier time. This is the same underlying version control technology. I could go on. Anyways, to begin install git, type:
 {% highlight shell %}
 $ sudo apt-get install git
 {% endhighlight %}
@@ -355,7 +355,7 @@ Apache HTTP Server is the most popular web server technology in the world. As of
 
 **Dynamic DNS**
 
-Create a new user account with this free, open-source dynamic DNS service <a href="http://freedns.afraid.org/" target="_blank">here</a>. Write down your user name and password. Once logged in, click the "domains" tab in the navigation panel on the left. You should be taken to this screen (pictured below).
+Create a new user account with this free, open-source dynamic DNS service here (http://freedns.afraid.org/). Write down your user name and password. Once logged in, click the "domains" tab in the navigation panel on the left. You should be taken to this screen (pictured below).
 <img src="https://cdn.pbrd.co/images/21wfxQrV.png">
 
 Add your domain name. Once your domain is saved, click "edit secondaries". You should see a list of name servers (pictured below).
@@ -430,7 +430,7 @@ $ sudo iptables-save
 Your shell should return something similar to this (pictured below).
 <img src="https://cdn.pbrd.co/images/21BxyDbm.png">
 
-If you want to understand iptables, read the <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules" target="_blank">documentation</a>.
+If you want to understand iptables, read the documentation (https://fedoraproject.org/wiki/How_to_edit_iptables_rules).
 
 To test ports at anytime, go to a browser and type your_domain_name:80 or your_domain_name:443.
 <img src="https://cdn.pbrd.co/images/21BJNyaC.png">
@@ -453,13 +453,13 @@ Enter your domain name into a browser as a comprehensive final test. If you did 
 
 If you got this far, you are doing a hell of a job. Keep it up.
 
-If you ever want to change the design of your website, check out this <a href="https://github.com/jekyll/jekyll/wiki/sites" target="_blank">list</a> of examples.
+If you ever want to change the design of your website, check out this list of examples (https://github.com/jekyll/jekyll/wiki/sites).
 
-Watching this <a href="https://www.youtube.com/watch?v=i1vB7JnPvuE" target="_blank">video</a> again might crystallize your understanding of how the system works. 
+Watching this video https://www.youtube.com/watch?v=i1vB7JnPvuE again might crystallize your understanding of how the system works. 
 
 <p id="project3"> </p>**Securing A Website With HTTPS (Let's Encrypt)**
 
-<a href="https://letsencrypt.org" target="_blank">Let's Encrypt</a> is a certificate authority that provides free certificates for transport layer security (TLS) encryption via an automated process.
+Let's Encrypt https://letsencrypt.org is a certificate authority that provides free certificates for transport layer security (TLS) encryption via an automated process.
 
 Have you ever landed on a red-padlocked webpage? It's because HTTPS is not enabled.
 
@@ -537,7 +537,7 @@ Your certificates should be up to date. Success.
 
 CloudFlare is an internet security service. It partly functions like a content delivery network (CDN). A content delivery network is a fancy term to describe a software networking technology which stores assets of a website like text, images, and other metadata locally for a geographic area. It speeds up user-side access to your website. CloudFlare also protects your website from unwanted threats like a distributed denial-of-service (DDoS) attack. For DDoS attacks, CloudFlare functions like a reverse proxy load-balancer against incoming web requests.
 
-Let's get CloudFlare setup now. Go to <a href="http://cloudflare.com" target="_blank">cloudflare.com</a>. Create a new user account. It should then prompt you for your domain name. Continue by verifying your DNS records. Select a CloudFlare plan. I chose the free/basic plan. If all goes well, it should return CloudFlare name servers. Similar to my name servers pictured below.
+Let's get CloudFlare setup now. Go to cloudflare.com. Create a new user account. It should then prompt you for your domain name. Continue by verifying your DNS records. Select a CloudFlare plan. I chose the free/basic plan. If all goes well, it should return CloudFlare name servers. Similar to my name servers pictured below.
 <img src="https://cdn.pbrd.co/images/21dTNXS7.png">
 
 Change your old DNS name servers to the new CloudFlare name servers. Once you make the change, allow up to 24 hours for processing.
@@ -548,13 +548,13 @@ I like data. Web analytics is an easy way to learn more about your audience. If 
 
 I considered Google Analytics, Piwik, and Hotjar. Piwik was clunky and hard to implement. Hotjar was missing basic website metrics. So, I chose Google Analytics. It's easy to implement and lightweight.
 
-Go to <a href="http://analytics.google.com" target="_blank">Google Analytics</a>. Create an account. If you already have a gmail account you might be able to sign in with it. After signing up, you will be given a "tracking code". This is code to be embedded into the HTML code of your website. Embed it. It should take a few hours to process. Once the waiting period is over, you can start creating dashboards with a variety of metrics.
+Go to Google Analytics (http://analytics.google.com). Create an account. If you already have a gmail account you might be able to sign in with it. After signing up, you will be given a "tracking code". This is code to be embedded into the HTML code of your website. Embed it. It should take a few hours to process. Once the waiting period is over, you can start creating dashboards with a variety of metrics.
 
-Website monitoring can be used as a notification tool to alert you when your website crashes. I use <a href="http://uptimerobot.com" target="_blank">UptimeRobot</a>. Create an account and link your domain and you will be alerted if something crashes.
+Website monitoring can be used as a notification tool to alert you when your website crashes. I use UptimeRobot (http://uptimerobot.com). Create an account and link your domain and you will be alerted if something crashes.
 
 <p id="project7"> </p>**Redirecting www Traffic To non-www With Apache**
 
-Shortly after I got my website working, I tested a variety of URL entry points. For example, mitchellmclaughlin.com, http://mitchellmclaughlin.com, https://mitchellmclaughlin.com, and mitchellmclaughlin.com:80 all correctly redirected to https://mitchellmclaughlin. But, www.mitchellmclaughlin.com and http://www.mitchellmclaughlin.com both landed at www.mitchellmclaughlin.com. Although viewable, there is a subtle problem. In the latter instances, HTTPS is not enabled. Ideally, all www traffic should be redirected to mitchellmclaughlin.com which further redirects to https://mitchellmclaughlin.com (a HTTPS enabled URL). The www and non-www discrepancy orignated from the invention of the world wide <a href="http://en.wikipedia.org/wiki/World_Wide_Web#WWW_prefix" target="_blank">web</a>. And <a href="http://computer.howstuffworks.com/internet/basics/question180.htm" target="_blank">"Why Do Some Websites Include www In The URL While Others Don't?"</a>.
+Shortly after I got my website working, I tested a variety of URL entry points. For example, mitchellmclaughlin.com, http://mitchellmclaughlin.com, https://mitchellmclaughlin.com, and mitchellmclaughlin.com:80 all correctly redirected to https://mitchellmclaughlin. But, www.mitchellmclaughlin.com and http://www.mitchellmclaughlin.com both landed at www.mitchellmclaughlin.com. Although viewable, there is a subtle problem. In the latter instances, HTTPS is not enabled. Ideally, all www traffic should be redirected to mitchellmclaughlin.com which further redirects to https://mitchellmclaughlin.com (a HTTPS enabled URL). The www and non-www discrepancy orignated from the invention of the world wide web (http://en.wikipedia.org/wiki/World_Wide_Web#WWW_prefix). And "Why Do Some Websites Include www In The URL While Others Don't? (http://computer.howstuffworks.com/internet/basics/question180.htm)"</a>.
 
 Fortunately, the solution is quick and easy. I will warn you, I strongly advise against using the RewriteEngine solution. In the Pi terminal, type:
 
@@ -637,22 +637,22 @@ $ sudo-rasps-config
 <p id="footnote4"> </p>[4] We do this because we want to boot into the desktop environment which we are familiar with. If we do not do this step, the Raspberry Pi boots into a terminal each time with no graphical-user interface.
 <p id="footnote5"> </p>[5] The prompt should be titled "PuTTY Config". "Basic options for your PuTTY session", then "Specify the destination you want to connect to", then "Host Name (or IP address)" which I entered, {% highlight shell %} 192.168.1.102 {% endhighlight %} then "Port" which I entered, {% highlight shell %} 22 {% endhighlight %} and finally "Connection Type" select SSH.
 
-Download and run <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">PuTTY</a> or another SSH client for Windows. Enter your IP address in the field, as shown in the above screenshot. Keep the default port at 22. Hit enter, and PuTTY will open a terminal window which will prompt you for your username and password. Fill those in, and begin working remotely on your Pi.
-<p id="footnote6"> </p>[6] If it is not already installed, download <a href="https://www.microsoft.com/en-us/store/apps/microsoft-remote-desktop/9wzdncrfj3ps" target="_blank">Microsoft Remote Desktop</a>. Search your computer for Microsoft Remote Desktop. Run it. Input the IP address when prompted. Next, an xrdp window will pop up, prompting you for your username and password.
+Download and run PuTTY http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html or another SSH client for Windows. Enter your IP address in the field, as shown in the above screenshot. Keep the default port at 22. Hit enter, and PuTTY will open a terminal window which will prompt you for your username and password. Fill those in, and begin working remotely on your Pi.
+<p id="footnote6"> </p>[6] If it is not already installed, download Microsoft Remote Desktop (https://www.microsoft.com/en-us/store/apps/microsoft-remote-desktop/9wzdncrfj3ps). Search your computer for Microsoft Remote Desktop. Run it. Input the IP address when prompted. Next, an xrdp window will pop up, prompting you for your username and password.
 <p id="footnote7"> </p>[7] The router has a dynamically assigned external IP address. So in theory, it can be reached from the internet momentarily. But, we need the help of your ISP to make it permanently accessible. If this was not the case, the remote connection would need to be reconfigured on each use.
 
 **Sources**
 
-Orsini, Lauren. <a href="http://readwrite.com/2014/04/09/raspberry-pi-projects-ssh-remote-desktop-static-ip-tutorial/?awesm=readwr.it_b1UN" target="_blank">Raspberry Pi Projects SSH Remote Desktop Static IP Tutorial</a>
+Orsini, Lauren. Raspberry Pi Projects SSH Remote Desktop Static IP Tutorial http://readwrite.com/2014/04/09/raspberry-pi-projects-ssh-remote-desktop-static-ip-tutorial/?awesm=readwr.it_b1UN
 
-Pai, Akshay. <a href="https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/" target="_blank">How To Install Raspbian On Raspberry Pi</a>
+Pai, Akshay. How To Install Raspbian On Raspberry Pi https://www.howtoforge.com/tutorial/howto-install-raspbian-on-raspberry-pi/
 
-<a href="https://pi-hole.net/faq/how-do-i-set-a-static-ip-address-in-raspbian-jessie-using-etcdhcpcd-conf/" target="_blank">How Do I Set A Static IP Address In Raspbian Jessie</a>
+How Do I Set A Static IP Address In Raspbian Jessie https://pi-hole.net/faq/how-do-i-set-a-static-ip-address-in-raspbian-jessie-using-etcdhcpcd-conf/
 
-<a href="https://www.youtube.com/watch?v=i1vB7JnPvuE" target="_blank">How To Go Online With Your Apache Server</a>
+How To Go Online With Your Apache Server https://www.youtube.com/watch?v=i1vB7JnPvuE
 
 **Further Reading**
 
-+ <a href="http://raspberrywebserver.com/serveradmin/get-your-raspberry-pi-web-site-on-line.html" target="_blank">Get Your Raspberry Pi Website Online</a>
-+ <a href="https://jekyllrb.com" target="_blank">Jekyll Documentation</a>
-+ <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules" target="_blank">How To Edit Iptables Rules</a>
++ Get Your Raspberry Pi Website Online http://raspberrywebserver.com/serveradmin/get-your-raspberry-pi-web-site-on-line.html
++ Jekyll Documentation https://jekyllrb.com
++ How To Edit Iptables Rules https://fedoraproject.org/wiki/How_to_edit_iptables_rules
