@@ -7,7 +7,9 @@ permalink: /gopro.html
 ---
 Chinese Translation &#20013;&#25991;&#32763;&#35793; https://zhuanlan.zhihu.com/p/24086221
 
-*This article originally appeared on medium.com https://medium.com/@m23mclaughlin/how-i-landed-an-internship-at-gopro-c988b1b2e29d#.y4o8nr482
+*This article originally appeared on medium.com 
+
+https://medium.com/@m23mclaughlin/how-i-landed-an-internship-at-gopro-c988b1b2e29d#.y4o8nr482
 
 Disclaimer: The views expressed in this article are my own and do not represent the views of companies I previously worked for.
 
