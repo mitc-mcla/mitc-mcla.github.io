@@ -19,7 +19,7 @@ source: https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kf-O1HWksdldwRKXPsj2ufYtV3Y" width="640" height="480"></iframe>
 
-Thumbtacks. https://goo.gl/photos/jmRCArpLS5UE7PCY6
+<b>Thumbtacks.</b> https://goo.gl/photos/jmRCArpLS5UE7PCY6
 
 **What I packed.**<a href="#footnote2">[2]</a>
 
@@ -52,11 +52,11 @@ source: https://docs.google.com/spreadsheets/d/1HO_ihLsjAv8MaLHNyZKdR333jYy1SBRt
 <iframe src="https://docs.google.com/spreadsheets/d/1HO_ihLsjAv8MaLHNyZKdR333jYy1SBRt0jIpINsTBL8/pubhtml?widget=true&amp;headers=false" width="800" height="400"></iframe>
 
 
-**Wikipedia: Visa Requirements for United States Citizens (https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens).**</a><a href="#footnote6">[6]</a>
+**Wikipedia: Visa Requirements for United States Citizens (https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens).**<a href="#footnote6">[6]</a>
 
 **How did I discover things to do?**
 
-Wikipedia: List of UNESCO World Heritage Sites (https://en.wikipedia.org/wiki/Lists_of_World_Heritage_Site).</a><a href="#footnote7">[7]</a>
+Wikipedia: List of UNESCO World Heritage Sites (https://en.wikipedia.org/wiki/Lists_of_World_Heritage_Site).<a href="#footnote7">[7]</a>
 
 I used TripAdvisor (http://tripadvisor.com). Googling, “TripAdvisor Top 10 Things To Do In (given city)” is a good place to start for finding activities<a href="#footnote8">[8]</a>. The TripAdvisor results are filtered showing highest rated activities first. The Traveler’s Choice award, certificate of excellence, and number of reviews tend to be good indicators of quality as well. Many of the TripAdvisor “Things To Do” results are also UNESCO World Heritage Sites.
 
